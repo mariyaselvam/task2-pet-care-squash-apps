@@ -1,0 +1,103 @@
+@media (max-width:1000px){
+    .nav-options{
+         display: none; 
+    }
+    /* .page1-wrap .header-btn{
+        display: none;
+    } */
+
+    /* .nav-options{
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        padding: 2rem ;
+        right:0px ;
+        top: 100%;
+    } */
+
+    .clients-feedback-sec .container{
+        max-width: 100%;
+    }
+    .copy-rights{
+        width: 70%;
+    }
+    .home-banner-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 70px;
+    }
+    .about-us-sec-contant-home{
+        padding: 0px;
+    }
+    .subscribe-newsletter-input input{
+        width: 100%;
+        height: 72px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        display: block;
+        padding: 0rem 5rem;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+    }
+    .subscribe-newsletter-tit-wraper{
+        width: 90%;
+    }
+    .page1-wrap .header-btn{
+        display: none;
+    }
+    
+    .page1-wrap .home-banner-sec{
+        background-position: -900px 0px;
+    }
+    .home1-hamburger-menu{
+        display: block;
+    }
+    .home1-mobile-nav{
+        display: block;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        width: 100%;
+        list-style: none;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+        gap: 20px;
+        transition: 0.3s;
+        /* height: 0px; */
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-60%);
+        z-index: 10;
+    }
+
+    .nav-view{
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0%);
+
+    }
+
+    .home1-mobile-nav > li{
+        /* margin: 0.5rem 0rem; */
+    }
+    .home1-mobile-nav > li > a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width:1500px){
+    .get-every-pet-foods-cont{
+        padding: 50px 78px;
+    }
+}

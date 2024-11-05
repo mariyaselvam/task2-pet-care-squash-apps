@@ -1,0 +1,27 @@
+@media (max-width:1000px){
+    .home3-header-nav-options{
+        display: none;
+    }
+    .home-3-blog-card-img img{
+        width: 100%;
+    }
+    .Home3-Detail-Banner-sec{
+        height: 350px;
+    }
+    .primary-btn{
+        display: none;
+    }
+    .Home3-Detail-Banner-nav{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        align-items: center;
+        width: max-content;
+    }
+    .Pets-Detail-Page-Know-more-about-card{
+        text-align: center;
+    }
+    
+
+    
+}

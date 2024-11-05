@@ -1,0 +1,1680 @@
+
+/* .page3-wrap a{
+    color: black;
+    text-decoration: none;
+}
+.page3-wrap a:hover{
+    color: white;
+} */
+
+
+.home3-header{
+    background-color: #00272b;
+    color: white;
+    padding: 1.3rem 0rem;
+    position: relative;
+
+}
+
+.home3-header-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.home3-header-nav-options{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.home3-header-nav-options > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.home3-header-nav-options a:hover{
+    color: #ff6900;
+}
+
+.Home-3-banner-sec{
+    background: url("../src/assets/home-3/header/banner-main-img.png");
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    height: 800px;
+    color: white;
+    position: relative;
+}
+
+@media (max-width:1400px) {
+    .Home-3-banner-sec{
+    background-size: cover;
+    background-position : right;
+    }
+}
+
+.Home-3-banner-content-wraper{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 600px;
+    max-width: 80%;
+}
+
+.Home-3-banner-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 86px;
+}
+
+.Home-3-banner-main-tit b{
+    color: #ff6900;
+}
+
+.primary-btn{
+    width: 129px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 30px 0px 30px 0px;
+    background-color: #ff6900;
+    display: grid;
+    color: white;
+    place-content: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: background-color 0.4s ease-in-out ;
+ }
+
+ .primary-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6900;
+    color: #ff6900;
+ }
+
+ .secondary-btn{
+    width: 129px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 30px 0px 30px 0px;
+    background-color: transparent;
+    display: grid;
+    color: white;
+    place-content: center;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: background-color 0.4s ease-in-out ;
+ }
+
+.secondary-btn:hover{
+    background-color: #ff6900;
+    border: 1px solid #ff6900;
+    color: white;
+ }
+
+ .banner-btn-wraper{
+    display: flex;
+    gap: 30px;
+ }
+
+ .About-DC-Care-cont-mini-tit , .home3-What-We-Offer-mini-tit , .Home3-The-pets-lives-day-mini-tit{
+    font-family: "Nunito", serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+ }
+
+.About-DC-Care-cont-mini-tit > b , .home3-What-We-Offer-mini-tit > b , .Home3-The-pets-lives-day-mini-tit > b{
+     color: #ff6900;
+     position: relative;
+}
+
+.home3-What-We-Offer-mini-tit::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.About-DC-Care-cont-mini-tit::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+
+.home3-What-We-Offer-mini-tit {
+    position: relative;
+    margin-top: 30px;
+}
+
+.About-DC-Care-cont-mini-tit{
+    position: relative;
+    padding-left: 30px;
+}
+
+.home2-AboutUsPage-cont-tit , .Know-more-about-Berry-cont-main-tit{
+    position: relative;
+}
+
+.Know-more-about-Berry-cont-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url("../src/assets/home-3/about-page/main-tit-before.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -20px;
+    left: -30px;
+}
+
+.home2-AboutUsPage-cont-tit::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url("../src/assets/home-3/about-page/main-tit-before.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -20px;
+    left: -30px;
+
+}
+
+.About-DC-Care-cont-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    margin: 30px 0px;
+}
+
+.home3-What-We-Offer-main-tit , .Home3-The-pets-lives-day-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    color: black;
+}
+
+.home3-What-We-Offer-main-tit > b , .Home3-The-pets-lives-day-main-tit > b{
+    color: #ff6900;
+}
+
+.About-DC-Care-cont-wrap{
+    padding: 5rem 0rem;
+
+}
+
+.About-DC-Care-cont-main-tit > b{
+    color:#ff6900;
+}
+
+.About-DC-Care-sec{
+    padding: 50px 0rem;
+}
+
+.About-DC-Care-sec .secondary-btn{
+    border: 1px solid #ff6900;
+    color: #ff6900;
+}
+
+.About-DC-Care-sec .secondary-btn:hover{
+    border: 1px solid #ff6900;
+    color: white;
+    background-color: #ff6900;
+}
+
+.home3-What-We-Offer-card-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    margin: 20px 0px 30px;
+}
+
+.home3-What-We-Offer-card{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ff6900;
+    border-radius: 50px 0px 50px 0px;
+    transition: border-radius 0.5s ease-in-out , background 0.5s ease-in-out ;
+    transform: rotateY(0deg);
+    margin-top: 30px;
+}
+
+.home3-What-We-Offer-card:hover{
+    border-radius: 60px;
+    background-color: #ff6900;
+    color: white;
+}
+
+.home3-What-We-Offer-card:hover p{
+    color: white;
+}
+
+.home3-What-We-Offer-card:hover .home3-What-We-Offer-card-icon{
+    background: white;
+    transform: rotateY(180deg);
+}
+
+.home3-What-We-Offer-card:hover .home3-What-We-Offer-card-icon img{
+    filter: brightness(0) saturate(100%) invert(41%) sepia(54%) saturate(2100%) hue-rotate(1deg) brightness(103%) contrast(104%);
+}
+
+.home3-What-We-Offer-sec{
+    padding: 4rem 0rem;
+    background-color: #f1f1f1;
+}
+
+.home3-What-We-Offer-tit-wraper{
+     width: 60%;
+     margin: 0rem auto;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.home3-What-We-Offer-card-icon img{
+    /* filter: brightness(0) saturate(100%) invert(41%) sepia(54%) saturate(2100%) hue-rotate(1deg) brightness(103%) contrast(104%); */
+}
+
+.home3-What-We-Offer-card-icon{
+    background: linear-gradient( 90deg , #d15700 50% ,  #ff6900 50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    transition:  transform 0.2s ease-in-out; 
+}
+
+.Home3-The-pets-lives-day-sec{
+    padding: 4rem 0rem;
+}
+
+.Home3-The-pets-lives-day-sec  .secondary-btn{
+    width: 129px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 30px 0px 30px 0px;
+    background-color: transparent;
+    display: grid;
+    color: #d15700;
+    place-content: center;
+    text-decoration: none;
+    border: 1px solid #d15700;
+    transition: background-color 0.4s ease-in-out ;
+ }
+
+ .Home3-The-pets-lives-day-cont-wrap{
+    padding: 3rem 0rem;
+ }
+
+.Home3-The-pets-lives-day-sec  .secondary-btn:hover{
+    background-color: #d15700;
+    color: white;
+}
+
+.Image-Tour-img-wrap-col-1{
+    /* display: grid;
+    grid-template-columns:   minmax(208px, auto)  minmax(358px, auto)  minmax(89px, auto)  minmax(328px, auto)  minmax(327px, auto) ;
+    grid-template-rows:  304px 182px 248px 284px;
+    gap: 30px;
+    justify-content: center; */
+}
+
+.Image-Tour-img-wrap-col-1{
+        display: grid;
+        grid-template-columns:   auto auto auto auto auto ;
+        grid-template-rows:  304px 182px 248px 284px;
+        gap: 30px;
+        justify-content: center;
+}
+
+@media (max-width:1400px){
+    .Image-Tour-img-wrap-col-1{
+        display: grid;
+        grid-template-columns:   auto auto auto auto auto ;
+        grid-template-rows:  auto auto auto auto;
+        gap: 10px;
+        justify-content: center;
+}
+}
+
+.Image-Tour-sec .container{
+   max-width: 1400px;
+   margin: 0rem auto;
+}
+
+.Image-Tour-sec{
+    padding: 5rem 0rem;
+}
+
+.Image-Tour-imgs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.Tourimg2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.Tourimg4{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.Tourimg5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.Tourimg6{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.Tourimg9{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.Tourimg7{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.Image-Tour-img-wrap{
+    width: 100% ;
+}
+
+.Home3-Testimonial-sec{
+    padding: 3rem 0rem;
+    background-color: #f1f1f1;
+}
+
+.swiper-slide{
+    width: 100%;
+    max-width: 447px;
+    height: fit-content;
+}
+
+.Home3-Testimonial-card-rating{
+    width: 150px;
+    height: 30px;
+    margin: 0rem auto;
+}
+
+.Home3-Testimonial-sec-card{
+    text-align: center;
+    background: url("../src/assets/home-3/Home3TestimonialCard/testi-card-bg.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.Home3-Testimonial-card-profile{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 265px;
+    height: 265px;
+    margin: 1rem auto;
+}
+
+.Home3-Testimonial-card-tit{
+    color: white;
+    position: relative;
+    padding-left: 2rem;
+    width: fit-content;
+    margin: 0px auto 20px;
+    font-family: "Nunito";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+
+
+.Home3-Testimonial-card-tit::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/Home3TestimonialCard/home3-testimonial-thump.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 27px;
+    height: 27px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Home3-Testimonial-profile-name{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.Home3-Testimonial-profile{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ff6900;
+    margin: 20px 0px;
+    display: block;
+}
+
+.home-3-blog-card{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.home-3-blog-card > img{
+    width: 100%;
+}
+
+.home-3-blog-mini-tit{
+    padding: 5px 12px;
+    display: block;
+    width: fit-content;
+    background-color: #e7772833;
+    border-radius: 7px;
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ff6900;
+}
+
+.home-3-blog-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.home-3-blog-author-name-nd-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-3-blog-author-name-nd-date > div > h4{
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+}
+
+.home-3-blog-author-name-nd-date > div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.home-3-blog-author-name-nd-date *{
+    margin: 0rem;
+}
+
+.home3-Our-Blogs-sec{
+    padding: 4rem 0rem;
+}
+
+.home3-Our-Blogs-btn{
+    margin: 0rem auto;
+    margin: 3rem auto;
+}
+
+.Home3-footer-sec{
+    padding: 64px 0px 0px;
+    background-color: #00272b;
+}
+
+.Home3-footer-sec{
+    color: white;
+}
+
+.Home3-footer-sec *{
+    color: white;
+}
+
+.home3-footer-Weekly-Newsletter-btn{
+    display: grid;
+    background-color: #d15700;
+    border-radius: 0px 30px;
+    height: 50px;
+    place-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.home3-footer-Weekly-Newsletter-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6900;
+    color: #ff6900;
+}
+
+.home3-footer-Weekly-Newsletter-wrap{
+    background-color: #ffffff1a;
+    padding: 32px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.home3-footer-Weekly-Newsletter-wrap > p{
+   margin: 30px 0px;
+}
+
+.home3-footer-Weekly-Newsletter-input{
+    background-color: #00000066;
+    display: block;
+    width: 100%;
+    height: 54px;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 8px 0px;
+    border-radius: 6px;
+    position: relative;
+}
+
+
+.home3-footer-Weekly-Newsletter-input-wrap{
+    position: relative;
+}
+
+.home3-footer-Weekly-Newsletter-input-wrap::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url("../src/assets/home-3/footer/footer-mail-icon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+}
+
+.home3-footer-Weekly-Newsletter-input::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.home3-footer-quick-links-checks{
+    padding: 0px;
+    list-style: none;
+}
+
+.home3-footer-quick-links-checks li{
+    margin-bottom: 8px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.home3-footer-Category-links-checks li{
+    margin-bottom: 8px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+
+.home3-footer-Category-links-checks{
+    list-style: none;
+    padding: 0px;
+}
+
+.home3-footer-Category-links-tit  , .home3-footer-quick-links-tit , .home3-footer-abt-cont-tit{
+    margin-bottom: 24px;
+}
+
+.home3-footer-abt-cont p{
+  color: #97989f;
+}
+
+.home3-footer-quick-links-checks li{
+    color: #97989f;
+}
+
+.home3-footer-Category-links-checks li{
+    color: #97989f;
+}
+
+.Home3-Detail-Banner-sec{
+    background: url("../src/assets/home-3/blog-detail-page/home3-detail-banner.png");
+    height: 580px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.Home3-Detail-Banner-tit-wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.Home3-Detail-Banner-nav{
+    display: flex;
+    padding: 0rem ;
+    margin: 0rem;
+    list-style: none;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    background-color: #0000006e;
+    border-top: 5px solid #ff6900;
+    padding: 1px 26px;
+    width: fit-content;
+    margin: 0rem auto;
+}
+
+.Home3-Detail-Banner-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 76px;
+}
+
+.Home3-Detail-Banner-main-tit:last-child{
+    color: #ebff00;
+}
+
+.Home3-Detail-Banner-nav li:last-child{
+    color: #ebff00;
+}
+
+.gender-nd-age{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+
+.Gender{
+    position: relative;
+    padding-left: 60px;
+}
+
+.Gender::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("../src/assets/home-3/Home3-Adopt-Pets/pet-gender.svg");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg) ;
+    transition: 0.4s ease;
+}
+
+.pet-Age{
+    position: relative;
+    padding-left: 60px;
+}
+
+.pet-Age::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("../src/assets/home-3/Home3-Adopt-Pets/pets-age.svg");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transition: 0.4s ease ;
+}
+
+.gender-nd-age > li > p{
+    margin: 0px;
+    font-family: "Nunito", serif;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 44px;
+    
+}
+
+.gender-nd-age > li > span{
+    font-family: "Nunito", serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+    color: #ff6900;
+}
+
+.gender-nd-age > li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 15px 0px;
+}
+
+.Home3-Adopt-Pets-Page-sec-card:hover .Gender::before{
+    transform:  translateY(-50%) rotateY(360deg);
+}
+
+.Home3-Adopt-Pets-Page-sec-card:hover .pet-Age::before{
+    transform:  translateY(-50%) rotateY(360deg);
+}
+
+.Home3-Adopt-Pets-Page-sec-card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.151);
+}
+
+.Home3-Adopt-Pets-Page-sec-card{
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    position: relative;
+    margin-top: 10rem;
+    padding: 140px 30px 30px;
+    transition: 0.4s ease-in-out ;
+}
+
+.Home3-Adopt-Pets-main-img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    top: 0%;
+    width: 238px;
+    height: 219px;
+}
+
+.Home3-Adopt-Pets-Page-sec{
+    padding: 5rem 0rem;
+}
+
+.Home3-Adopt-Pets-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: center;
+    
+}
+
+.Home3-Adopt-Pets-main-btn{
+    width: 137px;
+    height: 50px;
+    border-radius: 30px 0px;
+    display: grid;
+    place-content: center;
+    background-color:#ff6900;
+    color: white;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-decoration: none;
+    margin: 0rem auto;
+    transition: 0.4s ease-in-out;
+}
+
+.Home3-Adopt-Pets-main-btn:hover{
+    border: 1px solid #d15700;
+    color: #d15700;
+    background-color: white;
+}
+
+.Home3-Pet-SItters-listing-cards-sec{
+    padding: 5rem 0rem;
+    text-align: center;
+}
+
+.Home3-Pet-SItters-listing-cards{
+    margin-top: 100px;
+}
+
+.Home3-Pet-SItters-listing-social-medias{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.What-Our-Customer-Say-swiper-card::before{
+    content: "";
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background: url("../src/assets/home-2/WhatOurCustomerSay/quates.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 40px;
+    top: 40px;
+}
+
+.What-Our-Customer-Say-swiper-card *{
+    color: white;
+}
+
+.What-Our-Customer-Say-swiper-card > p{
+    margin: 30px 0px;
+}
+
+.What-Our-Customer-Say-swiper-card{
+    background-color: #00376b;
+    position: relative;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.Home3-Pet-SItters-listing-span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 15px 0px;
+    display: block;
+    color: #ff6600;
+}
+
+.Home3-Pet-SItters-listing-tit{
+font-family: "Nunito";
+font-size: 28px;
+font-weight: 700;
+line-height: 38px;
+text-align: center;
+
+}
+
+.What-Our-Customer-Say-swiper-position{
+    color: #d15700;
+}
+
+.What-Our-Customer-Say-swiper-top{
+    display: flex;
+    gap: 30px;
+}
+
+.What-Our-Customer-Say-swiper-tits{
+    padding: 1rem 0rem;
+}
+
+.What-Our-Customer-Say-swiper-wraper{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.What-Our-Customer-Say-sec .swiper{
+    overflow-y: hidden;
+}
+
+.prev{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+
+.home3-date-author-comment{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.home3-blog-detail-page-cont-n-sidebar{
+    padding: 4rem 0rem;
+}
+
+.breed-food-enjoy{
+     display: flex;
+     gap: 20px;
+     margin: 30px 0px;
+}
+
+.breed-food-enjoy > span{
+    width: 87px;
+    height: 35px;
+    background-color: #e7772833;
+    display: grid;
+    place-content: center;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ff6900;
+}
+
+.home3-blog-quated-tit{
+    margin: 50px 0px;
+    position: relative;
+    padding: 0px 4rem;
+}
+
+.home3-blog-quated-tit::before , .home3-blog-quated-tit::after{
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 48px;
+    height: 32px;
+}
+
+.home3-blog-quated-tit::before{
+    background: url("../src/assets/home-3/blog-detail-page/blog-quats-for-tit.svg");
+    left: 0px;
+}
+
+.home3-blog-quated-tit::after{
+    background: url("../src/assets/home-3/blog-detail-page/blog-quats-for-tit.svg");
+    transform: rotate(180deg);
+}
+
+.Home3-blog-comments-tit{
+    font-family: "Nunito", serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 54px;
+}
+
+.Home3-blog-comments-card{
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 30px 30px 30px 120px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.blog-comment-likes , .blog-comment-replays{
+    position: relative;
+    padding-left: 30px;
+}
+
+.blog-date , .blog-author , .blog-comment{
+    position: relative;
+    padding-left: 30px;
+}
+
+.blog-date::before , .blog-author::before , .blog-comment::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    left: 0px;
+}
+
+.blog-date::before{
+    background: url("../src/assets/home-3/blog-detail-page/Clock.svg");
+}
+
+.blog-author::before {
+    background: url("../src/assets/home-3/blog-detail-page/Person.svg");
+}
+
+.blog-comment::before{
+    background: url("../src/assets/home-3/blog-detail-page/messages.svg");
+}
+
+.blog-comment-likes::before , .blog-comment-replays::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    left: 0px;
+}
+
+.blog-comment-likes::before{
+    background: url("../src/assets/home-3/blog-detail-page/blog-comment-likes.svg");
+}
+
+.blog-comment-replays::before{
+    background: url("../src/assets/home-3/blog-detail-page/likeandcomment.svg");
+}
+
+.blog-comment-likes-nd-replays{
+    display: flex;
+    gap: 35px;
+}
+
+.Home3-blog-comments-profile-img{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.blog-detail-comment-form *{ 
+   width: 100%;
+   background-color: transparent;
+   border-radius: 10px;
+   outline: none;
+   box-shadow: none;
+}
+
+
+.blog-detail-comment-form{
+    padding: 30px;
+    background-color: #f1f1f1;
+    margin: 30px 0px;
+    border-radius: 20px;
+}
+
+.first-name-blog , .email-for-blog , .blog-detail-comment-text-area{
+    border: 1px solid #cccccc;
+    margin: 15px 0px;
+    padding: 12px 30px;
+}
+
+.blog-detail-comment-form-tit{
+    font-family: "Nunito", serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 54px;
+}
+
+.blog-detail-comment-form-btn{
+    width: 176px;
+    height: 50px;
+    border-radius: 0px 30px;
+    display: grid;
+    place-content: center;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.blog-detail-comment-form-btn:hover{
+    border: 1px solid #ff6600;
+    background-color: white;
+    color: #ff6600;
+}
+
+.home3-blog-detail-page-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.home3-blog-blog-sidebar{
+    width: 100%;
+    height: 50px;
+    padding: 12px 65px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.home3-Blog-DetailPage-SideBar-wraper{
+    position: relative;
+}
+
+.home3-Blog-DetailPage-SideBar-wraper::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/blog-detail-page/Search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
+    z-index: 1;
+}
+
+.home3-side-bar-imgs1{
+    margin: 30px 0px;
+}
+
+.home3-blog-side-bar-recent-cards{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    gap: 30px;
+    padding: 0px 0px 15px;
+    border-bottom: 1px solid #dedede;
+}
+
+.home3-blog-side-bar-recent-posts{
+    padding: 40px 30px;
+    background-color: #f1f1f1;   
+    border-radius: 10px;
+    margin: 30px 0px 0px;
+}
+
+.home3-blog-side-bar-recent-posts-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.Category-nd-weight{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.Category-nd-weight li{
+    display: flex;
+    gap: 6px;
+}
+
+.home3-pet-foot-shop-product-card{
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.home3-pet-foot-shop-product-img img{
+    width: 100%;
+}
+
+.home3-pet-foot-shop-sec{
+    padding: 4rem 0rem;
+}
+.home3-pet-foot-shop-sec p{
+    margin: 0px;
+}
+
+.Category-nd-weight span{
+    color: rgba(255, 105, 0, 1);
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.home3-pet-foot-shop-product-name{
+    font-family: "Nunito", serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+    margin: 15px 0px;
+}
+
+.home3-pet-foot-shop-side-bar-Category{
+    font-family: "Nunito Sans";
+    
+}
+
+.home3-pet-foot-shop-side-bar-Category h4{
+    font-family: "Nunito";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    
+}
+
+.home3-pet-foot-shop-side-bar-Category > div{
+    display: flex;
+    gap: 20px;
+}
+
+.home3-pet-foot-shop-side-bar-Category input{
+    background-color: #ff6900;
+    color: #ff6900;
+}
+
+.home3-pet-foot-shop-side-bar-Category{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(241, 241, 241, 1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    accent-color: #ff6600 ;
+    outline: #ff6600;
+    box-shadow: none;
+    color: white;
+}
+
+.home3-blog-detail-page-ul-checks{
+    list-style: none;
+    padding: 0px;
+}
+
+.home3-blog-detail-page-ul-checks li{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.home3-blog-detail-page-ul-checks li::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+}
+
+.home3-blog-detail-page-img-nd-form{
+    display: flex;
+}
+
+.home3-blog-detail-page-img-nd-form .blog-detail-comment-form{
+    margin: 0rem;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.home3-blog-detail-page-form-img{
+    border-radius: 20px 0px 0px 20px;
+    overflow: hidden;
+}
+
+.home3-blog-detail-page-form-img img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.home3-shopdetail-Related-products-sec{
+    padding: 100px 0px;
+}
+
+.home3-shopdetail-Related-products-tit{
+    font-family: "Nunito";
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 54px;
+}
+
+.home3-shop-detail-comment-sec{
+    padding: 50px 0px;
+}
+
+.reviews-ng-ratings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Shop-Details-prodouct-cart-price-1{
+    color: rgba(255, 105, 0, 1);
+}
+
+.Shop-Details-prodouct-cart-price-2{
+    font-size: 15px;
+}
+
+.Shop-Details-prodouct-cart-cont-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Shop-Details-cart-btn{
+    letter-spacing: 0.5rem;
+    color: black;
+    text-decoration: none;
+    width: 88px;
+    height: 48px;
+    border: 1px solid   #c3c3c3;
+    border-radius: 20px 0px;
+    display: grid;
+    place-content: center;
+}
+
+.quant-cart-ng-like-btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Shop-Details-Add-to-cart-btn{
+    width: 137px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px 0px;
+    background-color: #ff6900;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    transition: 0.4s ease;
+}
+
+.Shop-Details-Add-to-cart-btn:hover{
+    border: 1px solid #ff6900;
+    background-color: white;
+    color: #ff6900;
+}
+
+.Shop-Details-Add-to-cart-heart-btn{
+    width: 137px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px 0px;
+    background-color: #ff6900;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    transition: 0.4s ease;
+}
+
+.Shop-Details-Add-to-cart-heart-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6900;
+
+}
+
+.Shop-Details-Add-to-cart-heart-btn:hover img{
+    filter: brightness(0) saturate(100%) invert(42%) sepia(92%) saturate(2039%) hue-rotate(1deg) brightness(102%) contrast(105%);
+}
+
+.Shop-Details-prodouct-cart-sec{
+    padding: 100px 0rem;
+}
+
+
+
+.home2-AboutUsPage-cont-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.home2-AboutUsPage-cont-tit > b , .The-Best-Training-Your-cont-tit > b{
+    color: #ff6900;
+}
+
+.home2-AboutUsPage-cont-btn{
+    width: 139px;
+    height: 50px;
+    background-color: #ff6900;
+    color: white;
+    border-radius: 30px 0px;
+    display: grid;
+    place-content: center;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-decoration: none;
+    transition: background-color 0.4s ease;
+}
+
+.home2-AboutUsPage-cont-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6600;
+    color: #ff6900;
+}
+
+.home2-AboutUsPage-sec{
+    padding: 50px 0px;
+}
+
+.Home-3-banner-mini-tit , .Home3-The-pets-lives-day-mini-tit{
+    position: relative;
+    padding-left: 2rem;
+    font-family: "Nunito";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+    
+}
+
+.Home-3-banner-mini-tit > b , .Home3-The-pets-lives-day-mini-tit > b{
+    color: #ff6900;
+}
+
+.Home-3-banner-mini-tit::before , .Home3-The-pets-lives-day-mini-tit::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+}
+
+.Image-Tour-imgs{
+    position: relative;
+    overflow: hidden;
+}
+
+.Image-Tour-imgs::before{
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: #ff6900;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+.Image-Tour-imgs::after{
+    content: "";
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: url("../src/assets/home-3/Image-Tour/img-eye.svg");
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.2s ease;
+
+}
+
+.Image-Tour-imgs:hover::after{ 
+    top: 50%;
+ }
+
+.Image-Tour-imgs:hover::before{ 
+   opacity: 0.5;
+}
+
+.home3-logo-nd-privacy-policy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #242535;
+    margin-top: 64px !important;
+    padding: 1rem 0rem;
+}
+
+.home3-footer-logo-and-cont-wrap{
+    display: flex;
+    gap: 10px;
+}
+
+.home3-privacy-policy{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.t-yellow{
+    color: #fbd10d;
+}
+
+.t-orange{
+    color: #e77728;
+}
+ 
+.inner-home{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 20px;
+    z-index: 100;
+    visibility: hidden;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%) skewX(10deg);
+    box-shadow: 0px 0px 10px rgba(154, 151, 151, 0.416);
+    border-radius: 10px;
+    transition: 0.4s ease;
+    opacity: 0;
+}
+
+.home:hover .inner-home{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) skewX(0deg);
+    text-decoration: none;
+}
+
+.inner-home a{
+    text-decoration: none;
+}
+
+.inner-home a{
+ color: black;
+
+}
+
+.Shop-Details-prodouct-cart-img-wrap{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.prodouct-img2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.prodouct-img3{
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+}
+
+.prodouct-img4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.Shop-Details-prodouct-cart-social-meida{
+    display: flex;
+    gap: 10px;
+}
+
+.Home3-Pet-SItters-listing-social-medias img{
+    transition: 0.5s ease;
+}
+
+.Home3-Pet-SItters-listing-social-medias img:hover{
+   transform: translateY(-10px);
+
+}

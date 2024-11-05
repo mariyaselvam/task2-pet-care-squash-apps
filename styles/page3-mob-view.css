@@ -1,0 +1,130 @@
+@media (max-width:600px){
+    .Image-Tour-imgs::before{
+        display: none;
+    }
+    .Image-Tour-imgs::after{
+        display: none;
+    }
+    .home3-logo-nd-privacy-policy{
+        flex-direction: column;
+    }
+    .home3-What-We-Offer-main-tit, .Home3-The-pets-lives-day-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 50px;
+        color: black;
+    }
+    .home3-What-We-Offer-card{
+        width: 90%;
+        margin: 30px auto 0px;
+        padding: 20px 10px;
+    }
+    .home3-What-We-Offer-tit-wraper{
+        width: 80%;
+    }
+    .About-DC-Care-cont-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 55px;
+        margin: 20px 0px;
+    }
+    .Home-3-banner-sec{
+        background-position: -900px 0px;
+    }
+    .Home3-Testimonial-card-profile{
+        width: 165px;
+        height: 165px;
+    }
+    .home3-date-author-comment{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .home3-blog-quated-tit{
+        padding: 0px 3rem;
+    }
+    .home3-blog-detail-page-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 55px;
+    }
+    .home3-side-bar-imgs1{
+        width: 80%;
+        margin: 3rem auto;
+    }
+    .home3-side-bar-imgs2{
+        width: 80%;
+        margin: 3rem auto;
+    }
+    .home3-Blog-DetailPage-SideBar-wraper::before{
+        left: 25px;
+    }
+
+    .blog-detail-comment-form{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .home3-blog-blog-sidebar{
+        width: 90%;
+        padding: 2rem 3rem;
+        display: block;
+        margin: 0rem auto;
+    }
+    .home2-SafeaAndGoodHands-cont-small-card{
+        flex-direction: column;
+    }
+    .quant-cart-ng-like-btn{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .Shop-Details-prodouct-cart-img-wrap{
+        margin-bottom: 3rem;
+    }
+
+    .home3-blog-detail-page-img-nd-form{
+        margin: 2rem auto;
+        width: 90%;
+    }
+
+    .home3-blog-side-bar-recent-posts{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .Home3-blog-comments-card{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .Home3-Detail-Banner-main-tit{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 50 px;
+    }
+    .Home-3-banner-main-tit{
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 56px;
+    }
+    .home3-What-We-Offer-card-tit{
+        font-size: 22px;
+        line-height: 43px;
+        margin: 10px 0px 20px;
+    }
+    .home3-What-We-Offer-card-icon{
+        width: 80px;
+        height: 80px;
+        padding: 1rem;
+    }
+    .adopt-pet-img{
+        width: 50px;
+    }
+    .Know-more-about-Berry-cont-main-tit{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .home2-AboutUsPage-cont-tit , .About-DC-Care-cont-main-tit{
+        font-size: 35px;
+        line-height: 45px;
+    }
+}

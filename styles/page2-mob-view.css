@@ -1,0 +1,93 @@
+@media (max-width:600px){
+    .home2-banner-cont-waper{
+        min-width: 90%;
+    }
+    .home2-banner-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+    }
+    .home2-banner-cont-waper p{
+        margin: 2rem 0rem;
+    }
+    .home2-banner-bg-img{
+        height: 743px;
+    }
+    .home2-pet-food-card{
+        gap: 10px;
+        margin-top: 100px;
+    }
+    .home2-SafeaAndGoodHands-cont-tit, .The-Best-Training-Your-cont-tit{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 65px;
+    }
+    .The-Best-Training-Your-cont-wrap{
+        padding: 1rem;
+    }
+    .What-Our-Customer-Say-swiper-card{
+        padding: 20px;
+    }
+    .What-Our-Customer-Say-swiper-profile-img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .What-Our-Customer-Say-img-tit, .Providing-the-Best-Service-sec-cont-tit{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 45px;
+    }
+    .Providing-the-Best-Service-ul-checks li{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home2-Meet-Our-Team-sec-card{
+        width: 70%;
+        margin: 50px auto 0px;
+        gap: 10px;
+    }
+    .home2-Meet-Our-Team-card-social-links{
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .home2-SafeaAndGoodHands-cont-small-card > li > h3{
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+    .The-Best-Training-Your-Pets-sec{
+        background-position: -1300px 0px;
+    }
+    .Providing-the-Best-Service-sec-btn{
+        margin: 0px auto;
+    }
+    .home2-pets-lives-btn1{
+        max-width: 50%;
+    }
+    .home2-pets-lives-cont-wrap{
+        padding: 4rem 0rem;
+    }
+    .What-Our-Customer-Say-img-tit{
+        margin: 2rem 0rem;
+    }
+    .blog-swiper-card{
+        margin: 0px 0px !important;
+    }
+    .swiper-backface-hidden .swiper-slide{
+        width: 100% !important;
+        margin-right: 0px !important;
+    }
+    .What-Our-Customer-Say-swiper-card::before{
+        right: 20px !important;
+        top: 20px !important;
+    }
+
+    
+}
