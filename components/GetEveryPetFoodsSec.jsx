@@ -1,6 +1,6 @@
 import React from 'react'
 import MainImg from "../src/assets/home/get-every-pet-foods/get-every-pet-foods-main.png"
-// import PetVideo from "../src/assets/home/get-every-pet-foods/pet-video.mp4"
+import PetVideo from "../src/assets/home/get-every-pet-foods/pet-video.mp4"
 import Thumpnail from "../src/assets/home/get-every-pet-foods/cite-baby-playing-width-dog.png"
 
 
@@ -27,7 +27,7 @@ const GetEveryPetFoodsSec = () => {
                 </div>
                 <div className="col-lg-6">
                 <div className="get-every-pet-foods-img">
-                     {/* <video id="video1" src={PetVideo} poster={Thumpnail} preload="auto" controls></video> */}
+                     <video id="video1" src={PetVideo} poster={Thumpnail} preload="auto" controls></video>
                 </div>
                 </div>
             </div>
