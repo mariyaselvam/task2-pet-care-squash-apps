@@ -12,6 +12,12 @@ const ImageTour = () => {
   return (
     <>
     <section className="Image-Tour-sec">
+    <div className="home3-What-We-Offer-tit-wraper">
+                <span className="home3-What-We-Offer-mini-tit">Our <b>Service</b></span>
+
+                <h3 className="home3-What-We-Offer-main-tit">What <b>We Offer</b></h3>
+
+    </div>
         <div className="container">
             <div className="row">
                 <div className="col-lg-12">

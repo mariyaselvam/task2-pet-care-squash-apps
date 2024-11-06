@@ -237,6 +237,7 @@ span{
     display: flex;
     gap: 20px;
     margin-top: 20px;
+    flex-direction: column;
 }
 
 .abt-us-sec-check-box{
@@ -539,6 +540,12 @@ span{
     border-radius: 20px;
     margin-top: 50px;
     position: relative;
+    transition: 0.3s linear;
+}
+
+.what-we-do-cards:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 10px rgba(134, 134, 134, 0.331);
 }
 
 .what-we-do-cards img{
@@ -850,6 +857,7 @@ span{
     background-color: #f1f1f1;
     padding: 20px;
     border-radius: 20px;
+    /* margin: 0rem 1rem; */
 }
 
 .blog-swiper-card-img{
@@ -859,7 +867,10 @@ span{
 
 .blog-swiper-card-img img{
     transition: 0.4s ease;
+    width: 100%;
 }
+
+
 
 .blog-swiper-card:hover .blog-swiper-card-img img{
     transform: scale(1.1);
@@ -1477,11 +1488,15 @@ section .Home3NavPages-list  a:hover{
     display: none;
 }
 
-.main-logo{
-    height: 60%;
+.main-logo1{
+    max-width: 122px;
 }
 
-.main-logo img{
+.main-logo1 img{
     width: 100%;
     height: 100%;
+}
+
+.active {
+    color: #da0c81 !important;
 }

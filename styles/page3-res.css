@@ -21,7 +21,15 @@
     .Pets-Detail-Page-Know-more-about-card{
         text-align: center;
     }
+    .Home3-Testimonial-sec-card{
+        width: 100%;
+    }
+    .Home3-Testimonial-sec-card{
+        background-size: contain;
+    }
     
+}
 
-    
+@media (max-width:1500px){
+
 }

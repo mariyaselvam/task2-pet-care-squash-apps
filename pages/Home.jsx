@@ -24,6 +24,10 @@ const Home = () => {
   // <script>
   // AOS.init();
   // </script>
+
+
+
+
   return (
     <>
     <div className="page1-wrap">

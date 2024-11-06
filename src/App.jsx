@@ -13,8 +13,12 @@ import PetsDetailPage from "../pages/PetsDetailPage"
 import Home3ShopDetailsPage from "../pages/Home3ShopDetailsPage"
 import AboutUsPage from "../pages/AboutUsPage"
 import "../styles/boostrap.css"
+import 'animate.css';
 
-import { BrowserRouter , Route , Routes } from "react-router-dom"
+
+import React, { useEffect, useState } from 'react';
+
+import { BrowserRouter , Route , Routes , useLocation  } from "react-router-dom"
 
 function App() {
   return (

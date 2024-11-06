@@ -26,14 +26,28 @@ const BlogSec = () => {
             <div className="row">
             <div className="swiper-wrap-home">
             <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          type: 'fraction',
-        }}
-        navigation={true}
-        modules={[ Navigation]}
-        className="mySwiper"
+            //  slidesPerView={3}
+             spaceBetween={1}
+             pagination={{
+             type: 'fraction',
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+                },
+              }}
+              navigation={true}
+             modules={[ Navigation]}
+             className="mySwiper"
       >
         
         <SwiperSlide>

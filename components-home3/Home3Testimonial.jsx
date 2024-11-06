@@ -2,6 +2,8 @@ import Starts from "../src/assets/home-3/Home3TestimonialCard/stars.png"
 
 
 import PrifleImg1 from "../src/assets/home-3/Home3TestimonialCard/card-profile-2.png"
+import PrifleImg2 from "../src/assets/home-3/Home3TestimonialCard/card-profile-1.png"
+import PrifleImg3 from "../src/assets/home-3/Home3TestimonialCard/card-profile-3.png"
 
 
 
@@ -21,6 +23,12 @@ const Home3Testimonial = () => {
   return (
     <>
     <section className="Home3-Testimonial-sec">
+
+    <div className="home3-Testimonial-tit-wraper">
+            <span className="home3-Testimonial-mini-tit">Our <b>Service</b></span>
+            <h3 className="home3-Testimonial-main-tit">What <b>We Offer</b></h3>
+    </div>
+    
         <div className="container">
             <div className="row">
                 <div className="Home3-Testimonial-swiper-wraper">
@@ -28,7 +36,21 @@ const Home3Testimonial = () => {
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={'auto'}
+        slidesPerView={1}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -76,7 +98,7 @@ const Home3Testimonial = () => {
             </div>
 
             <div className="Home3-Testimonial-card-profile">
-                <img src={PrifleImg1} alt="" />
+                <img src={PrifleImg2} alt="" />
             </div>
 
             <h4 className="Home3-Testimonial-profile-name">
@@ -102,7 +124,7 @@ const Home3Testimonial = () => {
             </div>
 
             <div className="Home3-Testimonial-card-profile">
-                <img src={PrifleImg1} alt="" />
+                <img src={PrifleImg3} alt="" />
             </div>
 
             <h4 className="Home3-Testimonial-profile-name">

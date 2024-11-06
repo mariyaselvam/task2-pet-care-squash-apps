@@ -20,9 +20,10 @@
     }
     .home2-SafeaAndGoodHands-cont-tit, .The-Best-Training-Your-cont-tit{
         font-family: "Nunito", serif;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 800;
-        line-height: 65px;
+        line-height: 45px;
+        text-align: center;
     }
     .The-Best-Training-Your-cont-wrap{
         padding: 1rem;
@@ -63,13 +64,10 @@
         margin-bottom: 20px;
     }
     .The-Best-Training-Your-Pets-sec{
-        background-position: -1300px 0px;
+        background-position: -1600px 0px;
     }
     .Providing-the-Best-Service-sec-btn{
         margin: 0px auto;
-    }
-    .home2-pets-lives-btn1{
-        max-width: 50%;
     }
     .home2-pets-lives-cont-wrap{
         padding: 4rem 0rem;
@@ -77,16 +75,58 @@
     .What-Our-Customer-Say-img-tit{
         margin: 2rem 0rem;
     }
-    .blog-swiper-card{
-        margin: 0px 0px !important;
-    }
-    .swiper-backface-hidden .swiper-slide{
+
+    /* .swiper-backface-hidden .swiper-slide{
         width: 100% !important;
         margin-right: 0px !important;
-    }
-    .What-Our-Customer-Say-swiper-card::before{
+    } */
+
+
+    /* .What-Our-Customer-Say-swiper-card::before{
         right: 20px !important;
         top: 20px !important;
+    } */
+
+    .copy-rights-nd-terms-nd-conditions{
+        flex-direction: column;
+        padding: 2rem 1rem;
+        height: auto;
+    }
+    .home-2-footer-sec{
+        padding: 80px 0px 220px;
+    }
+    .copy-rights-nd-terms-nd-conditions h4{
+        text-align: center;
+    }
+    .copy-rights-nd-terms-nd-conditions ul{
+        text-align: center;
+        margin: 1rem 0rem 0rem;
+    }
+    .home-2-footer-logo-Subscribe-input{
+        height: 30px;
+        padding: 1rem;
+    }
+    .Providing-the-Best-Service-sec-cont{
+        padding: 50px 30px;
+    }
+    .home2-pets-lives-main-tit{
+        font-family: "Nunito", serif;
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 45px;
+        text-align: center;
+    }
+    .home2-pets-lives-btn1{
+        font-size: 14px;
+        padding: 1rem 2rem 1rem 1rem;
+        max-width: 179px;
+    }
+    .home2-pets-lives-btn-wrap{
+        margin: 0rem auto;
+        flex-direction: column;
+    }
+    .home2-pets-lives-btn{
+        width: 169px;
     }
 
     

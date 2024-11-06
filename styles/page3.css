@@ -134,17 +134,40 @@
     gap: 30px;
  }
 
- .About-DC-Care-cont-mini-tit , .home3-What-We-Offer-mini-tit , .Home3-The-pets-lives-day-mini-tit{
+ .About-DC-Care-cont-mini-tit , 
+ .home3-What-We-Offer-mini-tit , 
+ .Home3-The-pets-lives-day-mini-tit ,
+ .home3-Testimonial-mini-tit{
     font-family: "Nunito", serif;
     font-size: 24px;
     font-weight: 800;
     line-height: 44px;
+    position: relative;
  }
 
-.About-DC-Care-cont-mini-tit > b , .home3-What-We-Offer-mini-tit > b , .Home3-The-pets-lives-day-mini-tit > b{
+.About-DC-Care-cont-mini-tit > b , 
+.home3-What-We-Offer-mini-tit > b , 
+.Home3-The-pets-lives-day-mini-tit > b , 
+.home3-Testimonial-mini-tit > b{
      color: #ff6900;
      position: relative;
 }
+
+
+.home3-Testimonial-mini-tit::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 .home3-What-We-Offer-mini-tit::before{
     content: "";
@@ -223,7 +246,9 @@
     margin: 30px 0px;
 }
 
-.home3-What-We-Offer-main-tit , .Home3-The-pets-lives-day-main-tit{
+.home3-What-We-Offer-main-tit , 
+.Home3-The-pets-lives-day-main-tit , 
+.home3-Testimonial-main-tit{
     font-family: "Nunito", serif;
     font-size: 50px;
     font-weight: 800;
@@ -231,7 +256,7 @@
     color: black;
 }
 
-.home3-What-We-Offer-main-tit > b , .Home3-The-pets-lives-day-main-tit > b{
+.home3-What-We-Offer-main-tit > b , .Home3-The-pets-lives-day-main-tit > b , .home3-Testimonial-main-tit > b{
     color: #ff6900;
 }
 
@@ -304,13 +329,17 @@
     background-color: #f1f1f1;
 }
 
-.home3-What-We-Offer-tit-wraper{
+.home3-What-We-Offer-tit-wraper , .home3-Testimonial-tit-wraper{
      width: 60%;
      margin: 0rem auto;
      text-align: center;
      display: flex;
      flex-direction: column;
      gap: 20px;
+}
+
+.home3-Testimonial-tit-wraper{
+    margin: 2rem auto;
 }
 
 .home3-What-We-Offer-card-icon img{
@@ -447,9 +476,9 @@
     background-color: #f1f1f1;
 }
 
-.swiper-slide{
+.Home3-Testimonial-sec .swiper-slide{
     width: 100%;
-    max-width: 447px;
+    /* max-width: 447px; */
     height: fit-content;
 }
 
@@ -467,6 +496,8 @@
     padding: 30px;
     border-radius: 30px;
     background-color: white;
+    width: 450px;
+    margin: 0rem auto;
 }
 
 .Home3-Testimonial-card-profile{
@@ -475,6 +506,12 @@
     width: 265px;
     height: 265px;
     margin: 1rem auto;
+}
+
+.Home3-Testimonial-card-profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .Home3-Testimonial-card-tit{
@@ -1597,6 +1634,17 @@ input[type="checkbox"] {
     gap: 32px;
     padding: 0px;
     margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.home3-privacy-policy li{
+    color: #bababf;
+}
+
+.home3-footer-logo-nd-copy-rights p{
+    color: #bababf;
 }
 
 .t-yellow{
@@ -1676,5 +1724,8 @@ input[type="checkbox"] {
 
 .Home3-Pet-SItters-listing-social-medias img:hover{
    transform: translateY(-10px);
+}
 
+.active3{
+    color:#65b741 !important;
 }

@@ -3,17 +3,29 @@ import { Link } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/hamburger-menu.png"
 // import '../styles/style.css'
 
-import { useState } from "react"
+
+// import { useState } from 'react';
+
+
+import {  useLocation } from "react-router-dom"
+
+
+import React, { useEffect, useState } from 'react';
 
 
 const Header = () => {
 
+  const location = useLocation(); 
+  const [url, setUrl] = useState(null);
+  useEffect(() => {
+    setUrl(location.pathname);
+  }, [location]);
+  
   const [BtnState, setBtnState] = useState(false);
   function NavToggle(){
   setBtnState(BtnState  => !BtnState);
   }
   let NavBtn = BtnState ? 'nav-view' : '';
-
 
   return (
     <>
@@ -21,13 +33,13 @@ const Header = () => {
         <div className="container">
             <div className="row">
                 <div className="logo-nav-appointment">
-                    <div className="main-logo">
+                    <div className="main-logo1">
                         <img src={Logo} alt="" />
                     </div>
 
                     <ul className="nav-options">
                         <li className="home">
-                          <Link to="/">Home</Link>
+                          <Link className={"underline" + (url === "/" ?" active" : "")} to="/">Home</Link>
                           <ul>
                                 <li className="inner-home">
                                     <Link to="/home2">Home2</Link>
@@ -35,7 +47,7 @@ const Header = () => {
                                 </li>
                           </ul>
                         </li>
-                        <li><Link to="/aboutuspage">About</Link></li>
+                        <li><Link className={"underline" + (url === "/aboutuspage" ?" active" : "")} to="/aboutuspage">About</Link></li>
                         <li><Link to="/contactus">Contact</Link></li>
                         <li><Link to="/blog-detail">Blogs</Link></li>
                         <li className="Home3-nav-pages">
@@ -67,7 +79,7 @@ const Header = () => {
 
                     <ul id="home1-mobile-nav" className={ `home1-mobile-nav ${NavBtn}`}>
                     <li className="home">
-                          <Link to="/">Home</Link>
+                          <Link className={"underline" + (url === "/" ?" active" : "")} to="/">Home</Link>
                           <ul>
                                 <li className="inner-home">
                                     <Link to="/home2">Home2</Link>

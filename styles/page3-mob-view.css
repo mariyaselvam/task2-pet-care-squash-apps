@@ -127,4 +127,52 @@
         font-size: 35px;
         line-height: 45px;
     }
+    .What-Our-Customer-Say-swiper-card::before{
+        width: 45px;
+        height: 45px;
+    }
+    .What-Our-Customer-Say-swiper-card > p{
+        margin: 10px 0px;
+    }
+    .What-Our-Customer-Say-swiper-top{
+        gap: 10px;
+        align-items: center;
+    }
+    .About-DC-Care-main-img{
+        width: 90%;
+        margin: 0rem auto;
+    }
+    .About-DC-Care-cont-wrap{
+        width: 90%;
+        margin: 0rem auto;
+        text-align: center;
+    }
+    .banner-btn-wraper{
+        justify-content: center;
+    }
+    .Home3-The-pets-lives-day-cont-wrap{
+        width: 90%;
+        margin: 0rem auto;
+        text-align: center;
+    }
+    .Home3-The-pets-lives-day-main-img{
+        width: 90%;
+        margin: 0rem auto;
+    }
+    .Home-3-banner-sec .banner-btn-wraper{
+        justify-content: start;
+    }
+    .Know-more-about-Berry-cont-ul-checks > li > h4{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .blog-comment-likes-nd-replays{
+        font-size: 15px;
+    }
+    .comment-person-name{
+        font-size: 22px;
+    }
+
 }

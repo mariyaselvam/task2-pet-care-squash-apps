@@ -12,12 +12,11 @@ const WhatWeDo = () => {
         </div>
         <div className="container">
             <div className="row">
-                <div className="col-lg-4">
-                    <div className="what-we-do-cards"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div className="what-we-do-cards"  >
                         <div className="what-we-do-card-img">
                             <img src={Img1} alt="" />
                         </div>
-
                         <h4 className="what-we-do-card-tit">
                         Pet Grooming
                         </h4>
@@ -30,9 +29,9 @@ const WhatWeDo = () => {
 
                     </div>
                 </div>
-                <div className="col-lg-4">
-                    <div className="what-we-do-cards"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        <div className="what-we-do-card-img">
+                <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <div className="what-we-do-cards"  >
+                        <div className="what-we-do-card-img animate__animated animate__bounce" >
                             <img src={Img2} alt="" />
                         </div>
 

@@ -1,10 +1,19 @@
 import Logo from "../src/assets/home-2/header/Logo.png"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/hamburger-menu.png"
-import { useState } from "react"
+// import { useState } from "react"
+
+
+import { Link , useLocation } from "react-router-dom"
+import React, { useEffect, useState } from 'react';
 
 const Header = () => {
 
+    const location = useLocation(); 
+    const [url, setUrl] = useState(null);
+    useEffect(() => {
+      setUrl(location.pathname);
+    }, [location]);
   
     const [BtnState, setBtnState] = useState(false);
     function NavToggle(){
@@ -18,13 +27,13 @@ const Header = () => {
         <div className="container">
             <div className="row">
                 <div className="logo-nav-appointment">
-                    <div className="main-logo">
+                    <div className="main-logo2">
                         <img src={Logo} alt="" />
                     </div>
 
                     <ul className="nav-options">
                         <li  className="home">
-                            <Link to="/home2">Home</Link>
+                            <Link className={"underline" + (url === "/home2" ?" active3" : "")} to="/home2">Home</Link>
 
                         <ul>
                                 <li className="inner-home">
@@ -66,7 +75,7 @@ const Header = () => {
 
                     <ul id="home1-mobile-nav" className={ `home1-mobile-nav ${NavBtn}`}>
                     <li className="home">
-                          <Link to="/home2">Home</Link>
+                          <Link className={"underline" + (url === "/home2" ?" active3" : "")}  to="/home2">Home</Link>
                           <ul>
                                 <li className="inner-home">
                                     <Link to="/">Home</Link>

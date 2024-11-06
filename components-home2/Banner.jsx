@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="container">
         <div className="row">
             <div className="col-lg-12">
-                <div className="home2-banner-bg-img">
+  <div className="home2-banner-bg-img">
             <div className="home2-banner-cont-waper">
                 <h1 className="home2-banner-main-tit">
                 <div>Love Is A</div> <b>Four-Legged</b> Word
