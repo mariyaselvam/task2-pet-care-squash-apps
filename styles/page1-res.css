@@ -56,38 +56,62 @@
         display: block;
     }
     .home1-mobile-nav{
-        display: block;
         background-color: rgb(255, 255, 255);
         position: absolute;
         top: 100%;
         right: 0px;
-        width: 100%;
         list-style: none;
-        border-radius: 20px;
-        display: flex;
+        border-radius: 0px 0px 0px 20px;
         flex-direction: column;
-        padding: 2rem;
         text-align: center;
         gap: 20px;
         transition: 0.3s;
-        /* height: 0px; */
         visibility: hidden;
         opacity: 0;
-        transform: translateY(-60%);
+        transform: translateY(-5%);
         z-index: 10;
+        width: 0px;
+        padding: 0px;
+        /* overflow: hidden; */
+        display: flex;
+        padding: 2rem 0rem;
+        width: 100%;
     }
 
     .nav-view{
         visibility: visible;
-        opacity: 1;
+        opacity: 10;
         transform: translateY(0%);
+        border-radius: 0px 0px 40px 40px;
+        font-size: 18px !important;
+        box-shadow: inset 0px 0px 10px lightblue;
     }
+
+    .Home3-nav-pages *{
+        font-size: 18px;
+    }
+    
+    /* .home1-mobile-nav::before{
+        content: "";
+        width: 140%;
+        background-color: rgba(108, 62, 62, 0.817);
+        height: 140%;
+        right: 0px;
+        top: 0px;
+        position: absolute;
+        z-index: -1;
+    } */
+
     .blog-section-home .swiper-button-prev{
         transform: translate(1200%, -70px);
     }
 
     .home1-mobile-nav > li{
         /* margin: 0.5rem 0rem; */
+    }
+
+    .home1-mobile-nav > li:hover{
+        box-shadow: 0px 0px 10px lightblue;
     }
     .home1-mobile-nav > li > a{
         text-decoration: none;
@@ -99,6 +123,169 @@
         width: 100%;
         background-size: contain;
 
+    }
+    .Home3-nav-pages{
+        padding-right: 0rem !important;
+    }
+
+    .Home3-nav-pages button{
+        background: none;
+        width: 100%;
+        border: none;
+    }
+
+    .Home3-nav-pages::before{
+        content: "";
+        position: absolute;
+        background: url("../src/assets/common/down-arrow.png");
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        left: 20%;
+        top: 5px;
+        transform: rotate(0deg);
+        border-radius: 10px;
+        transition: 0.2s linear;
+    }
+    
+   .Home3-nav-pages::after{
+    display: none;
+   }
+
+    .Home3-nav-pages:hover::before{
+        transform: rotate(-90deg);
+    }
+    
+    /* .Home3-nav-pages:hover .Home3NavPages-list{
+        visibility: visible;
+        opacity: 1;
+        height: 300px;
+        overflow-y: scroll;
+        position: relative;
+        width: 100%;
+    } */
+
+    .Home3NavPages-list{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: white;
+        position: absolute;
+        z-index: 10;
+        width: 0px;
+        border-radius: 20px 20px;
+        right: 0px;
+        color: #000000;
+        top: 100%;
+        transition: opacity 0.4s ease;
+        visibility: hidden;
+        opacity: 0;
+        width: 100%;
+    }
+    
+
+
+    .Home3NavPages-list{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color: white;
+        padding: 1rem;
+        gap: 15px;
+        z-index: 10;
+        /* width: 250px; */
+        border-radius: 20px 0px;
+        right: 0px;
+        color: #000000;
+        top: 100%;
+        transition: 0.4s ease;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    body .inner-home{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color: white;
+        padding: 1rem;
+        gap: 20px;
+        width: 250px;
+        box-shadow: none;
+        border-radius: 10px;
+        right: 0px;
+        top: 100%;
+        transition: 0.4s ease;
+        visibility: hidden;
+        opacity: 0;
+        /* transform: translateX(40px); */
+    }
+
+
+    .active-Home3NavPages-list{
+        visibility: visible !important;
+        opacity: 1 !important;
+        height: 300px !important;
+        overflow-y: scroll !important;
+        position: relative !important;
+        width: 100% !important;
+    }
+
+    .active-inner-home{
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative !important;
+        text-decoration: none !important;
+        padding: 1rem 0rem !important;
+        width: 100% !important;
+        transform: translateX(0px);
+    }
+
+
+
+    /* .home:hover .inner-home{
+        visibility: visible;
+        position: relative;
+        opacity: 1;
+        text-decoration: none;
+        padding: 1rem 0rem;
+    } */
+
+
+
+    .home button{
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        background: none;
+        text-decoration: none;
+    }
+
+    .home > button > a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .home::before{
+        content: "";
+        position: absolute;
+        background: url("../src/assets/common/down-arrow.png");
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        left: 20%;
+        top: 5px;
+        transform: rotate(0deg);
+        border-radius: 10px;
+        transition: 0.2s linear;
+        display: block;
+    }
+    .home:hover::before {
+        transform: rotate(-90deg);
     }
 
 }
@@ -128,8 +315,12 @@
         font-weight: 800;
         line-height: 37px;
         margin: 15px 0px;
-    
     }
+    .home ul{
+        padding: 0rem;
+  
+    }
+
     .nav-options{
         gap: 30px;
     }

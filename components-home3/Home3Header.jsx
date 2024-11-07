@@ -2,21 +2,42 @@ import HeaderLogo from "../src/assets/home-3/header/Logo.png"
 import { Link , useLocation } from "react-router-dom"
 // import {   } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/w-hamburger-menu.png"
+import Arrow from "../src/assets/common/w-down-arrow.png"
+
 import React, { useEffect, useState } from 'react';
 
 const Home3Header = () => {
 
+    
+  // nav-menu-active-code
     const location = useLocation(); 
     const [url, setUrl] = useState(null);
     useEffect(() => {
       setUrl(location.pathname);
     }, [location]);
       
+
+  // hamburger menu toggle 
     const [BtnState, setBtnState] = useState(false);
     function NavToggle(){
     setBtnState(BtnState  => !BtnState);
     }
     let NavBtn = BtnState ? 'nav-view' : '';
+
+
+      // mobile view sidebarnav home toggle
+  const [innerHomeState, setInnerHomeState] = useState(false);
+  function ActiveInnerHome(){
+    setInnerHomeState(innerHomeState  => !innerHomeState);
+  }
+  let innerHome = innerHomeState ? 'active-inner-home' : '';
+
+    // mobile view sidebarnav pages toggle
+    const [pagesState, setPagesState] = useState(false);
+    function ActivePages(){
+      setPagesState(pagesState  => !pagesState);
+    }
+    let innerPages = pagesState ? 'active-Home3NavPages-list' : '';
 
 
   return (
@@ -34,7 +55,9 @@ const Home3Header = () => {
                     </div>
                     <ul className="home3-header-nav-options">
                         <li className="home">
-                            <Link className={"underline" + (url === "/home3" ?" active1" : "")} to="/home3">Home</Link>
+                            <Link className={"Home3-pages-link underline" + (url === "/home3" ?" active1" : "")} to="/home3">Home
+                            <img src={Arrow}  alt="" />
+                            </Link>
                             <ul>
                                 <li className="inner-home">
                                     <Link to="/">Home</Link>
@@ -52,7 +75,8 @@ const Home3Header = () => {
                             <Link className={"underline" + (url === "/blog-detail" ?" active1" : "")} to="/blog-detail">Blogs</Link>
                         </li>
                         <li className="Home3-nav-pages">
-                            <Link className={"underline" + (url === "/adopt-pets-page" ?" active1" : "")} to="/adopt-pets-page">Pages
+                            <Link className={"underline Home3-pages-link " + (url === "/adopt-pets-page" ?" active1" : "")} to="/adopt-pets-page">Pages
+                            <img src={Arrow}  alt="" />
                             </Link>
                             <ul className="Home3NavPages-list">
                            <Link className={"underline" + (url === "/blog-detail" ?" active1" : "")}  to="/blog-detail"> Blog Listing Page</Link>
@@ -83,9 +107,11 @@ const Home3Header = () => {
 
                     <ul id="home1-mobile-nav" className={ `home1-mobile-nav ${NavBtn}`}>
                     <li className="home">
-                          <Link className={"underline" + (url === "/home3" ?" active1" : "")} to="/home3">Home</Link>
+                    <button onClick={ActiveInnerHome}>
+                    <Link className={"underline" + (url === "/home3" ?" active1" : "")} to="/home3">Home</Link>
+                      </button>
                           <ul>
-                                <li className="inner-home">
+                                <li className={ `inner-home ${innerHome}`}>
                                     <Link to="/">Home</Link>
                                     <Link to="/home2">Home2</Link>
                                 </li>
@@ -95,8 +121,10 @@ const Home3Header = () => {
                         <li><Link className={"underline" + (url === "/contactus" ?" active1" : "")} to="/contactus">Contact</Link></li>
                         <li><Link className={"underline" + (url === "/blog-detail" ?" active1" : "")}  to="/blog-detail">Blogs</Link></li>
                         <li className="Home3-nav-pages">
-                          <Link to="">Pages</Link>
-                          <ul className="Home3NavPages-list">
+                        <button onClick={ActivePages}>
+                           <Link to=""> Pages </Link>
+                          </button>
+                          <ul className={ `Home3NavPages-list ${innerPages}`} >
                            <Link className={"underline" + (url === "/blog-detail" ?" active1" : "")}  to="/blog-detail"> Blog Listing Page</Link>
                            <Link className={"underline" + (url === "/adopt-pets-page" ?" active1" : "")}  to="/adopt-pets-page">Adopt Pets Page</Link>
                            <Link className={"underline" + (url === "/sitters" ?" active1" : "")}  to="/sitters">sitters</Link>

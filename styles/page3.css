@@ -1666,19 +1666,18 @@ input[type="checkbox"] {
     visibility: hidden;
     left: 50%;
     top: 100%;
-    transform: translateX(-50%) skewX(10deg);
     box-shadow: 0px 0px 10px rgba(154, 151, 151, 0.416);
+    transform: translateX(-50%);
     border-radius: 10px;
     transition: 0.4s ease;
     opacity: 0;
 }
 
-.home:hover .inner-home{
+/* .home:hover .inner-home{
     visibility: visible;
     opacity: 1;
-    transform: translateX(-50%) skewX(0deg);
     text-decoration: none;
-}
+} */
 
 .inner-home a{
     text-decoration: none;
@@ -1728,4 +1727,48 @@ input[type="checkbox"] {
 
 .active3{
     color:#65b741 !important;
+}
+
+.Home3-nav-pages{
+    position: relative;
+    /* padding-right: 2rem; */
+}
+
+.Home3-nav-pages:hover::after{
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+/* .Home3-nav-pages::after{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/common/w-down-arrow.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transition: 0.2s linear;
+} */
+
+.Home3-pages-link{
+    position: relative;
+    padding-right: 1.4rem;
+}
+
+.Home3-pages-link:hover img{
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.Home3-pages-link img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transition: 0.3s linear;
+
 }

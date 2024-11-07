@@ -6,6 +6,9 @@ import PrifleImg2 from "../src/assets/home-3/Home3TestimonialCard/card-profile-1
 import PrifleImg3 from "../src/assets/home-3/Home3TestimonialCard/card-profile-3.png"
 
 
+import Arrow from "../src/assets/common/w-down-arrow.png"
+
+
 
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
@@ -28,7 +31,7 @@ const Home3Testimonial = () => {
             <span className="home3-Testimonial-mini-tit">Our <b>Service</b></span>
             <h3 className="home3-Testimonial-main-tit">What <b>We Offer</b></h3>
     </div>
-    
+
         <div className="container">
             <div className="row">
                 <div className="Home3-Testimonial-swiper-wraper">

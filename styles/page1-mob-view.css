@@ -124,6 +124,9 @@
     .clients-feedback-sec .swiper-Slide-card{
         height: 600px;
     }
-
+   
+    .Appointment-nd-contact-btn{
+        flex-direction: column;
+    }
 
 }

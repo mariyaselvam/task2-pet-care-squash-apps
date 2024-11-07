@@ -4,6 +4,8 @@ import HamburgerMenu from "../src/assets/common/hamburger-menu.png"
 // import '../styles/style.css'
 
 
+import Arrow from "../src/assets/common/down-arrow.png"
+
 // import { useState } from 'react';
 
 
@@ -15,17 +17,37 @@ import React, { useEffect, useState } from 'react';
 
 const Header = () => {
 
+
+  // nav-menu-active-code
+
   const location = useLocation(); 
   const [url, setUrl] = useState(null);
   useEffect(() => {
     setUrl(location.pathname);
   }, [location]);
   
+
+  // hamburger menu toggle 
   const [BtnState, setBtnState] = useState(false);
   function NavToggle(){
   setBtnState(BtnState  => !BtnState);
   }
   let NavBtn = BtnState ? 'nav-view' : '';
+
+
+  // mobile view sidebarnav home toggle
+  const [innerHomeState, setInnerHomeState] = useState(false);
+  function ActiveInnerHome(){
+    setInnerHomeState(innerHomeState  => !innerHomeState);
+  }
+  let innerHome = innerHomeState ? 'active-inner-home' : '';
+
+    // mobile view sidebarnav pages toggle
+    const [pagesState, setPagesState] = useState(false);
+    function ActivePages(){
+      setPagesState(pagesState  => !pagesState);
+    }
+    let innerPages = pagesState ? 'active-Home3NavPages-list' : '';
 
   return (
     <>
@@ -39,7 +61,9 @@ const Header = () => {
 
                     <ul className="nav-options">
                         <li className="home">
-                          <Link className={"underline" + (url === "/" ?" active" : "")} to="/">Home</Link>
+                          <Link className={"Home3-pages-link underline" + (url === "/" ?" active" : "")} to="/">Home
+                             <img src={Arrow}  alt="" />
+                          </Link>
                           <ul>
                                 <li className="inner-home">
                                     <Link to="/home2">Home2</Link>
@@ -51,7 +75,9 @@ const Header = () => {
                         <li><Link to="/contactus">Contact</Link></li>
                         <li><Link to="/blog-detail">Blogs</Link></li>
                         <li className="Home3-nav-pages">
-                          <Link to="/">Pages</Link>
+                          <Link className="Home3-pages-link" to="/">Pages
+                          <img src={Arrow}  alt="" />
+                          </Link>
                           <ul className="Home3NavPages-list">
                            <Link to="/blog-detail"> Blog Listing Page</Link>
                            <Link to="/adopt-pets-page">Adopt Pets Page</Link>
@@ -79,9 +105,11 @@ const Header = () => {
 
                     <ul id="home1-mobile-nav" className={ `home1-mobile-nav ${NavBtn}`}>
                     <li className="home">
+                      <button onClick={ActiveInnerHome}>
                           <Link className={"underline" + (url === "/" ?" active" : "")} to="/">Home</Link>
+                      </button>
                           <ul>
-                                <li className="inner-home">
+                                <li className={ `inner-home ${innerHome}`}>
                                     <Link to="/home2">Home2</Link>
                                     <Link to="/home3">Home3</Link>
                                 </li>
@@ -91,8 +119,10 @@ const Header = () => {
                         <li><Link to="/contactus">Contact</Link></li>
                         <li><Link to="/blog-detail">Blogs</Link></li>
                         <li className="Home3-nav-pages">
+                          <button onClick={ActivePages}>
                           <Link to="/">Pages</Link>
-                          <ul className="Home3NavPages-list">
+                          </button>
+                          <ul className={ `Home3NavPages-list ${innerPages}`} >
                            <Link to="/blog-detail"> Blog Listing Page</Link>
                            <Link to="/adopt-pets-page">Adopt Pets Page</Link>
                            <Link to="/sitters">sitters</Link>
