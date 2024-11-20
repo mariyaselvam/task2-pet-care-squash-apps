@@ -705,12 +705,15 @@ body{
 .home2-pet-food-img1{
     animation: topBottom 3s linear infinite alternate;
 }
+
 .home2-pet-food-img2{
     animation: topBottom 7s linear infinite alternate;
 }
+
 .home2-pet-food-img3{
     animation: topBottom 4s linear infinite alternate;
 }
+
 .home2-pet-food-img4{
     animation: topBottom 10s linear infinite alternate;
 }

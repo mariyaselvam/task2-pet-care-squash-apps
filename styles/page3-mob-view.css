@@ -63,8 +63,8 @@
     }
 
     .blog-detail-comment-form{
-        width: 90%;
         margin: 2rem auto;
+        border-radius: 0px 0px 20px 20px;
     }
     .home3-blog-blog-sidebar{
         width: 90%;
@@ -86,11 +86,13 @@
     .home3-blog-detail-page-img-nd-form{
         margin: 2rem auto;
         width: 90%;
+        flex-direction: column;
     }
 
     .home3-blog-side-bar-recent-posts{
         width: 90%;
-        margin: 2rem auto;
+        margin: 1rem auto;
+        padding: 20px 20px;
     }
     .Home3-blog-comments-card{
         width: 90%;
@@ -99,7 +101,7 @@
     .Home3-Detail-Banner-main-tit{
         font-size: 40px;
         font-weight: 800;
-        line-height: 50 px;
+        line-height: 45px;
     }
     .Home-3-banner-main-tit{
         font-size: 48px;
@@ -173,6 +175,9 @@
     }
     .comment-person-name{
         font-size: 22px;
+    }
+    .About-DC-Care-cont-wrap{
+        padding: 3rem 0rem;
     }
 
 }

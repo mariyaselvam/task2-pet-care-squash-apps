@@ -2,18 +2,6 @@
     .nav-options{
          display: none; 
     }
-    /* .page1-wrap .header-btn{
-        display: none;
-    } */
-
-    /* .nav-options{
-        flex-direction: column;
-        background-color: white;
-        position: absolute;
-        padding: 2rem ;
-        right:0px ;
-        top: 100%;
-    } */
 
     .clients-feedback-sec .container{
         max-width: 100%;
@@ -287,6 +275,7 @@
     .home:hover::before {
         transform: rotate(-90deg);
     }
+
 
 }
 

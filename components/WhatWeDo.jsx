@@ -47,8 +47,8 @@ const WhatWeDo = () => {
 
                     </div>
                 </div>
-                <div className="col-lg-4">
-                    <div className="what-we-do-cards"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <div className="what-we-do-cards"  >
                         <div className="what-we-do-card-img">
                             <img src={Img3} alt="" />
                         </div>
