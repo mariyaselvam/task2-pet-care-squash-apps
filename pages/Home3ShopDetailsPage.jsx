@@ -24,6 +24,7 @@ import Social2 from "../src/assets/home-3/Pedigree-adult-dog/x.svg"
 import Social3 from "../src/assets/home-3/Pedigree-adult-dog/linkedin.svg"
 
 import HeartIcon from "../src/assets/home-3/Pedigree-adult-dog/heart-icon.svg"
+import { Link } from "react-router-dom"
 
 const Home3ShopDetailsPage = () => {
   return (
@@ -39,7 +40,7 @@ const Home3ShopDetailsPage = () => {
                         </h1>
 
                         <ul className="Home3-Detail-Banner-nav">
-                            <li>Home</li>
+                            <li className="home3Link"><Link to="/home3">Home</Link></li>
                             <li>/</li>
                             <li> Shop Details</li>
                         </ul>

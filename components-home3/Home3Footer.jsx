@@ -13,8 +13,8 @@ const Home3Footer = () => {
                  </h4>
                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 
-                 <p><b>Email :</b>  info@jstemplate.net</p>
-                 <p><b>Phone :</b>   880 123 456 789</p>
+                 <p><b>Email :</b> <a href="mailto:info@jstemplate.net">info@jstemplate.net</a>  </p>
+                 <p><b>Phone :</b>   <a href="tel:880123456789">8801234567</a></p>
                 </div>
               </div>
 
@@ -25,12 +25,12 @@ const Home3Footer = () => {
                    </h4>
 
                    <ul className="home3-footer-quick-links-checks">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Archived</li>
-                    <li>Author</li>
-                    <li>Contact</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Archived</a></li>
+                    <li><a href="#">Author</a></li>
+                    <li><a href="#">Contact</a></li>
                    </ul>
               </div>
               </div>
@@ -41,11 +41,11 @@ const Home3Footer = () => {
                   Category
                   </h4>
                   <ul className="home3-footer-Category-links-checks">
-                    <li>Lifestyle</li>
-                    <li>Technology</li>
-                    <li>Travel</li>
-                    <li>Business</li>
-                    <li>Economy</li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Economy</a></li>
                   </ul>
                 </div>
               </div>
@@ -76,9 +76,9 @@ const Home3Footer = () => {
                 </div></div>
 
                        <ul className="home3-privacy-policy">
-                        <li>Terms of Use</li>
-                        <li>Privacy Policy</li>
-                        <li>Cookie Policy</li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#" >Cookie Policy</a></li>
                        </ul>
              </div>
 

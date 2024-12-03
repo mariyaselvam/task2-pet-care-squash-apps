@@ -36,13 +36,13 @@ const OurGroomers = () => {
                         </h4>
 
                         <div className="groomers-social-profiles">
-                            <a target="_blank" href="https://www.facebook.com">
+                            <a   href="#">
                                 <img src={Facebook} alt="" />
                             </a>
-                            <a target="_blank" href="https://x.com">
+                            <a   href="#">
                                 <img src={Twitter} alt="" />
                             </a>
-                            <a target="_blank" href="https://www.linkedin.com">
+                            <a   href="#">
                                 <img src={Linkedin} alt="" />
                             </a>
                         </div>
@@ -64,13 +64,13 @@ const OurGroomers = () => {
                         </h4>
 
                         <div className="groomers-social-profiles">
-                            <a target="_blank" href="https://www.facebook.com">
+                            <a   href="#">
                                 <img src={Facebook} alt="" />
                             </a>
-                            <a target="_blank" href="https://x.com">
+                            <a   href="#">
                                 <img src={Twitter} alt="" />
                             </a>
-                            <a target="_blank" href="https://www.linkedin.com">
+                            <a   href="#">
                                 <img src={Linkedin} alt="" />
                             </a>
                         </div>
@@ -92,13 +92,13 @@ const OurGroomers = () => {
                         </h4>
 
                         <div className="groomers-social-profiles">
-                            <a target="_blank" href="https://www.facebook.com">
+                            <a   href="#">
                                 <img src={Facebook} alt="" />
                             </a>
-                            <a target="_blank" href="https://x.com">
+                            <a   href="#">
                                 <img src={Twitter} alt="" />
                             </a>
-                            <a target="_blank" href="https://www.linkedin.com">
+                            <a   href="#">
                                 <img src={Linkedin} alt="" />
                             </a>
                         </div>
@@ -120,14 +120,14 @@ const OurGroomers = () => {
                         </h4>
 
                         <div className="groomers-social-profiles">
-                            <a target="_blank" href="https://www.facebook.com">
+                            <a   href="#">
                                 <img src={Facebook} alt="" />
                             </a>
-                            <a target="_blank" href="https://x.com">
+                            <a   href="#">
                                 <img src={Twitter} alt="" />
                             </a>
-                            <a target="_blank" href="https://www.linkedin.com">
-                                <img src={Linkedin} alt="" />
+                            <a   href="#">
+                                <img src={Linkedin} alt="" />   
                             </a>
                         </div>
                     </div>

@@ -1,14 +1,32 @@
 import Logo from "../src/assets/home-2/header/Logo.png"
 // import { Link } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/hamburger-menu.png"
+
+import HamburgerMenu1 from "../src/assets/home-2/header/close.png"
 // import { useState } from "react"
-import Arrow from "../src/assets/common/down-arrow.png"
+import Arrow from "../src/assets/home-2/banner/main-tit-before.svg"
 
 
 import { Link , useLocation } from "react-router-dom"
 import React, { useEffect, useState } from 'react';
 
 const Header = () => {
+
+  useEffect(() => {
+    const nav = document.getElementById('nav');
+    let top = window.scrollY;
+    window.addEventListener("scroll", () => {
+    
+        if(top < window.scrollY){
+          nav.classList.add("hide-nav");
+        }else{
+          nav.classList.remove("hide-nav");
+        }
+  
+      top = window.scrollY;
+          
+      })
+  }, []);
 
     const location = useLocation(); 
     const [url, setUrl] = useState(null);
@@ -38,12 +56,13 @@ const Header = () => {
 
   return (
     <>
-     <header>
+     <header id="nav">
         <div className="container">
             <div className="row">
                 <div className="logo-nav-appointment">
                     <div className="main-logo2">
-                        <img src={Logo} alt="" />
+                      <Link to="/"><img src={Logo} alt="" /></Link>
+                        
                     </div>
 
                     <ul className="nav-options">
@@ -73,7 +92,7 @@ const Header = () => {
                            <Link to="/sitters">sitters</Link>
                            <Link to="/BlogListingpage">blog details</Link>
                            <Link to="/shop">Shop</Link>
-                           <Link to="/cameronwilliamsonpage">cameron williams on page</Link>
+                           <Link to="/cameronwilliamsonpage">Sitter Details</Link>
                            <Link to="/petsdetailpage">Pets Detail Page</Link>
                            <Link to="/home3shopdetailspage">Shop Details Page</Link>
                            <Link to="/aboutuspage">About Us Page</Link>
@@ -94,6 +113,10 @@ const Header = () => {
                     </button>
 
                     <ul id="home1-mobile-nav" className={ `home1-mobile-nav ${NavBtn}`}>
+                    <button id="home1-hamburger-menu" className="home1-hamburger-menu home1-hamburger-menu2 " 
+                    onClick={NavToggle}>
+                      <img src={HamburgerMenu1} alt="" />
+                    </button>
                     <li className="home">
                     <button onClick={ActiveInnerHome}>
                           
@@ -119,7 +142,7 @@ const Header = () => {
                            <Link to="/sitters">sitters</Link>
                            <Link to="/BlogListingpage">blog details</Link>
                            <Link to="/shop">Shop</Link>
-                           <Link to="/cameronwilliamsonpage">cameron williams on page</Link>
+                           <Link to="/cameronwilliamsonpage">Sitter Details</Link>
                            <Link to="/petsdetailpage">Pets Detail Page</Link>
                            <Link to="/home3shopdetailspage">Shop Details Page</Link>
                            <Link to="/aboutuspage">About Us Page</Link>

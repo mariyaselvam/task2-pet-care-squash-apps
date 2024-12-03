@@ -1,4 +1,4 @@
-import MainImg from "../src/assets/home-3/AboutDogCare/About-DC-Care-main-img.png"
+import MainImg from "../src/assets/home-3/AboutDogCare/About-DC-Care-main-img.jpg"
 
 const AboutDCCare = () => {
   return (
@@ -13,11 +13,11 @@ const AboutDCCare = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="About-DC-Care-cont-wrap">
-                        <span className="About-DC-Care-cont-mini-tit">
+                        {/* <span className="About-DC-Care-cont-mini-tit">
                         About <b>DC Care</b>
-                        </span>
+                        </span> */}
 
-                        <h3 className="About-DC-Care-cont-main-tit">
+                        <h3 className="About-DC-Care-cont-mini-tit About-DC-Care-cont-main-tit">
                         For your pet’s natural
                         <b> life </b> & <b> care </b>
                         </h3>

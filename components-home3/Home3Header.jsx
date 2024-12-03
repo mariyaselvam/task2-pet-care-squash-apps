@@ -2,11 +2,28 @@ import HeaderLogo from "../src/assets/home-3/header/Logo.png"
 import { Link , useLocation } from "react-router-dom"
 // import {   } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/w-hamburger-menu.png"
-import Arrow from "../src/assets/common/w-down-arrow.png"
+import Arrow from "../src/assets/common/w-down-arrow.svg"
 
+import HamburgerMenu1 from "../src/assets/home-2/header/close.png"
 import React, { useEffect, useState } from 'react';
 
 const Home3Header = () => {
+
+  useEffect(() => {
+    const nav = document.getElementById('nav');
+    let top = window.scrollY;
+    window.addEventListener("scroll", () => {
+    
+        if(top < window.scrollY){
+          nav.classList.add("hide-nav");
+        }else{
+          nav.classList.remove("hide-nav");
+        }
+  
+      top = window.scrollY;
+          
+      })
+  }, []);
 
     
   // nav-menu-active-code
@@ -42,13 +59,13 @@ const Home3Header = () => {
 
   return (
     <>
-    <section className="home3-header">
+    <section id="nav" className="home3-header">
     <div className="container">
         <div className="row">
             <div className="col-lg-12">
                 <div className="home3-header-wraper">
                     <div className="home3-header-logo">
-                    <Link to="/home3">
+                    <Link to="/">
                     <img src={HeaderLogo} alt="" />
                     </Link>
                         
@@ -84,7 +101,7 @@ const Home3Header = () => {
                            <Link className={"underline" + (url === "/sitters" ?" active1" : "")}  to="/sitters">sitters</Link>
                            <Link className={"underline" + (url === "/BlogListingpage" ?" active1" : "")}  to="/BlogListingpage">blog details</Link>
                            <Link className={"underline" + (url === "/shop" ?" active1" : "")}  to="/shop">Shop</Link>
-                           <Link className={"underline" + (url === "/cameronwilliamsonpage" ?" active1" : "")}  to="/cameronwilliamsonpage">cameron williams on page</Link>
+                           <Link className={"underline" + (url === "/cameronwilliamsonpage" ?" active1" : "")}  to="/cameronwilliamsonpage">Sitter Details</Link>
                            <Link className={"underline" + (url === "/petsdetailpage" ?" active1" : "")}  to="/petsdetailpage">Pets Detail Page</Link>
                            <Link className={"underline" + (url === "/home3shopdetailspage" ?" active1" : "")}  to="/home3shopdetailspage">Shop Details Page</Link>
                            <Link className={"underline" + (url === "/aboutuspage" ?" active1" : "")}  to="/aboutuspage">About Us Page</Link>
@@ -106,6 +123,10 @@ const Home3Header = () => {
                     </button>
 
                     <ul id="home1-mobile-nav" className={ `home1-mobile-nav ${NavBtn}`}>
+                    <button id="home1-hamburger-menu" className="home1-hamburger-menu home1-hamburger-menu2" 
+                    onClick={NavToggle}>
+                      <img src={HamburgerMenu1} alt="" />
+                    </button>
                     <li className="home">
                     <button onClick={ActiveInnerHome}>
                     <Link className={"underline" + (url === "/home3" ?" active1" : "")} to="/home3">Home</Link>
@@ -130,7 +151,7 @@ const Home3Header = () => {
                            <Link className={"underline" + (url === "/sitters" ?" active1" : "")}  to="/sitters">sitters</Link>
                            <Link className={"underline" + (url === "/BlogListingpage" ?" active1" : "")}  to="/BlogListingpage">blog details</Link>
                            <Link className={"underline" + (url === "/shop" ?" active1" : "")}  to="/shop">Shop</Link>
-                           <Link className={"underline" + (url === "/cameronwilliamsonpage" ?" active1" : "")}  to="/cameronwilliamsonpage">cameron williams on page</Link>
+                           <Link className={"underline" + (url === "/cameronwilliamsonpage" ?" active1" : "")}  to="/cameronwilliamsonpage">Sitter Details</Link>
                            <Link className={"underline" + (url === "/petsdetailpage" ?" active1" : "")}  to="/petsdetailpage">Pets Detail Page</Link>
                            <Link className={"underline" + (url === "/home3shopdetailspage" ?" active1" : "")}  to="/home3shopdetailspage">Shop Details Page</Link>
                            <Link className={"underline" + (url === "/aboutuspage" ?" active1" : "")}  to="/aboutuspage">About Us Page</Link>

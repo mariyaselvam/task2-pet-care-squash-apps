@@ -29,10 +29,10 @@ const Home2MeetOurTeam = () => {
                        <span>Manager</span>
 
                        <div className="home2-Meet-Our-Team-card-social-links">
-                        <img src={Img4} alt="" />
-                        <img src={Img5} alt="" />
-                        <img src={Img6} alt="" />
-                        <img src={Img7} alt="" />
+                        <a href="#"><img src={Img4} alt="" /></a>
+                        <a href="#"><img src={Img5} alt="" /></a>
+                        <a href="#"><img src={Img6} alt="" /></a>
+                        <a href="#"><img src={Img7} alt="" /></a>
                        </div>
 
 
@@ -51,10 +51,10 @@ const Home2MeetOurTeam = () => {
                        <span>Manager</span>
 
                        <div className="home2-Meet-Our-Team-card-social-links">
-                        <img src={Img4} alt="" />
-                        <img src={Img5} alt="" />
-                        <img src={Img6} alt="" />
-                        <img src={Img7} alt="" />
+                        <a href="#"><img src={Img4} alt="" /></a>
+                        <a href="#"><img src={Img5} alt="" /></a>
+                        <a href="#"><img src={Img6} alt="" /></a>
+                        <a href="#"><img src={Img7} alt="" /></a>
                        </div>
 
 
@@ -73,10 +73,10 @@ const Home2MeetOurTeam = () => {
                        <span>Manager</span>
 
                        <div className="home2-Meet-Our-Team-card-social-links">
-                        <img src={Img4} alt="" />
-                        <img src={Img5} alt="" />
-                        <img src={Img6} alt="" />
-                        <img src={Img7} alt="" />
+                        <a href="#"><img src={Img4} alt="" /></a>
+                        <a href="#"><img src={Img5} alt="" /></a>
+                        <a href="#"><img src={Img6} alt="" /></a>
+                        <a href="#"><img src={Img7} alt="" /></a>
                        </div>
 
 

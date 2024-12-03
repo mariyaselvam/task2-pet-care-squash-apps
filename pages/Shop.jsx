@@ -1,5 +1,6 @@
 import Home3Header from "../components-home3/Home3Header"
 import Home3Footer from "../components-home3/Home3Footer"
+import { Link } from "react-router-dom"
 
 import ShopCardImg1 from "../src/assets/home-3/pet-shoop/shop-img1.png"
 import ShopCardImg2 from "../src/assets/home-3/pet-shoop/shop-img2.png"
@@ -29,7 +30,7 @@ const Shop = () => {
                         </h1>
 
                         <ul className="Home3-Detail-Banner-nav">
-                            <li>Home</li>
+                            <li className="home3Link"><Link to="/home3">Home</Link></li>
                             <li>/</li>
                             <li> Shop</li>
                         </ul>
@@ -144,7 +145,7 @@ const Shop = () => {
                 <div className="col-xl-9">
 
                     <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
                                 <img src={ShopCardImg1} alt="" />
@@ -165,7 +166,7 @@ const Shop = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
                                 <img src={ShopCardImg2} alt="" />
@@ -186,7 +187,7 @@ const Shop = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
                                 <img src={ShopCardImg3} alt="" />
@@ -207,7 +208,7 @@ const Shop = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
                                 <img src={ShopCardImg4} alt="" />
@@ -228,7 +229,7 @@ const Shop = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
                                 <img src={ShopCardImg5} alt="" />
@@ -249,7 +250,7 @@ const Shop = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
                                 <img src={ShopCardImg6} alt="" />
@@ -270,7 +271,7 @@ const Shop = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
                                 <img src={ShopCardImg7} alt="" />
@@ -291,7 +292,7 @@ const Shop = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
                                 <img src={ShopCardImg8} alt="" />
@@ -312,7 +313,7 @@ const Shop = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
                                 <img src={ShopCardImg9} alt="" />

@@ -14,6 +14,7 @@ import Home3ShopDetailsPage from "../pages/Home3ShopDetailsPage"
 import AboutUsPage from "../pages/AboutUsPage"
 import "../styles/boostrap.css"
 import 'animate.css';
+import ScrollToTop from "../components/ScrollToTop"
 
 
 import React, { useEffect, useState } from 'react';
@@ -24,6 +25,8 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/home2" element={<Home2 />} />

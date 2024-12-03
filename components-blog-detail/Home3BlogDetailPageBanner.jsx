@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const Home3BlogDetailPageBanner = () => {
   return (
@@ -13,7 +13,7 @@ const Home3BlogDetailPageBanner = () => {
                         </h1>
 
                         <ul className="Home3-Detail-Banner-nav">
-                            <li>Home</li>
+                        <li className="home3Link"><Link to="/home3">Home</Link></li>
                             <li>/</li>
                             <li> Blogs</li>
                         </ul>

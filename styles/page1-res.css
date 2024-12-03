@@ -1,4 +1,7 @@
 @media (max-width:1000px){
+    .blog-swiper-card-read-more-btn::before{
+        width: 30%;
+    }
     .nav-options{
          display: none; 
     }
@@ -46,7 +49,7 @@
     .home1-mobile-nav{
         background-color: rgb(255, 255, 255);
         position: absolute;
-        top: 100%;
+        top: 0px;
         right: 0px;
         list-style: none;
         border-radius: 0px 0px 0px 20px;
@@ -56,39 +59,32 @@
         transition: 0.3s;
         visibility: hidden;
         opacity: 0;
-        transform: translateY(-5%);
+        transform: translateX(50%);
         z-index: 10;
         width: 0px;
         padding: 0px;
-        /* overflow: hidden; */
         display: flex;
-        padding: 2rem 0rem;
-        width: 100%;
+        padding: 3rem 0rem;
+        width: 50%;
+        height: 100vh;
+    }
+
+    .home1-mobile-nav2{
+        position: fixed;
+        right: -6%;
+        top: -30px;
     }
 
     .nav-view{
         visibility: visible;
         opacity: 10;
-        transform: translateY(0%);
-        border-radius: 0px 0px 40px 40px;
-        font-size: 18px !important;
-        box-shadow: inset 0px 0px 10px lightblue;
+        transform: translateX(0%);
     }
 
     .Home3-nav-pages *{
         font-size: 18px;
     }
     
-    /* .home1-mobile-nav::before{
-        content: "";
-        width: 140%;
-        background-color: rgba(108, 62, 62, 0.817);
-        height: 140%;
-        right: 0px;
-        top: 0px;
-        position: absolute;
-        z-index: -1;
-    } */
 
     .blog-section-home .swiper-button-prev{
         transform: translate(1200%, -70px);
@@ -98,9 +94,6 @@
         /* margin: 0.5rem 0rem; */
     }
 
-    .home1-mobile-nav > li:hover{
-        box-shadow: 0px 0px 10px lightblue;
-    }
     .home1-mobile-nav > li > a{
         text-decoration: none;
         color: black;
@@ -131,7 +124,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        left: 20%;
+        right: 10%;
         top: 5px;
         transform: rotate(0deg);
         border-radius: 10px;
@@ -145,15 +138,6 @@
     .Home3-nav-pages:hover::before{
         transform: rotate(-90deg);
     }
-    
-    /* .Home3-nav-pages:hover .Home3NavPages-list{
-        visibility: visible;
-        opacity: 1;
-        height: 300px;
-        overflow-y: scroll;
-        position: relative;
-        width: 100%;
-    } */
 
     .Home3NavPages-list{
         display: flex;
@@ -174,6 +158,9 @@
     }
     
 
+    .body .inner-home > li > a{
+
+    }
 
     .Home3NavPages-list{
         display: flex;
@@ -204,11 +191,10 @@
         box-shadow: none;
         border-radius: 10px;
         right: 0px;
-        top: 100%;
+        top: 0px;
         transition: 0.4s ease;
         visibility: hidden;
         opacity: 0;
-        /* transform: translateX(40px); */
     }
 
 
@@ -219,6 +205,11 @@
         overflow-y: scroll !important;
         position: relative !important;
         width: 100% !important;
+        top: 0px !important;
+    }
+
+    .page2-wrap .inner-home{
+        padding: 20px 0px 0px 0px !important;
     }
 
     .active-inner-home{
@@ -231,17 +222,11 @@
         transform: translateX(0px);
     }
 
-
-
-    /* .home:hover .inner-home{
-        visibility: visible;
-        position: relative;
-        opacity: 1;
-        text-decoration: none;
-        padding: 1rem 0rem;
-    } */
-
-
+     .active-inner-home li{
+        display: grid;
+        gap: 10px;
+        padding: 0px 0px ;
+     }
 
     .home button{
         width: 100%;
@@ -265,7 +250,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        left: 20%;
+        right: 10%;
         top: 5px;
         transform: rotate(0deg);
         border-radius: 10px;
@@ -278,7 +263,6 @@
 
 
 }
-
 
 @media (max-width:1500px){
     .get-every-pet-foods-cont{
@@ -302,7 +286,7 @@
     .blog-swiper-card-tit{
         font-size: 24px;
         font-weight: 800;
-        line-height: 37px;
+        line-height: 30px;
         margin: 15px 0px;
     }
     .home ul{
@@ -311,6 +295,19 @@
     }
 
     .nav-options{
-        gap: 30px;
+        gap: 20px;
     }
+    .blog-swiper-card-read-more-btn::before{
+        width: 30%;
+    }
+    .span-pet-care{
+        margin: 0px;
+    }
+    .admin{
+        border: none;
+    }
+}
+
+@media (max-width:1600px) {
+
 }

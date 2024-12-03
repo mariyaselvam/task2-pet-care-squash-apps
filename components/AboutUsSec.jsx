@@ -30,7 +30,7 @@ const AboutUsSec = () => {
                         <li>Loveable Sitters</li>
                     </ul>
 
-                    <a className="abt-us-read-more-btn" href="">Read more</a>
+                    <a className="abt-us-read-more-btn" href="#">Read more</a>
 
                  </div>
                 </div>

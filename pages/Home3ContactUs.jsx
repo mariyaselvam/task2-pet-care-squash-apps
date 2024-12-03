@@ -4,6 +4,8 @@ import Email2 from "../src/assets/home-3/home3-contact-us/Email-2.svg"
 import Clock from "../src/assets/home-3/home3-contact-us/Clock.svg"
 import Location from "../src/assets/home-3/home3-contact-us/Location.svg"
 
+import { Link } from "react-router-dom"
+
 const Home3ContactUs = () => {
   return (
     <>
@@ -19,7 +21,7 @@ const Home3ContactUs = () => {
                         </h1>
 
                         <ul className="Home3-Detail-Banner-nav">
-                            <li>Home</li>
+                        <li className="home3Link"><Link to="/home3">Home</Link></li>
                             <li>/</li>
                             <li> Contact us</li>
                         </ul>
@@ -54,7 +56,7 @@ const Home3ContactUs = () => {
                             </div>
                         </div>
 
-                        <a className="home3-contact-us-form-card-btn " href="">Send Message</a>
+                        <a className="home3-contact-us-form-card-btn " href="#">Send Message</a>
                     </div>
 
                 </div>

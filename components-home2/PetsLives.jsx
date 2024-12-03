@@ -15,8 +15,8 @@ const PetsLives = () => {
                         <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id. Integer enim neque volutpat ac tincidunt vitae semper quis lectus.</p>
 
                         <div className="home2-pets-lives-btn-wrap">
-                            <a href="" className="home2-pets-lives-btn">Our Service</a>
-                        <a href="" className="home2-pets-lives-btn1">Schedule Service</a></div>
+                            <a href="#" className="home2-pets-lives-btn">Our Service</a>
+                        <a href="#" className="home2-pets-lives-btn1">Schedule Service <img src="../src/assets/The-pets-lives-day/chevron-right.svg" alt="" /> </a></div>
                     </div>
                     </div>
                     <div className="col-lg-5">

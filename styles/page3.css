@@ -13,7 +13,16 @@
     color: white;
     padding: 1.3rem 0rem;
     position: relative;
+    position: fixed;
+    z-index: 100;
+    transition: 0.4s ease;
+    left: 50%;
+    transform: translateX(-50%) translateY(0px);
+    top: 0px;
+}
 
+.hide-nav{
+    transform:translateY(-100%);
 }
 
 .home3-header-wraper{
@@ -46,6 +55,13 @@
     color: #ff6900;
 }
 
+.About-DC-Care-main-img{
+    -webkit-mask-image: url("../src/assets/common/shap1.svg");
+    mask-image: url("../src/assets/common/shap1.svg");
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
 .Home-3-banner-sec{
     background: url("../src/assets/home-3/header/banner-main-img.png");
     height: auto;
@@ -55,6 +71,7 @@
     height: 800px;
     color: white;
     position: relative;
+    margin-top: 100px;
 }
 
 @media (max-width:1400px) {
@@ -76,7 +93,7 @@
     font-family: "Nunito", serif;
     font-size: 58px;
     font-weight: 900;
-    line-height: 86px;
+    line-height: 76px;
 }
 
 .Home-3-banner-main-tit b{
@@ -141,9 +158,10 @@
     font-family: "Nunito", serif;
     font-size: 24px;
     font-weight: 800;
-    line-height: 44px;
+    line-height: 55px;
     position: relative;
  }
+
 
 .About-DC-Care-cont-mini-tit > b , 
 .home3-What-We-Offer-mini-tit > b , 
@@ -192,9 +210,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    top: 50%;
+    top: -40px;
     left: 0px;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
 }
 
 .home3-What-We-Offer-mini-tit {
@@ -204,7 +222,7 @@
 
 .About-DC-Care-cont-mini-tit{
     position: relative;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .home2-AboutUsPage-cont-tit , .Know-more-about-Berry-cont-main-tit{
@@ -242,21 +260,35 @@
     font-family: "Nunito", serif;
     font-size: 50px;
     font-weight: 800;
-    line-height: 65px;
-    margin: 30px 0px;
+    line-height: 55px;
+    margin: 20px 0px;
 }
 
 .home3-What-We-Offer-main-tit , 
+.home3-What-We-Offer-main-tit-1,
 .Home3-The-pets-lives-day-main-tit , 
-.home3-Testimonial-main-tit{
+.home3-Testimonial-main-tit,
+.home3-Testimonial-main-tit-blog{
     font-family: "Nunito", serif;
     font-size: 50px;
     font-weight: 800;
-    line-height: 65px;
+    line-height: 55px;
     color: black;
 }
 
-.home3-What-We-Offer-main-tit > b , .Home3-The-pets-lives-day-main-tit > b , .home3-Testimonial-main-tit > b{
+.home3-What-We-Offer-main-tit-1{
+    margin-bottom: 4rem;
+}
+
+.home3-Testimonial-main-tit-blog{
+    margin-bottom: 0rem;
+}
+
+.home3-What-We-Offer-main-tit > b , 
+.Home3-The-pets-lives-day-main-tit > b , 
+.home3-Testimonial-main-tit > b , 
+.home3-Testimonial-main-tit-1 > b
+.home3-Testimonial-main-tit-blog{
     color: #ff6900;
 }
 
@@ -316,7 +348,7 @@
 
 .home3-What-We-Offer-card:hover .home3-What-We-Offer-card-icon{
     background: white;
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
 }
 
 .home3-What-We-Offer-card:hover .home3-What-We-Offer-card-icon img{
@@ -369,10 +401,10 @@
     border-radius: 30px 0px 30px 0px;
     background-color: transparent;
     display: grid;
-    color: #d15700;
+    color: #ff6900;
     place-content: center;
     text-decoration: none;
-    border: 1px solid #d15700;
+    border: 1px solid #ff6900;
     transition: background-color 0.4s ease-in-out ;
  }
 
@@ -381,7 +413,7 @@
  }
 
 .Home3-The-pets-lives-day-sec  .secondary-btn:hover{
-    background-color: #d15700;
+    background-color: #ff6900;
     color: white;
 }
 
@@ -470,9 +502,43 @@
     width: 100% ;
 }
 
+.Home3-Testimonial-sec .swiper-3d .swiper-slide-shadow-left{
+    background-image: none;
+}
+
+.Home3-Testimonial-sec .swiper-3d .swiper-slide-shadow-right{
+    background-image: none;
+}
+.Home3-Testimonial-sec .swiper-slide{
+    transition: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1);
+}
+
+.Home3-Testimonial-sec .swiper-button-next, .swiper-button-prev{
+    width: 60px;
+    background-color: #ff6900;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+ }
+
+ .Home3-Testimonial-sec .swiper-button-prev:after, .swiper-button-next:after{
+     font-size: 20px;
+ }
+
 .Home3-Testimonial-sec{
     padding: 3rem 0rem;
     background-color: #f1f1f1;
+}
+
+
+.Home3-Testimonial-sec .swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 50px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #ff6900;
+}
+.Home3-Testimonial-sec .swiper-3d .swiper-wrapper{
+    padding-bottom: 100px;
 }
 
 .Home3-Testimonial-sec .swiper-slide{
@@ -546,6 +612,7 @@
     font-size: 28px;
     font-weight: 800;
     line-height: 48px;
+    margin: 0px;
 }
 
 .Home3-Testimonial-profile{
@@ -553,7 +620,7 @@
     font-weight: 400;
     line-height: 26px;
     color: #ff6900;
-    margin: 20px 0px;
+    margin: 0px 0px 15px;
     display: block;
 }
 
@@ -562,6 +629,13 @@
     padding: 20px;
     border-radius: 20px;
     margin-top: 2rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.home-3-blog-card:hover{
+    color: black;
 }
 
 .home-3-blog-card > img{
@@ -579,19 +653,44 @@
     font-weight: 400;
     line-height: 26px;
     color: #ff6900;
+    transition: 0.4s ease;
+}
+
+.home-3-blog-mini-tit:hover{
+    background-color: #ff6900;
+    color: white;
 }
 
 .home-3-blog-main-tit{
     font-family: "Nunito", serif;
     font-size: 28px;
     font-weight: 800;
-    line-height: 48px;
+    line-height: 38px;
 }
 
 .home-3-blog-author-name-nd-date{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.home-3-blog-author-name-nd-date p{
+     position: relative;
+     padding-left: 30px;
+}
+
+.home-3-blog-author-name-nd-date p::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url("../src/assets/home-3/home3-pet-detail-page/calendar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .home-3-blog-author-name-nd-date > div > h4{
@@ -670,12 +769,11 @@
     height: 54px;
     outline: none;
     border: none;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem 1rem 2rem ;
     margin: 8px 0px;
     border-radius: 6px;
     position: relative;
 }
-
 
 .home3-footer-Weekly-Newsletter-input-wrap{
     position: relative;
@@ -707,20 +805,34 @@
     list-style: none;
 }
 
-.home3-footer-quick-links-checks li{
+.home3-footer-quick-links-checks li a{
     margin-bottom: 8px;
     font-family: "Nunito Sans";
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    text-decoration: none;
+    display: block;
+    color: inherit;
 }
 
-.home3-footer-Category-links-checks li{
+.home3-footer-quick-links-checks li a:hover{
+    color: white;
+}
+
+.home3-footer-Category-links-checks li a:hover{
+    color: white ;
+}
+
+.home3-footer-Category-links-checks li a{
     margin-bottom: 8px;
     font-family: "Nunito Sans";
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
     
 }
 
@@ -729,12 +841,23 @@
     padding: 0px;
 }
 
-.home3-footer-Category-links-tit  , .home3-footer-quick-links-tit , .home3-footer-abt-cont-tit{
+.home3-footer-Category-links-tit  , 
+.home3-footer-quick-links-tit , 
+.home3-footer-abt-cont-tit{
     margin-bottom: 24px;
 }
 
 .home3-footer-abt-cont p{
   color: #97989f;
+}
+
+.home3-footer-abt-cont a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.home3-footer-abt-cont a:hover{
+    color: white;
 }
 
 .home3-footer-quick-links-checks li{
@@ -753,6 +876,7 @@
     background-size: cover;
     color: white;
     position: relative;
+    margin-top: 100px;
 }
 
 .Home3-Detail-Banner-tit-wrap{
@@ -799,7 +923,6 @@
     margin: 0px;
     list-style: none;
 }
-
 
 .Gender{
     position: relative;
@@ -900,6 +1023,17 @@
     top: 0%;
     width: 238px;
     height: 219px;
+    -webkit-mask-image: url("../src/assets/home-3/Home3-Adopt-Pets/Adopt-layer.svg");
+    mask-image: url("../src/assets/home-3/Home3-Adopt-Pets/Adopt-layer.svg");
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
+.Pets-Detail-Page-Know-more-about-card-img{
+    -webkit-mask-image: url("../src/assets/home-3/Home3-Adopt-Pets/Adopt-layer.svg");
+    mask-image: url("../src/assets/home-3/Home3-Adopt-Pets/Adopt-layer.svg");
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
 }
 
 .Home3-Adopt-Pets-Page-sec{
@@ -912,7 +1046,6 @@
     font-weight: 800;
     line-height: 48px;
     text-align: center;
-    
 }
 
 .Home3-Adopt-Pets-main-btn{
@@ -996,7 +1129,6 @@ font-size: 28px;
 font-weight: 700;
 line-height: 38px;
 text-align: center;
-
 }
 
 .What-Our-Customer-Say-swiper-position{
@@ -1055,6 +1187,27 @@ text-align: center;
     font-weight: 400;
     line-height: 26px;
     color: #ff6900;
+    transition: 0.4s ease;
+}
+
+.Home3-The-pets-lives-day-main-img{
+    -webkit-mask-image: url("../src/assets/common/shap2.svg");
+    mask-image: url("../src/assets/common/shap2.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: 50px 0px;
+    height: 100%;
+}
+
+.Home3-The-pets-lives-day-main-img > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.breed-food-enjoy > span:hover{
+    color: white;
+    background-color: #ff6900;
 }
 
 .home3-blog-quated-tit{
@@ -1063,7 +1216,8 @@ text-align: center;
     padding: 0px 4rem;
 }
 
-.home3-blog-quated-tit::before , .home3-blog-quated-tit::after{
+.home3-blog-quated-tit::before , 
+.home3-blog-quated-tit::after{
     content: "";
     position: absolute;
     background-repeat: no-repeat;
@@ -1108,7 +1262,9 @@ text-align: center;
     padding-left: 30px;
 }
 
-.blog-date::before , .blog-author::before , .blog-comment::before{
+.blog-date::before , 
+.blog-author::before , 
+.blog-comment::before{
     content: "";
     position: absolute;
     width: 25px;
@@ -1258,6 +1414,12 @@ text-align: center;
     border-bottom: 1px solid #dedede;
 }
 
+.home3-blog-side-bar-recent-cards p{
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+}
+
 .home3-blog-side-bar-recent-posts{
     padding: 40px 30px;
     background-color: #f1f1f1;   
@@ -1315,7 +1477,7 @@ text-align: center;
     font-family: "Nunito", serif;
     font-size: 24px;
     font-weight: 800;
-    line-height: 44px;
+    line-height: 34px;
     margin: 15px 0px;
 }
 
@@ -1355,7 +1517,7 @@ text-align: center;
 input[type="checkbox"] {
     width: 24px;
     height: 24px;
-    accent-color: #ff6600 ;
+    accent-color: #f4680b ;
     outline: #ff6600;
     box-shadow: none;
     color: white;
@@ -1379,8 +1541,7 @@ input[type="checkbox"] {
     height: 10px;
     background-color: #ff6600;
     border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 13px;
     left: 0px;
 }
 
@@ -1507,8 +1668,6 @@ input[type="checkbox"] {
     padding: 100px 0rem;
 }
 
-
-
 .home2-AboutUsPage-cont-tit{
     font-family: "Nunito", serif;
     font-size: 50px;
@@ -1546,21 +1705,39 @@ input[type="checkbox"] {
     padding: 50px 0px;
 }
 
-.Home-3-banner-mini-tit , .Home3-The-pets-lives-day-mini-tit{
+.Home-3-banner-mini-tit{
     position: relative;
     padding-left: 2rem;
     font-family: "Nunito";
     font-size: 24px;
     font-weight: 800;
     line-height: 44px;
-    
+}
+
+.Home3-The-pets-lives-day-mini-tit{
+    position: relative;
+    font-weight: 800;
+    line-height: 55px; 
 }
 
 .Home-3-banner-mini-tit > b , .Home3-The-pets-lives-day-mini-tit > b{
     color: #ff6900;
 }
 
-.Home-3-banner-mini-tit::before , .Home3-The-pets-lives-day-mini-tit::before{
+.Home3-The-pets-lives-day-mini-tit::before{
+    content: "";
+    position: absolute;
+    background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: -40px;
+    width: 15px;
+    height: 15px;
+}
+
+.Home-3-banner-mini-tit::before{
     content: "";
     position: absolute;
     background: url("../src/assets/home-3/about-page/mini-tit-before.svg");
@@ -1574,19 +1751,29 @@ input[type="checkbox"] {
     height: 15px;
 }
 
+.thumbnail{
+    width: 100%;
+    height: 100%;
+}
+
+.react-fancybox{
+    width: 100%;
+    height: 100%;
+}
+
 .Image-Tour-imgs{
     position: relative;
     overflow: hidden;
 }
 
-.Image-Tour-imgs::before{
-    content: "";
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    background-color: #ff6900;
-    border-radius: 20px;
-    opacity: 0;
+.home3Link a{
+    font-size:inherit ;
+    text-decoration: none;
+    color: inherit;
+}
+
+.home3Link a:hover{
+    color: #ff6900;
 }
 
 .Image-Tour-imgs::after{
@@ -1672,18 +1859,13 @@ input[type="checkbox"] {
     opacity: 0;
 }
 
-/* .home:hover .inner-home{
-    visibility: visible;
-    opacity: 1;
-    text-decoration: none;
-} */
-
 .inner-home a{
     text-decoration: none;
 }
 
 .inner-home a{
  color: black;
+ display: block;
 
 }
 
@@ -1697,11 +1879,6 @@ input[type="checkbox"] {
 .prodouct-img2{
     grid-row-start: 2;
     grid-row-end: 3;
-}
-
-.prodouct-img3{
-    /* grid-row-start: 2;
-    grid-row-end: 4; */
 }
 
 .prodouct-img4{
@@ -1730,41 +1907,21 @@ input[type="checkbox"] {
 
 .Home3-nav-pages{
     position: relative;
-    /* padding-right: 2rem; */
 }
 
 .Home3-nav-pages:hover::after{
     transform: translateY(-50%) rotate(-90deg);
 }
 
-/* .Home3-nav-pages::after{
-    content: "";
-    position: absolute;
-    background: url("../src/assets/common/w-down-arrow.png");
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    right: 0px;
-    top: 50%;
-    transform: translateY(-50%) rotate(0deg);
-    transition: 0.2s linear;
-} */
-
 .Home3-pages-link{
     position: relative;
     padding-right: 1.4rem;
 }
 
-.Home3-pages-link:hover img{
-    transform: translateY(-50%) rotate(-90deg);
-}
-
 .Home3-pages-link img{
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 14px;
+    width: 14px;
     right: 0px;
     top: 50%;
     transform: translateY(-50%) rotate(0deg);

@@ -25,6 +25,11 @@
         line-height: 45px;
         text-align: center;
     }
+
+    .home2-SafeaAndGoodHands-cont p{
+       text-align: center;
+    }
+
     .The-Best-Training-Your-cont-wrap{
         padding: 1rem;
     }
@@ -57,12 +62,14 @@
         justify-content: space-evenly;
         width: 100%;
     }
+    
     .home2-SafeaAndGoodHands-cont-small-card > li > h3{
         font-size: 21px;
         font-weight: 800;
         line-height: 48px;
         margin-bottom: 20px;
     }
+
     .The-Best-Training-Your-Pets-sec{
         background-position: -1600px 0px;
     }
@@ -72,6 +79,12 @@
     .home2-pets-lives-cont-wrap{
         padding: 4rem 0rem;
     }
+
+    .home2-pets-lives-cont-wrap p{
+        text-align: center;
+    }
+
+
     .What-Our-Customer-Say-img-tit{
         margin: 2rem 0rem;
     }
@@ -118,7 +131,6 @@
     }
     .home2-pets-lives-btn1{
         font-size: 14px;
-        padding: 1rem 2rem 1rem 1rem;
         max-width: 179px;
     }
     .home2-pets-lives-btn-wrap{
@@ -129,5 +141,17 @@
         width: 169px;
     }
 
+    .What-Our-Customer-Say-sec .swiper-button-next{
+        transform: translate(-70px  , 400%);
+    }
     
+    .What-Our-Customer-Say-sec .swiper-button-prev{
+        transform: translate(70px  , 400%);
+    }
+
+    .home1-mobile-nav > li a:hover{
+           color: black;
+     }
+    
+
 }

@@ -4,6 +4,7 @@ import Home3Footer from "../components-home3/Home3Footer"
 import BlogDetailPageSideBar from "../components-blog-detail/BlogDetailPageSideBar"
 import BlogMainImg from "../src/assets/home-3/Cameron-Williamson/cameron-williamson-1.png"
 import BlogMainIm1 from "../src/assets/home-3/Cameron-Williamson/home3-blog-detail-page-img.png"
+import { Link } from "react-router-dom"
 
 const CameronWilliamsonPage = () => {
   return (
@@ -19,7 +20,7 @@ const CameronWilliamsonPage = () => {
                         </h1>
 
                         <ul className="Home3-Detail-Banner-nav">
-                            <li>Home</li>
+                            <li className="home3Link"><Link to="/home3">Home</Link></li>
                             <li>/</li>
                             <li> Sitter Details</li>
                         </ul>

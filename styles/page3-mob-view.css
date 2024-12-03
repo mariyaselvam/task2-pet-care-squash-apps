@@ -8,7 +8,7 @@
     .home3-logo-nd-privacy-policy{
         flex-direction: column;
     }
-    .home3-What-We-Offer-main-tit, .Home3-The-pets-lives-day-main-tit{
+    .home3-What-We-Offer-main-tit , .home3-What-We-Offer-main-tit-1, .Home3-The-pets-lives-day-main-tit{
         font-family: "Nunito", serif;
         font-size: 35px;
         font-weight: 800;
@@ -43,7 +43,13 @@
     }
     .home3-blog-quated-tit{
         padding: 0px 3rem;
+        text-align: center;
     }
+    .home3-blog-quated-tit::before, .home3-blog-quated-tit::after{
+        right: 0px;
+    }
+
+
     .home3-blog-detail-page-main-tit{
         font-family: "Nunito", serif;
         font-size: 40px;
@@ -58,8 +64,30 @@
         width: 80%;
         margin: 3rem auto;
     }
+
+    .PetsDetailPage-Knowmore-about-ul-checks > li{
+        gap: 20px;
+    }
+
+    .PetsDetailPage-Knowmore-about-card-btn{
+        height: 58px;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 44px;
+    }
+
+    .home3-contact-us-form-text-area{
+        height: 150px;
+    }
+
+    .Pets-Detail-Page-Know-more-contact .home3-contact-us-form-card-tit{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+
     .home3-Blog-DetailPage-SideBar-wraper::before{
-        left: 25px;
+        left: 40px;
     }
 
     .blog-detail-comment-form{
@@ -132,7 +160,30 @@
     .What-Our-Customer-Say-swiper-card::before{
         width: 45px;
         height: 45px;
+        top: 20px;
+        right: 20px;
     }
+    .footer-contact-detail{
+        gap: 10px;
+    }
+
+    .Providing-the-Best-Service-sec-cont-tit{
+        text-align: center;
+    }
+    
+     .What-Our-Customer-Say-swiper-name{
+        margin: 0px;
+     }
+
+     .Providing-the-Best-Service-sec-cont > p{
+        text-align: center;
+     }
+
+     .What-Our-Customer-Say-swiper-position{
+        font-size: 18px;
+     }
+
+
     .What-Our-Customer-Say-swiper-card > p{
         margin: 10px 0px;
     }
@@ -140,10 +191,12 @@
         gap: 10px;
         align-items: center;
     }
+
     .About-DC-Care-main-img{
         width: 90%;
         margin: 0rem auto;
     }
+
     .About-DC-Care-cont-wrap{
         width: 90%;
         margin: 0rem auto;
@@ -161,6 +214,7 @@
         width: 90%;
         margin: 0rem auto;
     }
+    
     .Home-3-banner-sec .banner-btn-wraper{
         justify-content: start;
     }
@@ -179,5 +233,44 @@
     .About-DC-Care-cont-wrap{
         padding: 3rem 0rem;
     }
+
+    .Home3-Testimonial-sec .swiper-button-next, .swiper-button-prev{
+        width: 40px;
+        height: 40px;
+    }
+    .Home3-Testimonial-sec .swiper-button-prev:after, .swiper-button-next:after{
+        font-size: 16px;
+    }
+
+    .About-DC-Care-cont-mini-tit::before{
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    .Home3-The-pets-lives-day-mini-tit::before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .home-3-blog-author-name-nd-date p{
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .home-3-blog-author-name-nd-date > div > h4{
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 26px;
+    }
+    .home3-privacy-policy a{
+        font-size: 14px;
+    }
+
+    .What-Our-Customer-Say-star-img{
+        width: 50%;
+    }
+
+    .What-Our-Customer-Say-swiper-card{
+        padding: 20px;
+    }
+
+
 
 }

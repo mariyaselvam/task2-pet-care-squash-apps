@@ -27,9 +27,39 @@
     .Home3-Testimonial-sec-card{
         background-size: contain;
     }
+
+    .home3-header{
+        padding: 0.1rem 0rem;
+    }
+    .Home-3-banner-sec{
+        margin-top: 50px;
+    }
+    .Home3-Detail-Banner-sec{
+        margin-top: 50px;
+    }
+    .image-box{
+        margin: 3rem !important;
+    }
+    .Image-Tour-imgs::after{
+        top: -50px;
+    }
+
+
     
 }
 
 @media (max-width:1500px){
-
+    .Home3-The-pets-lives-day-main-img{
+        mask-position: center;
+    }
+    .home3-footer-Category-links-tit, .home3-footer-quick-links-tit, .home3-footer-abt-cont-tit{
+        font-size: 26px;
+    }
+    .Home3-Testimonial-sec-card{
+        width: 370px;
+    }
+    .Home3-Testimonial-card-profile{
+        width: 230px;
+        height: 230px;
+    }
 }

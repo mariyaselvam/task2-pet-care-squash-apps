@@ -12,6 +12,7 @@
     max-width: 2000px;
     z-index: 10;
     background-color: white;
+    transition: 0.3s ease;
 }
 
 p{
@@ -62,7 +63,6 @@ body{
     background-position: center;
     border-radius: 30px;
     position: relative;
-    /* transform: translateY(90px); */
 }
 
 
@@ -128,7 +128,6 @@ body{
 }
 
 .home2-banner-bg-img{
-    /* background: url("../src/assets/home-2/banner/banner-img.png"); */
     border-radius: 30px;
     display: grid;
     place-content: center;
@@ -206,11 +205,6 @@ body{
     color: white;
 }
 
-/* .home2-pet-food-btn:hover{
-    background-color: #0ca9ff;
-    color: black;
-} */
-
 .home2-pet-food-btn::before{
     content: "";
     position: absolute;
@@ -286,8 +280,10 @@ body{
     background-color: white;
     color: #65b741;
     border-radius: 10px;
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
     font-family: "Nunito", serif;
     font-size: 16px;
     font-weight: 800;
@@ -295,8 +291,11 @@ body{
     text-decoration: none;
     transition: background-color 0.4s ease ;
     border: 2px solid #65b741;
-    padding: 1rem 3rem 1rem 1rem;
     position: relative;
+}
+
+.home2-pets-lives-btn1:hover img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(94%) saturate(0%) hue-rotate(329deg) brightness(108%) contrast(108%);
 }
 
 .home2-pets-lives-btn:hover{
@@ -310,18 +309,8 @@ body{
     border: none;
 }
 
-.home2-pets-lives-btn1::before{
-    content: "";
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    background: url("../src/assets/The-pets-lives-day/chevron-right.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
+.home2-Meet-Our-Team-sec-card-img{
+
 }
 
 .home2-pets-lives-btn-wrap{
@@ -461,6 +450,7 @@ body{
     height: 50px;
     border-radius: 50%;
     border: 1px solid #65b741;
+    background-color: #65b741;
 }
 
 .What-Our-Customer-Say-sec .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
@@ -468,10 +458,14 @@ body{
     color: #65b741;
 }
 
-.What-Our-Customer-Say-sec .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-    font-size: 20px;
-    color: #ffffff;
+.What-Our-Customer-Say-sec .swiper-button-next:after {
+    font-size: 20px; 
+    color: #ffffff ; 
+}
 
+.What-Our-Customer-Say-sec .swiper-button-prev:after{
+    font-size: 20px; 
+    color: #ffffff ;
 }
  
 
@@ -628,9 +622,10 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 18.4px;
-    padding: 2rem;
+    padding: 1rem;
     color: white;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .home-2-footer-btn{
@@ -665,6 +660,11 @@ body{
     justify-content: space-around;
     height: 65px;
     color: #bababf;
+}
+
+.copy-rights-nd-terms-nd-conditions a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .copy-rights-nd-terms-nd-conditions > ul > li{
@@ -702,19 +702,28 @@ body{
     gap: 27px;
 }
 
-.home2-pet-food-img1{
+.home-2-footer-logo-Utility-lu-checks a{
+  text-decoration: none;
+  color: #c9c2c2;
+}
+
+.home-2-footer-logo-Utility-lu-checks a:hover{
+    color: white;
+}
+
+.home2-pet-food-img1:hover{
     animation: topBottom 3s linear infinite alternate;
 }
 
-.home2-pet-food-img2{
+.home2-pet-food-img2:hover{
     animation: topBottom 7s linear infinite alternate;
 }
 
-.home2-pet-food-img3{
+.home2-pet-food-img3:hover{
     animation: topBottom 4s linear infinite alternate;
 }
 
-.home2-pet-food-img4{
+.home2-pet-food-img4:hover{
     animation: topBottom 10s linear infinite alternate;
 }
 
@@ -723,6 +732,17 @@ body{
 }
 
 
+.home-2-footer-logo-pages-lu-checks a{
+    color: #c9c2c2;
+    text-decoration: none;
+
+}
+
+
+.home-2-footer-logo-pages-lu-checks a:hover{
+    color: #fff;
+}
+
 @keyframes topBottom {
     from{
         transform: translateY(-20px);
@@ -730,4 +750,15 @@ body{
     to{
         transform: translateY(10px);
     }
+}
+
+.home2-pets-lives-main-img{
+    height: 100%;
+    /* transform: translateY(44px); */
+}
+
+.home2-pets-lives-main-img > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }

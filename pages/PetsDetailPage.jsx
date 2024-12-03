@@ -1,6 +1,6 @@
 import Home3Header from "../components-home3/Home3Header"
 import Home3Footer from "../components-home3/Home3Footer"
-
+import { Link } from "react-router-dom"
 import UiChecksImg1 from "../src/assets/home-3/home3-pet-detail-page/pet-detail-ul-check1.png"
 import UiChecksImg2 from "../src/assets/home-3/home3-pet-detail-page/pet-detail-ul-check2.png"
 import UiChecksImg3 from "../src/assets/home-3/home3-pet-detail-page/pet-detail-ul-check3.png"
@@ -27,9 +27,9 @@ const PetsDetailPage = () => {
                         </h1>
 
                         <ul className="Home3-Detail-Banner-nav">
-                            <li>Home</li>
+                            <li className="home3Link"><Link to="/home3">Home</Link></li>
                             <li>/</li>
-                            <li> Pet Details </li>
+                            <li> Pet Details</li>
                         </ul>
                     </div>
                 </div>

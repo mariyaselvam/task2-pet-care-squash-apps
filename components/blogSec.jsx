@@ -56,7 +56,7 @@ const BlogSec = () => {
               <img src={Img1} alt="" />
             </div>
             <div className="admin-nd-pet-care">
-              <span className="admin">By Admin</span>
+              <span className="admin">By <a href="#">Admin</a></span>
               <div className="span-pet-care">Pet, Care, Medical</div>
             </div>
            <h4 className="blog-swiper-card-tit">
@@ -73,7 +73,7 @@ const BlogSec = () => {
               <img src={Img2} alt="" />
             </div>
             <div className="admin-nd-pet-care">
-              <span className="admin">By Admin</span>
+              <span className="admin">By <a href="#">Admin</a></span>
               <div className="span-pet-care">Pet, Care, Medical</div>
             </div>
            <h4 className="blog-swiper-card-tit">
@@ -90,7 +90,7 @@ const BlogSec = () => {
               <img src={Img3} alt="" />
             </div>
             <div className="admin-nd-pet-care">
-              <span className="admin">By Admin</span>
+              <span className="admin">By <a href="#">Admin</a></span>
               <div className="span-pet-care">Pet, Care, Medical</div>
             </div>
            <h4 className="blog-swiper-card-tit">
@@ -107,7 +107,7 @@ const BlogSec = () => {
               <img src={Img1} alt="" />
             </div>
             <div className="admin-nd-pet-care">
-              <span className="admin">By Admin</span>
+              <span className="admin">By <a href="#">Admin</a></span>
               <div className="span-pet-care">Pet, Care, Medical</div>
             </div>
            <h4 className="blog-swiper-card-tit">
@@ -124,7 +124,7 @@ const BlogSec = () => {
               <img src={Img2} alt="" />
             </div>
             <div className="admin-nd-pet-care">
-              <span className="admin">By Admin</span>
+              <span className="admin">By <a href="#">Admin</a></span>
               <div className="span-pet-care">Pet, Care, Medical</div>
             </div>
            <h4 className="blog-swiper-card-tit">
@@ -141,7 +141,7 @@ const BlogSec = () => {
               <img src={Img3} alt="" />
             </div>
             <div className="admin-nd-pet-care">
-              <span className="admin">By Admin</span>
+              <span className="admin">By <a href="#">Admin</a></span>
               <div className="span-pet-care">Pet, Care, Medical</div>
             </div>
            <h4 className="blog-swiper-card-tit">

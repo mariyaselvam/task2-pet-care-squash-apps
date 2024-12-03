@@ -10,10 +10,14 @@ const Home3BlogsSec = () => {
   return (
     <>
      <section className="home3-Our-Blogs-sec">
+     <div className="home3-Testimonial-tit-wraper">
+            {/* <span className="home3-Testimonial-mini-tit">Our <b>Service</b></span> */}
+            <h3 className="home3-Testimonial-mini-tit home3-Testimonial-main-tit-blog">Our  <b> Blogs</b></h3>
+    </div>
         <div className="container">
-            <div className="row">
-                <div className="col-lg-4">
-                    <div className="home-3-blog-card">
+            <div className="row  justify-content-center">
+                <div className="col-xl-4 col-lg-6">
+                    <a href="#" className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                             <img src={Img1} alt="" />
                         </div>
@@ -33,10 +37,10 @@ const Home3BlogsSec = () => {
 
                             <p>August 20, 2022</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div className="col-lg-4">
-                    <div className="home-3-blog-card">
+                <div className="col-xl-4 col-lg-6">
+                    <a href="#" className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                             <img src={Img2} alt="" />
                         </div>
@@ -56,10 +60,10 @@ const Home3BlogsSec = () => {
 
                             <p>August 20, 2022</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div className="col-lg-4">
-                    <div className="home-3-blog-card">
+                <div className="col-xl-4 col-lg-6">
+                    <a href="#" className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
                             <img src={Img3} alt="" />
                         </div>
@@ -79,7 +83,7 @@ const Home3BlogsSec = () => {
 
                             <p>August 20, 2022</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 

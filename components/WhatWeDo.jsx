@@ -23,7 +23,7 @@ const WhatWeDo = () => {
 
                         <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id.</p>
 
-                        <a href="" className="abt-us-read-more-btn">
+                        <a href="#" className="abt-us-read-more-btn">
                         Read more
                         </a>
 
@@ -41,7 +41,7 @@ const WhatWeDo = () => {
 
                         <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id.</p>
 
-                        <a href="" className="abt-us-read-more-btn">
+                        <a href="#" className="abt-us-read-more-btn">
                         Read more
                         </a>
 
@@ -59,7 +59,7 @@ const WhatWeDo = () => {
 
                         <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id.</p>
 
-                        <a href="" className="abt-us-read-more-btn">
+                        <a href="#" className="abt-us-read-more-btn">
                         Read more
                         </a>
 

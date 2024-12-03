@@ -32,10 +32,10 @@ const Home3PetSItters = () => {
                        </span>
 
                        <div className="Home3-Pet-SItters-listing-social-medias">
-                        <img src={Social1} alt="" />
-                        <img src={Social2} alt="" />
-                        <img src={Social3} alt="" />
-                        <img src={Social4} alt="" />
+                        <a href="#"><img src={Social1} alt="" /></a>
+                        <a href="#"><img src={Social2} alt="" /></a>
+                        <a href="#"><img src={Social3} alt="" /></a>
+                        <a href="#"><img src={Social4} alt="" /></a>
                        </div>
 
                     </div>
@@ -56,10 +56,10 @@ const Home3PetSItters = () => {
                        </span>
 
                        <div className="Home3-Pet-SItters-listing-social-medias">
-                        <img src={Social1} alt="" />
-                        <img src={Social2} alt="" />
-                        <img src={Social3} alt="" />
-                        <img src={Social4} alt="" />
+                        <a href="#"><img src={Social1} alt="" /></a>
+                        <a href="#"><img src={Social2} alt="" /></a>
+                        <a href="#"><img src={Social3} alt="" /></a>
+                        <a href="#"><img src={Social4} alt="" /></a>
                        </div>
 
                     </div>
@@ -81,10 +81,10 @@ const Home3PetSItters = () => {
                        </span>
 
                        <div className="Home3-Pet-SItters-listing-social-medias">
-                        <img src={Social1} alt="" />
-                        <img src={Social2} alt="" />
-                        <img src={Social3} alt="" />
-                        <img src={Social4} alt="" />
+                        <a href="#"><img src={Social1} alt="" /></a>
+                        <a href="#"><img src={Social2} alt="" /></a>
+                        <a href="#"><img src={Social3} alt="" /></a>
+                        <a href="#"><img src={Social4} alt="" /></a>
                        </div>
 
                     </div>
@@ -105,10 +105,10 @@ const Home3PetSItters = () => {
                        </span>
 
                        <div className="Home3-Pet-SItters-listing-social-medias">
-                        <img src={Social1} alt="" />
-                        <img src={Social2} alt="" />
-                        <img src={Social3} alt="" />
-                        <img src={Social4} alt="" />
+                        <a href="#"><img src={Social1} alt="" /></a>
+                        <a href="#"><img src={Social2} alt="" /></a>
+                        <a href="#"><img src={Social3} alt="" /></a>
+                        <a href="#"><img src={Social4} alt="" /></a>
                        </div>
 
                     </div>
@@ -130,10 +130,10 @@ const Home3PetSItters = () => {
                        </span>
 
                        <div className="Home3-Pet-SItters-listing-social-medias">
-                        <img src={Social1} alt="" />
-                        <img src={Social2} alt="" />
-                        <img src={Social3} alt="" />
-                        <img src={Social4} alt="" />
+                        <a href="#"><img src={Social1} alt="" /></a>
+                        <a href="#"><img src={Social2} alt="" /></a>
+                        <a href="#"><img src={Social3} alt="" /></a>
+                        <a href="#"><img src={Social4} alt="" /></a>
                        </div>
 
                     </div>
@@ -154,10 +154,10 @@ const Home3PetSItters = () => {
                        </span>
 
                        <div className="Home3-Pet-SItters-listing-social-medias">
-                        <img src={Social1} alt="" />
-                        <img src={Social2} alt="" />
-                        <img src={Social3} alt="" />
-                        <img src={Social4} alt="" />
+                        <a href="#"><img src={Social1} alt="" /></a>
+                        <a href="#"><img src={Social2} alt="" /></a>
+                        <a href="#"><img src={Social3} alt="" /></a>
+                        <a href="#"><img src={Social4} alt="" /></a>
                        </div>
 
                     </div>

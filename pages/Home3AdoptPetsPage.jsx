@@ -10,6 +10,7 @@ import Img5 from "../src/assets/home-3/Home3-Adopt-Pets/Home3-Adopt-Pets-main-im
 import Img6 from "../src/assets/home-3/Home3-Adopt-Pets/Home3-Adopt-Pets-main-img5.png"
 import Img7 from "../src/assets/home-3/Home3-Adopt-Pets/Home3-Adopt-Pets-main-img6.png"
 import Img8 from "../src/assets/home-3/Home3-Adopt-Pets/Home3-Adopt-Pets-main-img7.png"
+import { Link } from "react-router-dom"
 
 
 const Home3AdoptPetsPage = () => {
@@ -26,7 +27,7 @@ const Home3AdoptPetsPage = () => {
                         </h1>
 
                         <ul className="Home3-Detail-Banner-nav">
-                            <li>Home</li>
+                             <li className="home3Link"><Link to="/home3">Home</Link></li>
                             <li>/</li>
                             <li> Adopt</li>
                         </ul>

@@ -1,4 +1,5 @@
 import BlogCommentProfile from "../src/assets/home-3/blog-detail-page/blog-comment-profile.png"
+import BlogCommentProfile1 from "../src/assets/home-3/blog-detail-page/blog-comment-profile-1.png"
 
 const Home3BlogComment = () => {
   return (
@@ -30,10 +31,10 @@ const Home3BlogComment = () => {
 
     <div className="Home3-blog-comments-card">
         <div className="Home3-blog-comments-profile-img">
-        <img src={BlogCommentProfile} alt="" />
+        <img src={BlogCommentProfile1} alt="" />
         </div>
         <h4 className="comment-person-name">
-        Darlene Robertson
+        Ralph Edwards
         </h4>
        <span className="blog-comment-date-ago">
        1 Month ago

@@ -25,11 +25,11 @@ const Home2Footer = () => {
                         </h4>
 
                         <ul className="home-2-footer-logo-pages-lu-checks">
-                            <li>About Us</li>
-                            <li>Our Team </li>
-                            <li>Our Project</li>
-                            <li>Pricing</li>
-                            <li>Contact</li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Our Project</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -40,11 +40,11 @@ const Home2Footer = () => {
                         </h4>
 
                         <ul className="home-2-footer-logo-Utility-lu-checks">
-                            <li>About Us</li>
-                            <li>Our Team </li>
-                            <li>Our Project</li>
-                            <li>Pricing</li>
-                            <li>Contact</li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Our Project</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,9 +62,10 @@ const Home2Footer = () => {
                 </a>
 
                 <div className="home2-social-media-f-wrap">
-                    <img src={Social1} alt="" />
-                    <img src={Social2} alt="" />
-                    <img src={Social3} alt="" />
+                    <a href="#"><img src={Social1} alt="" /></a>
+                    <a href="#"><img src={Social2} alt="" /></a>
+                    <a href="#"><img src={Social3} alt="" /></a>
+
                 </div>
                </div>
                 
@@ -77,9 +78,9 @@ const Home2Footer = () => {
             <h4>© 2023 Copyrights, All rights reserved. Design by DC cares</h4>
 
             <ul>
-                <li>Terms of Use</li>
-                <li>Privacy Policy</li>
-                <li>Cookie Policy</li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
             </ul>
         </div>
     </section>

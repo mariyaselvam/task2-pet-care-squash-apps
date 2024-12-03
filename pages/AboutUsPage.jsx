@@ -3,6 +3,8 @@ import Home3Footer from "../components-home3/Home3Footer"
 import WhatWeOffer from "../components-home3/WhatWeOffer"
 import SafeaAndGoodHandsimg1 from "../src/assets/home-2/SafeaAndGoodHands/home2-SafeaAndGoodHands.png"
 import MainImg from "../src/assets/home-3/about-page/Why-DC-Care-img.png"
+import { Link } from "react-router-dom"
+
 
 const AboutUsPage = () => {
   return (
@@ -18,9 +20,9 @@ const AboutUsPage = () => {
                         </h1>
 
                         <ul className="Home3-Detail-Banner-nav">
-                            <li>Home</li>
+                        <li className="home3Link"><Link to="/home3">Home</Link></li>
                             <li>/</li>
-                            <li> About </li>
+                            <li> About</li>
                         </ul>
                     </div>
                 </div>

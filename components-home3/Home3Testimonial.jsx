@@ -20,22 +20,28 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 // import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination  ,Navigation } from 'swiper/modules';
 
 const Home3Testimonial = () => {
+ 
+  const pagination = {
+    clickable: true,
+  };
+
   return (
     <>
     <section className="Home3-Testimonial-sec">
 
     <div className="home3-Testimonial-tit-wraper">
-            <span className="home3-Testimonial-mini-tit">Our <b>Service</b></span>
-            <h3 className="home3-Testimonial-main-tit">What <b>We Offer</b></h3>
+            {/* <span className="home3-Testimonial-mini-tit">Our <b>Service</b></span> */}
+            <h3 className="home3-Testimonial-mini-tit home3-Testimonial-main-tit">Customers   <b> Words</b></h3>
     </div>
 
         <div className="container">
             <div className="row">
                 <div className="Home3-Testimonial-swiper-wraper">
                 <Swiper
+        navigation={true}
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
@@ -61,8 +67,8 @@ const Home3Testimonial = () => {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        pagination={pagination}
+        modules={[EffectCoverflow, Pagination , Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

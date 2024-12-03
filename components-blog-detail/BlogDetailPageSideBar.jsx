@@ -1,6 +1,10 @@
 import SideBarImg1 from  "../src/assets/home-3/blog-detail-page/side-bar-img1.png"
 import SideBarImg2 from  "../src/assets/home-3/blog-detail-page/side-bar-img2.png"
 import RecentPost1 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts1.png"
+import RecentPost2 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts2.png"
+import RecentPost3 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts3.png"
+import RecentPost4 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts4.png"
+
 
 const BlogDetailPageSideBar = () => {
   return (
@@ -20,20 +24,20 @@ const BlogDetailPageSideBar = () => {
         </div>
 
         <div className="home3-blog-side-bar-recent-cards">
-            <img src={RecentPost1} alt="" />
+            <img src={RecentPost2} alt="" />
 
             <p>Tips and tricks: Puppy’s First Grooming</p>
         </div>
 
         <div className="home3-blog-side-bar-recent-cards">
-            <img src={RecentPost1} alt="" />
+            <img src={RecentPost3} alt="" />
 
             <p>Tips and tricks: Puppy’s First Grooming</p>
         </div>
 
 
         <div className="home3-blog-side-bar-recent-cards home3-blog-side-bar-recent-cards-last">
-            <img src={RecentPost1} alt="" />
+            <img src={RecentPost4} alt="" />
 
             <p>Tips and tricks: Puppy’s First Grooming</p>
         </div>
