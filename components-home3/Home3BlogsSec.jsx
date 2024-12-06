@@ -3,7 +3,9 @@ import Img2 from "../src/assets/home-3/Home3BlogSec/Blog-img-2.png"
 import Img3 from "../src/assets/home-3/Home3BlogSec/Blog-img-3.png"
 
 
-import Author1 from "../src/assets/home-3/Home3BlogSec/author1.png"
+import Author1 from "../src/assets/home-3/Home3BlogSec/pro-1.png"
+import Author2 from "../src/assets/home-3/Home3BlogSec/pro-2.png"
+import Author3 from "../src/assets/home-3/Home3BlogSec/pro-3.png"
 
 
 const Home3BlogsSec = () => {
@@ -47,15 +49,15 @@ const Home3BlogsSec = () => {
                         <span className="home-3-blog-mini-tit">Breeding</span>
 
                         <h4 className="home-3-blog-main-tit">
-                        Top 10 dog breeds that live the longest
+                        Personalized sitting for all pets.
                         </h4>
 
                         <p>Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Fermentum leo vel orci porta non pulvinar neque. Dictumst quisque sagittis purus sit amet volutpat consequat mauris.</p>
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
-                                <img src={Author1} alt="" />
-                                <h4>Tracey Wilson</h4>
+                                <img src={Author2} alt="" />
+                                <h4>Courtney Davis</h4>
                             </div>
 
                             <p>August 20, 2022</p>
@@ -70,15 +72,15 @@ const Home3BlogsSec = () => {
                         <span className="home-3-blog-mini-tit">Breeding</span>
 
                         <h4 className="home-3-blog-main-tit">
-                        Top 10 dog breeds that live the longest
+                        Daycare and boarding with playtime.
                         </h4>
 
                         <p>Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Fermentum leo vel orci porta non pulvinar neque. Dictumst quisque sagittis purus sit amet volutpat consequat mauris.</p>
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
-                                <img src={Author1} alt="" />
-                                <h4>Tracey Wilson</h4>
+                                <img src={Author3} alt="" />
+                                <h4>Ashley Carter</h4>
                             </div>
 
                             <p>August 20, 2022</p>

@@ -1,4 +1,4 @@
-import HeaderLogo from "../src/assets/home-3/header/Logo.png"
+import HeaderLogo from "../src/assets/home-3/header/Logo-w.svg"
 import { Link , useLocation } from "react-router-dom"
 // import {   } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/w-hamburger-menu.png"
@@ -76,7 +76,9 @@ const Home3Header = () => {
                             <img src={Arrow}  alt="" />
                             </Link>
                             <ul>
+                              
                                 <li className="inner-home">
+                                  
                                     <Link to="/">Home</Link>
                                     <Link to="/home2">Home2</Link>
                                 </li>
@@ -132,7 +134,11 @@ const Home3Header = () => {
                     <Link className={"underline" + (url === "/home3" ?" active1" : "")} to="/home3">Home</Link>
                       </button>
                           <ul>
+                            
                                 <li className={ `inner-home ${innerHome}`}>
+                                <button onClick={ActiveInnerHome} className="inner-home-hide-menu">
+                                 <img src="../src/assets/common/down-arrow.png" alt="" />
+                                 </button>
                                     <Link to="/">Home</Link>
                                     <Link to="/home2">Home2</Link>
                                 </li>
@@ -146,6 +152,9 @@ const Home3Header = () => {
                            <Link to=""> Pages </Link>
                           </button>
                           <ul className={ `Home3NavPages-list ${innerPages}`} >
+                          <button className="inner-home-hide-menu" onClick={ActivePages}>
+                          <img src="../src/assets/common/down-arrow.png" alt="" />
+                          </button>
                            <Link className={"underline" + (url === "/blog-detail" ?" active1" : "")}  to="/blog-detail"> Blog Listing Page</Link>
                            <Link className={"underline" + (url === "/adopt-pets-page" ?" active1" : "")}  to="/adopt-pets-page">Adopt Pets Page</Link>
                            <Link className={"underline" + (url === "/sitters" ?" active1" : "")}  to="/sitters">sitters</Link>

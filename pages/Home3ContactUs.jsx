@@ -74,26 +74,49 @@ const Home3ContactUs = () => {
         </div>
     </section>
 
-    {/* <section className="home3-contact-opening-hours-sec">
+    <section className="opening-hours-sec">
         <div className="container">
             <div className="row">
                 <div className="col-md-4">
-                    <div className="home3-contact-us-card">
-                        <div className="home3-contact-us-card-email-img">
+                    <div className="opening-hours-sec-cards">
+                        <div className="opening-hours-sec-card-icon">
                             <img src={Email2} alt="" />
                         </div>
-                        <div>
-                        <h4 >Contact us</h4>
-                        <p>Call us: +(406) 555-0120</p>
-                        <p>
-                        Email: support@example.com
-                        </p>
+                        <div className="opening-hours-sec-card-cont">
+                            <h4>Contact us</h4>
+                            <p>Call us: +(406) 555-0120</p>
+                            <p>Email: support@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="opening-hours-sec-cards">
+                        <div className="opening-hours-sec-card-icon">
+                            <img src={Clock} alt="" />
+                        </div>
+                        <div className="opening-hours-sec-card-cont">
+                            <h4>Opening Hours</h4>
+                            <p>Mon - Sat: 7.00 am - 8.00 pm</p>
+                            <p>Sunday: 8.00 am - 6.00 pm </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="opening-hours-sec-cards">
+                        <div className="opening-hours-sec-card-icon">
+                            <img src={Location} alt="" />
+                        </div>
+                        <div className="opening-hours-sec-card-cont">
+                            <h4>Our Office</h4>
+                            <p>2972 Westheimer Rd. </p>
+                            <p>Santa Ana, 
+                            Illinois, USA</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> */}
+    </section>
 
     <Home3Footer />
     </>

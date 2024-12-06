@@ -1,4 +1,4 @@
-import Logo from "../src/assets/home-2/header/Logo.png"
+import Logo from "../src/assets/home-2/header/Logo.svg"
 // import { Link } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/hamburger-menu.png"
 
@@ -123,6 +123,9 @@ const Header = () => {
                     <Link className={"underline" + (url === "/home2" ?" active3" : "")}  to="/home2">Home</Link>
                       </button>
                           <ul className={ `inner-home ${innerHome}`}>
+                               <button onClick={ActiveInnerHome} className="inner-home-hide-menu">
+                                 <img src="../src/assets/common/down-arrow.png" alt="" />
+                                 </button>
                                <li >
                                     <Link to="/">Home</Link>
                                     <Link to="/home3">Home3</Link>
@@ -137,6 +140,9 @@ const Header = () => {
                         <Link to="/home2">Pages</Link>
                           </button>
                           <ul className={ `Home3NavPages-list ${innerPages}`} >
+                          <button className="inner-home-hide-menu" onClick={ActivePages}>
+                          <img src="../src/assets/common/down-arrow.png" alt="" />
+                          </button>
                            <Link to="/blog-detail"> Blog Listing Page</Link>
                            <Link to="/adopt-pets-page">Adopt Pets Page</Link>
                            <Link to="/sitters">sitters</Link>

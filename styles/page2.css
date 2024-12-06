@@ -13,6 +13,7 @@
     z-index: 10;
     background-color: white;
     transition: 0.3s ease;
+    padding: 0.5rem 0rem;
 }
 
 p{
@@ -310,7 +311,15 @@ body{
 }
 
 .home2-Meet-Our-Team-sec-card-img{
+    -webkit-mask-image: url("../src/assets/common/shape-5.svg");
+    mask-image: url("../src/assets/common/shape-5.svg");
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    height: 427px;
+}
 
+.home2-Meet-Our-Team-sec-card-img1 > img{
+    transform: scale(1.5);
 }
 
 .home2-pets-lives-btn-wrap{
@@ -586,6 +595,11 @@ body{
 
 .home-2-footer-logo{
     margin-bottom: 20px;
+    height: 100px;
+}
+
+.home-2-footer-logo img{
+   height: 100%;
 }
 
 .home-2-footer-logo-pages-lu-checks li , .home-2-footer-logo-Utility-lu-checks li {

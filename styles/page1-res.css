@@ -64,7 +64,7 @@
         width: 0px;
         padding: 0px;
         display: flex;
-        padding: 3rem 0rem;
+        padding: 5rem 0rem;
         width: 50%;
         height: 100vh;
     }
@@ -82,7 +82,7 @@
     }
 
     .Home3-nav-pages *{
-        font-size: 18px;
+        font-size: 15px;
     }
     
 
@@ -105,14 +105,16 @@
         background-size: contain;
 
     }
-    .Home3-nav-pages{
-        padding-right: 0rem !important;
-    }
+
 
     .Home3-nav-pages button{
         background: none;
         width: 100%;
         border: none;
+    }
+
+    .Home3-nav-pages > button > a{
+        font-size: 18px;
     }
 
     .Home3-nav-pages::before{
@@ -126,7 +128,7 @@
         background-size: contain;
         right: 10%;
         top: 5px;
-        transform: rotate(0deg);
+        transform: rotate(-90deg);
         border-radius: 10px;
         transition: 0.2s linear;
     }
@@ -134,29 +136,6 @@
    .Home3-nav-pages::after{
     display: none;
    }
-
-    .Home3-nav-pages:hover::before{
-        transform: rotate(-90deg);
-    }
-
-    .Home3NavPages-list{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        background-color: white;
-        position: absolute;
-        z-index: 10;
-        width: 0px;
-        border-radius: 20px 20px;
-        right: 0px;
-        color: #000000;
-        top: 100%;
-        transition: opacity 0.4s ease;
-        visibility: hidden;
-        opacity: 0;
-        width: 100%;
-    }
-    
 
     .body .inner-home > li > a{
 
@@ -167,7 +146,7 @@
         position: absolute;
         flex-direction: column;
         background-color: white;
-        padding: 1rem;
+        padding: 2rem 1rem;
         gap: 15px;
         z-index: 10;
         /* width: 250px; */
@@ -182,7 +161,7 @@
 
     body .inner-home{
         display: flex;
-        position: absolute;
+        position: fixed;
         flex-direction: column;
         background-color: white;
         padding: 1rem;
@@ -192,34 +171,58 @@
         border-radius: 10px;
         right: 0px;
         top: 0px;
+        left: 0px;
+        transform: translateX(100%) translateY(0px)  ;
         transition: 0.4s ease;
         visibility: hidden;
         opacity: 0;
+        height: 100%;
+        z-index: 100;
+    }
+
+    .Home3NavPages-list{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: white;
+        position: fixed;
+        z-index: 10;
+        width: 0px;
+        border-radius: 20px 20px;
+        right: 0px;
+        color: #000000;
+        top: 0px;
+        transform: translateX(100%);
+        transition: 0.4s ease;
+        visibility: hidden;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
     }
 
 
     .active-Home3NavPages-list{
-        visibility: visible !important;
-        opacity: 1 !important;
-        height: 300px !important;
-        overflow-y: scroll !important;
-        position: relative !important;
-        width: 100% !important;
-        top: 0px !important;
+        position: fixed ;
+        visibility: visible ;
+        opacity: 1 ;
+        transform: translateX(0px);
+        width: 100% ;
+        left: 0px;
     }
 
     .page2-wrap .inner-home{
-        padding: 20px 0px 0px 0px !important;
+        padding: 2rem 1rem;
     }
 
-    .active-inner-home{
-        visibility: visible !important;
-        opacity: 1 !important;
-        position: relative !important;
-        text-decoration: none !important;
-        padding: 1rem 0rem !important;
-        width: 100% !important;
-        transform: translateX(0px);
+    body .active-inner-home{
+        opacity: 1 ;
+        position: fixed;
+        text-decoration: none ;
+        padding: 1rem 0rem;
+        width: 100% ;
+        left: 0px;
+        transform: translateX(0%) ;
+        visibility: visible;
     }
 
      .active-inner-home li{
@@ -252,13 +255,23 @@
         background-size: contain;
         right: 10%;
         top: 5px;
-        transform: rotate(0deg);
+        transform: rotate(-90deg);
         border-radius: 10px;
         transition: 0.2s linear;
         display: block;
     }
-    .home:hover::before {
-        transform: rotate(-90deg);
+
+    .inner-home-hide-menu img{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        transform: rotate(90deg) ;
+    }
+
+    .opening-hours-sec-cards{
+        flex-wrap: wrap;
     }
 
 

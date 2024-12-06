@@ -1,11 +1,5 @@
 
-/* .page3-wrap a{
-    color: black;
-    text-decoration: none;
-}
-.page3-wrap a:hover{
-    color: white;
-} */
+
 
 
 .home3-header{
@@ -1599,7 +1593,6 @@ input[type="checkbox"] {
 }
 
 .Shop-Details-cart-btn{
-    letter-spacing: 0.5rem;
     color: black;
     text-decoration: none;
     width: 88px;
@@ -1608,6 +1601,7 @@ input[type="checkbox"] {
     border-radius: 20px 0px;
     display: grid;
     place-content: center;
+    text-align: center;
 }
 
 .quant-cart-ng-like-btn{
@@ -1776,25 +1770,9 @@ input[type="checkbox"] {
     color: #ff6900;
 }
 
-.Image-Tour-imgs::after{
-    content: "";
-    position: absolute;
-    top: -10%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    background: url("../src/assets/home-3/Image-Tour/img-eye.svg");
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: 0.2s ease;
-
+.Image-Tour-imgs:hover::after{
+    z-index: -10;
 }
-
-.Image-Tour-imgs:hover::after{ 
-    top: 50%;
- }
 
 .Image-Tour-imgs:hover::before{ 
    opacity: 0.5;
@@ -1829,8 +1807,17 @@ input[type="checkbox"] {
     color: #bababf;
 }
 
+
+.home3-footer-logo-nd-copy-rights{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .home3-footer-logo-nd-copy-rights p{
     color: #bababf;
+    margin: 0px;
 }
 
 .t-yellow{
@@ -1841,23 +1828,6 @@ input[type="checkbox"] {
     color: #e77728;
 }
  
-.inner-home{
-    position: absolute;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    gap: 20px;
-    z-index: 100;
-    visibility: hidden;
-    left: 50%;
-    top: 100%;
-    box-shadow: 0px 0px 10px rgba(154, 151, 151, 0.416);
-    transform: translateX(-50%);
-    border-radius: 10px;
-    transition: 0.4s ease;
-    opacity: 0;
-}
 
 .inner-home a{
     text-decoration: none;
@@ -1927,4 +1897,49 @@ input[type="checkbox"] {
     transform: translateY(-50%) rotate(0deg);
     transition: 0.3s linear;
 
+}
+
+.copy-right-company{
+    
+}
+
+.opening-hours-sec-cards{
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.opening-hours-sec-card-icon{
+    flex-shrink: 0;
+}
+
+.opening-hours-sec-card-icon > img{
+    background-color: #ff6900;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+}
+
+.opening-hours-sec-card-cont > p{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #474747;
+}
+
+.opening-hours-sec-card-cont > h4{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+    margin: 5px;
+}
+
+.opening-hours-sec{
+    padding: 0px 0px 100px 0px;
 }

@@ -1,4 +1,4 @@
-import FooterLogo from "../src/assets/home-3/footer/home3-footer-logo.svg"
+import FooterLogo from "../src/assets/home-3/header/Logo-w.svg"
 
 const Home3Footer = () => {
   return (
@@ -13,8 +13,8 @@ const Home3Footer = () => {
                  </h4>
                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 
-                 <p><b>Email :</b> <a href="mailto:info@jstemplate.net">info@jstemplate.net</a>  </p>
-                 <p><b>Phone :</b>   <a href="tel:880123456789">8801234567</a></p>
+                 <p><b>Email :</b><a href="mailto:info@jstemplate.net">info@jstemplate.net</a>  </p>
+                 <p><b>Phone :</b><a href="tel:880123456789">8801234567</a></p>
                 </div>
               </div>
 
@@ -67,12 +67,8 @@ const Home3Footer = () => {
 
              <div className="home3-logo-nd-privacy-policy">
                <div className="home3-footer-logo-and-cont-wrap">
-                <div className="home3-footer-logo">
-                <img src={FooterLogo} alt="" />
-               </div>
                 <div className="home3-footer-logo-nd-copy-rights">
-                 <h4><b className="t-yellow">D</b> <b className="t-orange">C</b> Cares</h4>
-                 <p>© 2023 Copyrights, All rights reserved. Design by DC cares</p>
+                 <p>© 2023 Copyrights, All rights reserved. Design by <span className="copy-right-company"> Pixelpro Creation</span></p>
                 </div></div>
 
                        <ul className="home3-privacy-policy">

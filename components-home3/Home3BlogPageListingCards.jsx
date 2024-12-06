@@ -7,7 +7,13 @@ import Img5 from "../src/assets/home-3/Home3BlogSec/Blog-img-5.png"
 import Img6 from "../src/assets/home-3/Home3BlogSec/Blog-img-6.png"
 
 
-import Author1 from "../src/assets/home-3/Home3BlogSec/author1.png"
+// import Author1 from "../src/assets/home-3/Home3BlogSec/author1.png"
+import Author1 from "../src/assets/home-3/Home3BlogSec/pro-1.png"
+import Author2 from "../src/assets/home-3/Home3BlogSec/pro-2.png"
+import Author3 from "../src/assets/home-3/Home3BlogSec/pro-3.png"
+import Author4 from "../src/assets/home-3/Home3BlogSec/pro-4.png"
+import Author5 from "../src/assets/home-3/Home3BlogSec/pro-5.png"
+import Author6 from "../src/assets/home-3/Home3BlogSec/pro-6.png"
 
 
 
@@ -57,7 +63,7 @@ const Home3BlogPageListingCards = () => {
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
-                                <img src={Author1} alt="" />
+                                <img src={Author2} alt="" />
                                 <h4>Kathryn Murphy</h4>
                             </div>
 
@@ -80,7 +86,7 @@ const Home3BlogPageListingCards = () => {
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
-                                <img src={Author1} alt="" />
+                                <img src={Author3} alt="" />
                                 <h4>Brooklyn Simmons</h4>
                             </div>
 
@@ -103,7 +109,7 @@ const Home3BlogPageListingCards = () => {
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
-                                <img src={Author1} alt="" />
+                                <img src={Author4} alt="" />
                                 <h4>Arlene McCoy</h4>
                             </div>
 
@@ -126,7 +132,7 @@ const Home3BlogPageListingCards = () => {
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
-                                <img src={Author1} alt="" />
+                                <img src={Author5} alt="" />
                                 <h4>Courtney Henry</h4>
                             </div>
 
@@ -149,7 +155,7 @@ const Home3BlogPageListingCards = () => {
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
-                                <img src={Author1} alt="" />
+                                <img src={Author6} alt="" />
                                 <h4>Darrell Steward</h4>
                             </div>
 

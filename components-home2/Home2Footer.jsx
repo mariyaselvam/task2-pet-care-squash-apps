@@ -1,4 +1,4 @@
-import FooterLogo from "../src/assets/home-2/home2-footer/home2-footer-logo.png"
+import FooterLogo from "../src/assets/home-3/header/Logo-w.svg"
 import Social1 from "../src/assets/home-2/home2-footer/1.svg" 
 import Social2 from "../src/assets/home-2/home2-footer/2.svg" 
 import Social3 from "../src/assets/home-2/home2-footer/3.svg" 
@@ -75,7 +75,7 @@ const Home2Footer = () => {
         </div>
 
         <div className="copy-rights-nd-terms-nd-conditions">
-            <h4>© 2023 Copyrights, All rights reserved. Design by DC cares</h4>
+            <h4>© 2023 Copyrights, All rights reserved. Design by Pixelpro Creation</h4>
 
             <ul>
                 <li><a href="#">Terms of Use</a></li>

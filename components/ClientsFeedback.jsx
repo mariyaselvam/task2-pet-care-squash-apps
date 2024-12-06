@@ -3,6 +3,10 @@ import React, { useRef, useState } from 'react';
 import SwiperProfile from "../src/assets/home/clients-feedback/swiper-profile.png"
 
 
+import profile1 from "../src/assets/home/clients-feedback/profile-1.jpg";
+import profile2 from "../src/assets/home/clients-feedback/profile-2.jpg";
+import profile3 from "../src/assets/home/clients-feedback/profile-3.jpg";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -42,7 +46,7 @@ const ClientsFeedback = () => {
                         <div className="swiper-Slide-card" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
                         <div className="swiper-Slide-inner-card" data-aos="flip-left" data-aos-delay="1000" data-aos-duration="2000">
                             <div className="swiper-Slide-inner-img">
-                              <img src={SwiperProfile} alt="" />
+                              <img src={profile1} alt="" />
                             </div>
                             <h4 className="swiper-Slide-tit" >
                             Rocky Dixon
@@ -55,10 +59,10 @@ const ClientsFeedback = () => {
                         <div className="swiper-Slide-card">
                         <div className="swiper-Slide-inner-card">
                             <div className="swiper-Slide-inner-img">
-                              <img src={SwiperProfile} alt="" />
+                              <img src={profile2} alt="" />
                             </div>
                             <h4 className="swiper-Slide-tit">
-                            Rocky Dixon
+                            Mason Ryder
                             </h4>
                             <p>Enim nec dui nunc mattis enim ut. Tincidunt vitae semper quis lectus nulla. Venenatis tellus in metus vulputate eu scelerisque.</p>
                         </div>
@@ -68,49 +72,10 @@ const ClientsFeedback = () => {
                         <div className="swiper-Slide-card">
                         <div className="swiper-Slide-inner-card">
                             <div className="swiper-Slide-inner-img">
-                              <img src={SwiperProfile} alt="" />
+                              <img src={profile3} alt="" />
                             </div>
                             <h4 className="swiper-Slide-tit">
-                            Rocky Dixon
-                            </h4>
-                            <p>Enim nec dui nunc mattis enim ut. Tincidunt vitae semper quis lectus nulla. Venenatis tellus in metus vulputate eu scelerisque.</p>
-                        </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="swiper-Slide-card" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
-                        <div className="swiper-Slide-inner-card" data-aos="flip-left" data-aos-delay="1000" data-aos-duration="2000">
-                            <div className="swiper-Slide-inner-img">
-                              <img src={SwiperProfile} alt="" />
-                            </div>
-                            <h4 className="swiper-Slide-tit" >
-                            Rocky Dixon
-                            </h4>
-                            <p>Enim nec dui nunc mattis enim ut. Tincidunt vitae semper quis lectus nulla. Venenatis tellus in metus vulputate eu scelerisque.</p>
-                        </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="swiper-Slide-card">
-                        <div className="swiper-Slide-inner-card">
-                            <div className="swiper-Slide-inner-img">
-                              <img src={SwiperProfile} alt="" />
-                            </div>
-                            <h4 className="swiper-Slide-tit">
-                            Rocky Dixon
-                            </h4>
-                            <p>Enim nec dui nunc mattis enim ut. Tincidunt vitae semper quis lectus nulla. Venenatis tellus in metus vulputate eu scelerisque.</p>
-                        </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="swiper-Slide-card">
-                        <div className="swiper-Slide-inner-card">
-                            <div className="swiper-Slide-inner-img">
-                              <img src={SwiperProfile} alt="" />
-                            </div>
-                            <h4 className="swiper-Slide-tit">
-                            Rocky Dixon
+                            Jesse Steele
                             </h4>
                             <p>Enim nec dui nunc mattis enim ut. Tincidunt vitae semper quis lectus nulla. Venenatis tellus in metus vulputate eu scelerisque.</p>
                         </div>

@@ -1,11 +1,11 @@
-import Img1 from "../src/assets/home-2/home2-Meet-Our-team/home2-Meet-Our-im1.png"
+import Img1 from "../src/assets/home-2/home2-Meet-Our-team/home2-Meet-Our-im1.jpg"
 import Img2 from "../src/assets/home-2/home2-Meet-Our-team/home2-Meet-Our-im2.png"
 import Img3 from "../src/assets/home-2/home2-Meet-Our-team/home2-Meet-Our-im3.png"
 
-import Img4 from "../src/assets/home-2/home2-Meet-Our-team/behance.png"
-import Img5 from "../src/assets/home-2/home2-Meet-Our-team/dribbble.png"
-import Img6 from "../src/assets/home-2/home2-Meet-Our-team/linkedin.png"
-import Img7 from "../src/assets/home-2/home2-Meet-Our-team/twitter.png"
+import Img4 from "../src/assets/home-2/home2-Meet-Our-team/behance.svg"
+import Img5 from "../src/assets/home-2/home2-Meet-Our-team/dribbble.svg"
+import Img6 from "../src/assets/home-2/home2-Meet-Our-team/linkedin.svg"
+import Img7 from "../src/assets/home-2/home2-Meet-Our-team/twitter.svg"
 
 
 const Home2MeetOurTeam = () => {
@@ -19,14 +19,15 @@ const Home2MeetOurTeam = () => {
             <div className="row">
                 <div className="col-lg-4">
                     <div className="home2-Meet-Our-Team-sec-card">
-                        <div className="home2-Meet-Our-Team-sec-card-img">
+                        <div className="home2-Meet-Our-Team-sec-card-img home2-Meet-Our-Team-sec-card-img1">
                             <img src={Img1} alt="" />
                         </div>
                        <h4 className="home2-Meet-Our-Team-name">
-                       Jane Cooper
+                       Sierra Blake
+
                        </h4>
 
-                       <span>Manager</span>
+                       <span>CEO</span>
 
                        <div className="home2-Meet-Our-Team-card-social-links">
                         <a href="#"><img src={Img4} alt="" /></a>
@@ -45,7 +46,7 @@ const Home2MeetOurTeam = () => {
                             <img src={Img2} alt="" />
                         </div>
                        <h4 className="home2-Meet-Our-Team-name">
-                       Jane Cooper
+                       Skylar Quinn
                        </h4>
 
                        <span>Manager</span>
@@ -67,10 +68,10 @@ const Home2MeetOurTeam = () => {
                             <img src={Img3} alt="" />
                         </div>
                        <h4 className="home2-Meet-Our-Team-name">
-                       Jane Cooper
+                       Ruby Harper
                        </h4>
 
-                       <span>Manager</span>
+                       <span>COO</span>
 
                        <div className="home2-Meet-Our-Team-card-social-links">
                         <a href="#"><img src={Img4} alt="" /></a>

@@ -1,7 +1,7 @@
 import Linkedin from "../src/assets/home/footer/linkedin.png"
-import Twitter from "../src/assets/home/footer/twitter.png"
+import Twitter from "../src/assets/home/footer/twitter.svg"
 import Facebook from "../src/assets/home/footer/facebook.png"
-import FooterLogo from "../src/assets/home/footer/footer-Logo.svg"
+import FooterLogo from "../src/assets/home-3/header/Logo-w.svg"
 import footerContact1 from "../src/assets/home/footer/fot1.png"
 import footerContact2 from "../src/assets/home/footer/fot2.png"
 import footerContact3 from "../src/assets/home/footer/fot3.png"
@@ -38,9 +38,9 @@ const Footer = () => {
                           <img src={footerContact1} alt="" />
                         </div>
                         <div className="footer-contact-cont">
-                            <span>Emergency Call</span>
+                            <span>Contant Number</span>
                             <h4 className="footer-contact-name">
-                            Esther Howard
+                            123-456-789
                             </h4>
                         </div>
                     </li>
@@ -49,9 +49,9 @@ const Footer = () => {
                           <img src={footerContact2} alt="" />
                         </div>
                         <div className="footer-contact-cont">
-                            <span>Emergency Call</span>
+                            <span>Support</span>
                             <h4 className="footer-contact-name">
-                            Esther Howard
+                            tim.jennings@example.com
                             </h4>
                         </div>
                     </li>
@@ -60,9 +60,9 @@ const Footer = () => {
                           <img src={footerContact3} alt="" />
                         </div>
                         <div className="footer-contact-cont">
-                            <span>Emergency Call</span>
+                            <span>Location</span>
                             <h4 className="footer-contact-name">
-                            Esther Howard
+                            6391 Elgin St. Celina, Delaware 10299
                             </h4>
                         </div>
                     </li>

@@ -29,7 +29,7 @@
     }
 
     .home3-header{
-        padding: 0.1rem 0rem;
+        padding: 1rem 0rem;
     }
     .Home-3-banner-sec{
         margin-top: 50px;
@@ -47,6 +47,49 @@
 
     
 }
+
+@media (min-width:1000px ) {
+
+    .Home3-nav-pages:hover .Home3NavPages-list{
+        visibility: visible;
+        top: 100%;
+        box-shadow: none;
+        border-radius: 10px;
+        transition: 0.4s ease;
+        opacity: 1;
+        margin-top: 1.5rem;
+        width: max-content;
+    }
+    
+    
+    
+    body .inner-home{
+        position: absolute;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 20px;
+        z-index: 100;
+        visibility: hidden;
+        top: 100%;
+        box-shadow: none;
+        border-radius: 10px;
+        transition: 0.4s ease;
+        opacity: 0;
+        width: max-content;
+    }
+    
+    .home:hover .inner-home{
+        visibility: visible;
+        top: 100%;
+        box-shadow: none;
+        border-radius: 10px;
+        transition: 0.4s ease;
+        opacity: 1;
+        margin-top: 1.5rem;
+    }
+    }
 
 @media (max-width:1500px){
     .Home3-The-pets-lives-day-main-img{

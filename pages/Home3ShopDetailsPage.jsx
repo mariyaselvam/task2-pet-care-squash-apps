@@ -1,10 +1,22 @@
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/thumbs';
+
+// import required modules
+import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+
+
 import Home3Header from "../components-home3/Home3Header"
 import Home3Footer from "../components-home3/Home3Footer"
-
 import BlogCommentProfile from "../src/assets/home-3/blog-detail-page/blog-comment-profile.png"
-
 import PrduoctCartRating from "../src/assets/home-3/home3-Related-products-sec/prduoct-cart-rating.svg"
-
 import RelatedProductsImg1 from "../src/assets/home-3/home3-Related-products-sec/Related-productsImg1.png"
 import RelatedProductsImg2 from "../src/assets/home-3/home3-Related-products-sec/Related-productsImg2.png"
 import RelatedProductsImg3 from "../src/assets/home-3/home3-Related-products-sec/Related-productsImg3.png"
@@ -13,23 +25,22 @@ import RelatedProductsImg5 from "../src/assets/home-3/home3-Related-products-sec
 import RelatedProductsImg6 from "../src/assets/home-3/home3-Related-products-sec/Related-productsImg6.png"
 import RelatedProductsImg7 from "../src/assets/home-3/home3-Related-products-sec/Related-productsImg7.png"
 import RelatedProductsImg8 from "../src/assets/home-3/home3-Related-products-sec/Related-productsImg8.png"
-
 import ProdouctImg1 from "../src/assets/home-3/Pedigree-adult-dog/img1.png"
 import ProdouctImg2 from "../src/assets/home-3/Pedigree-adult-dog/img2.png"
 import ProdouctImg3 from "../src/assets/home-3/Pedigree-adult-dog/img3.png"
 import ProdouctImg4 from "../src/assets/home-3/Pedigree-adult-dog/img4.png"
-
 import Social1 from "../src/assets/home-3/Pedigree-adult-dog/face-book.svg"
 import Social2 from "../src/assets/home-3/Pedigree-adult-dog/x.svg"
 import Social3 from "../src/assets/home-3/Pedigree-adult-dog/linkedin.svg"
-
 import HeartIcon from "../src/assets/home-3/Pedigree-adult-dog/heart-icon.svg"
 import { Link } from "react-router-dom"
 
 const Home3ShopDetailsPage = () => {
+    const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
     <Home3Header />
+
     <section className="Home3-Detail-Banner-sec">
         <div className="conntainer">
             <div className="row">
@@ -94,9 +105,7 @@ const Home3ShopDetailsPage = () => {
                             Quantity
                             </span>
 
-                            <a href="#" className="Shop-Details-cart-btn">
-                            - 2 +
-                            </a>
+                            <input type='number' href="#" placeholder="0" className="Shop-Details-cart-btn" />
 
                             <a href="" className="Shop-Details-Add-to-cart-btn">Add to cart</a>
                             
