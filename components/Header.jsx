@@ -1,4 +1,4 @@
-import Logo from "../src/assets/home/banner-and-header/logo.svg"
+import Logo from "../src/assets/home/banner-and-header/Logo.svg"
 import { Link } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/hamburger-menu.png"
 // import '../styles/style.css'
