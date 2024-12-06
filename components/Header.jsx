@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/hamburger-menu.png"
 // import '../styles/style.css'
 
+import Icon from "../src/assets/common/down-arrow.png"
 
 import Arrow from "../src/assets/home/about-us/about-us-mini-tit-img.svg"
 
@@ -141,7 +142,7 @@ const Header = () => {
 
                                 <li className={ `inner-home ${innerHome}`}>
                                 <button onClick={ActiveInnerHome} className="inner-home-hide-menu">
-                                 <img src="../src/assets/common/down-arrow.png" alt="" />
+                                 <img src={Icon} alt="" />
                                  </button>
                                     <Link to="/home2">Home2</Link>
                                     <Link to="/home3">Home3</Link>
@@ -157,7 +158,7 @@ const Header = () => {
                           </button>
                           <ul className={ `Home3NavPages-list ${innerPages}`} >
                           <button className="inner-home-hide-menu" onClick={ActivePages}>
-                          <img src="../src/assets/common/down-arrow.png" alt="" />
+                          <img src={Icon} alt="" />
                           </button>
                            <Link to="/blog-detail"> Blog Listing Page</Link>
                            <Link to="/adopt-pets-page">Adopt Pets Page</Link>

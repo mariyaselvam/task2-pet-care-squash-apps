@@ -6,6 +6,7 @@ import HamburgerMenu1 from "../src/assets/home-2/header/close.png"
 // import { useState } from "react"
 import Arrow from "../src/assets/home-2/banner/main-tit-before.svg"
 
+import Icon from "../src/assets/common/down-arrow.png"
 
 import { Link , useLocation } from "react-router-dom"
 import React, { useEffect, useState } from 'react';
@@ -124,7 +125,7 @@ const Header = () => {
                       </button>
                           <ul className={ `inner-home ${innerHome}`}>
                                <button onClick={ActiveInnerHome} className="inner-home-hide-menu">
-                                 <img src="../src/assets/common/down-arrow.png" alt="" />
+                                 <img src={Icon} alt="" />
                                  </button>
                                <li >
                                     <Link to="/">Home</Link>
@@ -141,7 +142,7 @@ const Header = () => {
                           </button>
                           <ul className={ `Home3NavPages-list ${innerPages}`} >
                           <button className="inner-home-hide-menu" onClick={ActivePages}>
-                          <img src="../src/assets/common/down-arrow.png" alt="" />
+                          <img src={Icon} alt="" />
                           </button>
                            <Link to="/blog-detail"> Blog Listing Page</Link>
                            <Link to="/adopt-pets-page">Adopt Pets Page</Link>

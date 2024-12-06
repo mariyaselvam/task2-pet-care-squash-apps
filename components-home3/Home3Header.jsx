@@ -4,6 +4,8 @@ import { Link , useLocation } from "react-router-dom"
 import HamburgerMenu from "../src/assets/common/w-hamburger-menu.png"
 import Arrow from "../src/assets/common/w-down-arrow.svg"
 
+import Icon from "../src/assets/common/down-arrow.png"
+
 import HamburgerMenu1 from "../src/assets/home-2/header/close.png"
 import React, { useEffect, useState } from 'react';
 
@@ -137,7 +139,7 @@ const Home3Header = () => {
                             
                                 <li className={ `inner-home ${innerHome}`}>
                                 <button onClick={ActiveInnerHome} className="inner-home-hide-menu">
-                                 <img src="../src/assets/common/down-arrow.png" alt="" />
+                                 <img src={Icon} alt="" />
                                  </button>
                                     <Link to="/">Home</Link>
                                     <Link to="/home2">Home2</Link>
@@ -153,7 +155,7 @@ const Home3Header = () => {
                           </button>
                           <ul className={ `Home3NavPages-list ${innerPages}`} >
                           <button className="inner-home-hide-menu" onClick={ActivePages}>
-                          <img src="../src/assets/common/down-arrow.png" alt="" />
+                          <img src={Icon} alt="" />
                           </button>
                            <Link className={"underline" + (url === "/blog-detail" ?" active1" : "")}  to="/blog-detail"> Blog Listing Page</Link>
                            <Link className={"underline" + (url === "/adopt-pets-page" ?" active1" : "")}  to="/adopt-pets-page">Adopt Pets Page</Link>

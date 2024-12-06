@@ -1,3 +1,5 @@
+import iocn from "../src/assets/home/banner-and-header/Call-Us.svg"
+
 
 const HomeBanner = () => {
   return (
@@ -17,7 +19,7 @@ const HomeBanner = () => {
                     <div>
                         <div className="Appointment-nd-contact-btn">
                             <a className="make-appointment-btn" href="#">Make Appointment</a>
-                            <a href="#" className="Call-Us-btn">Call Us <img src="../src/assets/home/banner-and-header/Call-Us.svg" alt="" /></a>
+                            <a href="#" className="Call-Us-btn">Call Us <img src={iocn} alt="" /></a>
                         </div>
                     </div>
                 </div>
