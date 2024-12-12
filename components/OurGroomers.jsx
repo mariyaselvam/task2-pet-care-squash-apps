@@ -16,7 +16,7 @@ const OurGroomers = () => {
     <section className="our-groomers-sec">
 
        <div className="our-groomers-tit-wraper">
-            <h3 className='our-groomers-main-tit'>What We <b>Do</b>.</h3>
+            <h3 className='our-groomers-main-tit'>Our  <b>Groomers</b></h3>
         </div>
         <div className="container">
             <div className="row">

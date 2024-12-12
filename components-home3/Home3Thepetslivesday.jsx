@@ -6,7 +6,7 @@ const Home3Thepetslivesday = () => {
     <section className="Home3-The-pets-lives-day-sec">
         <div className="container">
             <div className="row">
-                <div className="col-lg-7">
+                <div className="col-lg-6">
                    <div className="Home3-The-pets-lives-day-cont-wrap">
                     {/* <span className="Home3-The-pets-lives-day-mini-tit">
                     Why <b>DC Care</b>
@@ -26,7 +26,7 @@ const Home3Thepetslivesday = () => {
                    </div>
                 </div>
 
-                <div className="col-lg-5">
+                <div className="col-lg-6">
                     <div className="Home3-The-pets-lives-day-main-img">
                         <img src={Img1} alt="" />
                     </div>

@@ -13,8 +13,8 @@ const Home3Footer = () => {
                  </h4>
                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 
-                 <p><b>Email :</b><a href="mailto:info@jstemplate.net">info@jstemplate.net</a>  </p>
-                 <p><b>Phone :</b><a href="tel:880123456789">8801234567</a></p>
+                 <p><b>Email :</b><a href="mailto:info@jstemplate.net"> info@jstemplate.net</a>  </p>
+                 <p><b>Phone :</b><a href="tel:880123456789"> 8801234567</a></p>
                 </div>
               </div>
 

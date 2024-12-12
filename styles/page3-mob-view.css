@@ -212,10 +212,7 @@
     .Providing-the-Best-Service-sec-cont-tit{
         text-align: center;
     }
-    
-     .What-Our-Customer-Say-swiper-name{
-        margin: 0px;
-     }
+
 
      .Providing-the-Best-Service-sec-cont > p{
         text-align: center;
@@ -227,7 +224,7 @@
 
 
     .What-Our-Customer-Say-swiper-card > p{
-        margin: 10px 0px;
+        /* margin: 10px 0px; */
     }
     .What-Our-Customer-Say-swiper-top{
         gap: 10px;

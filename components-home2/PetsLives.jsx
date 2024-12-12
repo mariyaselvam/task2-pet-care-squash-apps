@@ -6,7 +6,7 @@ const PetsLives = () => {
     <section className="home2-pets-lives-sec">
         <div className="container">
             <div className="row">
-                    <div className="col-lg-7">
+                    <div className="col-lg-6">
                     <div className="home2-pets-lives-cont-wrap">
                     <h2 className="home2-pets-lives-main-tit">
                         The <b>pets lives</b> for the day, the hour, even the movement.
@@ -19,7 +19,7 @@ const PetsLives = () => {
                         <a href="#" className="home2-pets-lives-btn1">Schedule Service <img src="../src/assets/The-pets-lives-day/chevron-right.svg" alt="" /> </a></div>
                     </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-6">
                         <div className="home2-pets-lives-main-img">
                             <img src={Home2PetsLivesMain1} alt="" />
                         </div>

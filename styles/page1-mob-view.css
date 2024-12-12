@@ -139,12 +139,12 @@
 
     .logo-nav-appointment{
         display: flex;
-    height: 60px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    max-width: 90% !important;
-    margin: 0rem auto;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        max-width: 90% !important;
+        margin: 0rem auto;
     }
 
     .home1-mobile-nav{

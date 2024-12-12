@@ -16,7 +16,6 @@ a , p {
     line-height: 26px;
 }
 
-
 body{
     font-family: "Nunito Sans", serif;
     font-size: 16px;
@@ -48,18 +47,29 @@ a{
     overflow-x: hidden;
 }
 
+.page1-wrap .container{
+    max-width: 1403px;
+}
+
+.page1-wrap > .row>*{
+   padding: 0px;
+}
+
 .page1-wrap header{
-    max-width: 2000px;
-    width: 90%;
+    max-width: 1720px;
+    /* width: 90%; */
     position: fixed;
     left: 50%;
     transform: translateX(-50%) translateY(0%);
     top: 30px;
+    height: 90px;
     border-radius: 70px;
     background-color: white;
     z-index: 10;
     transition: 0.3s ease;
-    padding: 0.4rem 0rem;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 18px 0px;
 }
 
 .hide-nav {
@@ -109,9 +119,6 @@ a{
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    max-width: 90% !important;
-    margin: 0rem auto;
 }
 
 .page1-wrap .header-btn{
@@ -149,13 +156,14 @@ a{
 
 .home-banner-cont-card{
     position: absolute;
-    top: 50%;
-    width: 40%;
-    transform: translateY(-60%);
+    top: 370px;
+    width: 35%;
     color: white;
 }
 
 .home-banner-cont-card > span{
+    display: block;
+    margin-bottom: 15px;
     font-size: 24px;
     font-weight: 800;
     line-height: 44px;
@@ -170,6 +178,7 @@ a{
     font-size: 58px;
     font-weight: 900;
     line-height: 86px;
+    margin-bottom: 30px;
 }
 
 .home-banner-main-tit b{
@@ -180,13 +189,12 @@ a{
     width: 236px;
     height: 54px;
     display: grid;
-    place-content: center;
     border-radius: 10px;
     background-color: var(--primary);
     font-size: 16px;
     font-weight: 800;
     line-height: 26px;
-    padding: 1rem 2rem 1rem 1rem;
+    padding: 14px 25px;
     color: white;
     text-decoration: none;
     border: background-color 1px solid transparent;
@@ -236,17 +244,10 @@ span{
 
 .make-appointment-btn::before{
   background: url("../src/assets/home/banner-and-header/make-appointment.svg");
-  right: 15px;
+  right: 25px;
   top: 50%;
   transform: translateY(-50%);
 }
-/* 
-.Call-Us-btn::before{
-    background: url("../src/assets/home/banner-and-header/Call-Us.svg");
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-} */
 
 .Call-Us-btn:hover{
     color: black;
@@ -274,12 +275,17 @@ span{
     font-size: 16px;
     font-weight: 800;
     line-height: 26px;
+    margin-bottom: 30px;
+    width: 80%;
+    row-gap: 20px;
 }
 
 .abt-us-sec-check-box li{
     position: relative;
-    padding: 0rem 0rem 0rem 2rem;
-    margin-bottom: 20px;
+    padding: 0rem 0rem 0rem 30px;
+    /* margin-bottom: 20px; */
+    width: 192px;
+    margin-right: 30px;
 }
 
 .abt-us-sec-check-box li::before{
@@ -292,7 +298,8 @@ span{
     background-position: center;
     background-size: contain;
     left: 0px;
-    top: 5px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .about-us-sec{
@@ -306,9 +313,10 @@ span{
 .abt-us-mini-tit{
     font-size: 24px;
     font-weight: 800;
-    line-height: 44px;
-    padding: 0rem 0rem 0rem 2.5rem;
+    line-height: 34px;
+    padding: 0rem 0rem 0rem 35px;
     position: relative;
+    margin-bottom: 15px;
 }
 
 .abt-us-mini-tit::before{
@@ -321,49 +329,62 @@ span{
     font-size: 50px;
     font-weight: 800;
     line-height: 65px;
+    margin-bottom: 30px;
+    width: 85%;
 }
 
 .abt-us-main-tit > b{
     color: var(--secondary);
+    font-weight: inherit;
 }
 
 .subscribe-newsletter-tit > b{
     color: var(--secondary);
+    font-weight: inherit;
 }
 
 .about-us-sec-main-img{
-    margin: 2rem;
+    display: grid;
+    place-content: end;
+    align-content: start;
+    margin-left: -38px;
+    box-sizing: content-box;
+    width: 646px;
+    height: 637px;
+    width: 100%;
 }
 
 .about-us-sec-main-img img{
-    width: 100%;
+    margin-left: -38px;
 }
 
 .about-us-sec-contant-home{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding: 2em;
+    margin-top: 82px;
+}
+
+.about-us-sec-contant-home > p{
+    margin-bottom: 30px;
 }
 
 .abt-us-sec-check-box > li{
-    flex-basis: 50%;
     flex-shrink: 0;
 }
 
 .abt-us-read-more-btn{
-    display: grid;
-    place-content: center;
     background-color: var(--primary);
     width: 172px;
     height: 54px;
+    display: block;
     border-radius: 10px;
     color: white;
+    text-align: start;
     font-family: "Nunito", serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 26px;
-    padding: 1rem 2rem 1rem 1rem ;
+    padding: 14px 25px;
     text-decoration: none;
     transition: background-color 0.4s ease ;
     border: 1px solid transparent;
@@ -372,7 +393,7 @@ span{
 
 .abt-us-read-more-btn::before{
   background: url("../src/assets/home/banner-and-header/make-appointment.svg");
-  right: 15px;
+  right: 25px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -391,11 +412,11 @@ span{
     color: white;
     border-radius: 10px;
     display: grid;
-    place-content: center;
-    padding: 1rem 2rem 1rem 1rem;
+    padding: 14px 25px;
     text-decoration: none;
     font-size: 16px;
     font-weight: 800;
+    text-align: start;
     line-height: 26px;
     transition: 0.4s ease;
 }
@@ -412,7 +433,7 @@ span{
 
 .get-every-pet-foods-btn::before{
     background: url("../src/assets/home/get-every-pet-foods/get-every-pet-foods-btn.svg");
-    right: 15px ;
+    right: 25px ;
 }
 
 .before::before ,
@@ -445,40 +466,41 @@ span{
     font-weight: 800;
     line-height: 65px;
     font-family: "Nunito";
+    margin-bottom: 30px;
     
 }
 
 .get-every-pet-foods-main-tit > b{
    color: #ffa33c;
+   font-weight: inherit;
 }
 
 .get-every-pet-foods-cont{
-    background-color: var(--primary);
+    background-color: #35005c;
     color: white;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 100px 138px;
+    padding: 100px 138px 100px 128px ;
     text-align: center;
-    gap: 30px;
 }
 
 .get-every-pet-foods-cont p{
-    color: white;
+    margin-bottom: 30px;
+    color: #F1F1F1;
 }
 
 .get-every-pet-foods-img{
-    height: 100%;
     position: relative;
+    cursor: pointer;
+    height: 522px;
 }
 
 .get-every-pet-foods-img video{
     object-fit: cover;
     width: 100%;
     height: 100%;
-
 }
 
 .get-every-pet-foods-img > .video-pause-img{
@@ -495,7 +517,45 @@ span{
     width: 100%;
 }
 
-.what-we-do-main-tit , .our-groomers-main-tit , .clients-feedback-main-tit , .blog-section-main-tit{
+.what-we-do-main-tit {
+   padding-top: 50px;
+   margin: 0px;
+}
+
+.our-groomers-main-tit{
+    margin-bottom: 77px;
+}
+
+.clients-feedback-main-tit1{
+    position: relative;
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    padding-top: 50px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+.clients-feedback-main-tit{
+    position: relative;
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    padding-top: 50px;
+    color: black;
+    margin-bottom: 80px;
+}
+
+.clients-feedback-sec .swiper-horizontal{
+   padding-bottom: 74px;
+}
+
+.what-we-do-main-tit, 
+.our-groomers-main-tit,
+.blog-section-main-tit{
     position: relative;
     font-family: "Nunito", serif;
     font-size: 50px;
@@ -503,6 +563,7 @@ span{
     line-height: 65px;
     font-size: 50px;
     font-weight: 800;
+    padding-top: 50px;
     line-height: 65px;
     text-align: center;
     color: black;
@@ -512,33 +573,95 @@ span{
     text-align: left;
 }
 
-.what-we-do-tit-wraper , .our-groomers-tit-wraper , .clients-feedback-tit-wraper , .blog-section-tit-wraper{
+.clients-feedback-tit-wraper{
+    width: fit-content;
+    margin: 0rem auto;
+    padding-top: 0rem;
+    text-align: center;
+}
+
+.blog-section-tit-wraper{
     width: fit-content;
     margin: 0rem auto;
     padding-top: 3rem;
     text-align: center;
 }
 
+.our-groomers-tit-wraper{
+    width: fit-content;
+    margin: 0rem auto;
+    text-align: center; 
+}
+
+.what-we-do-tit-wraper{
+    width: fit-content;
+    margin: 0rem auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .blog-section-tit-wraper{
     max-width: 1300px;
     width: 70%;
-
-}
-
-.clients-feedback-tit-wraper{
-    padding-bottom: 2rem;
-    /* transform: translateY(50%); */
 }
 
 .home-blog-card-tit-wraper{
-    /* padding-bottom: 2rem; */
-    transform: translateY(70%);
+    text-align: start;
 
 }
 
-.what-we-do-main-tit::before ,
- .our-groomers-main-tit::before ,
-  .clients-feedback-main-tit::before ,
+.what-we-do-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.our-groomers-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.clients-feedback-main-tit1::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.clients-feedback-main-tit::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img.svg");
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
    .blog-section-main-tit::before{
     content: "";
     position: absolute;
@@ -560,11 +683,10 @@ span{
 .what-we-do-cards{
     text-align: center;
     background-color: #f1f1f1;
-    padding: 15px;
+    padding: 15px 15px 20px 15px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    margin-top: 50px;
     position: relative;
     transition: 0.3s linear;
 }
@@ -590,14 +712,24 @@ span{
     margin: 0rem auto;
 }
 
-.what-we-do-main-tit b , .our-groomers-main-tit b , .clients-feedback-main-tit b  , .blog-section-main-tit b{
+.what-we-do-main-tit b, 
+.our-groomers-main-tit b, 
+.clients-feedback-main-tit b, 
+.clients-feedback-main-tit1 b, 
+.blog-section-main-tit b{
     color: var(--secondary);
+    font-weight: inherit;
 }
 
 .what-we-do-sec{
     padding: 100px 0rem;
     position: relative;
     z-index: 1;
+}
+
+.what-we-do-sec .container{
+  max-width: 1401px;
+  padding: 0px;
 }
 
 .what-we-do-sec::after{
@@ -615,7 +747,6 @@ span{
     bottom: 0px;
 }
 
-
 .what-we-do-sec::before , .what-we-do-sec::after{
      content: "";
      position: absolute;
@@ -626,7 +757,6 @@ span{
 
 .our-groomers-card{
     text-align: center;
-    margin-top: 50px;
 }
 
 .our-groomers-card:hover .our-groomers-card-bg-img{
@@ -635,7 +765,6 @@ span{
 }
 
 .person-positions , .groomers-names{
-    margin: 30px 0px;
     display: block;
 }
 
@@ -644,7 +773,7 @@ span{
     font-weight: 400;
     line-height: 34px;
     color: var(--secondary);
-    margin: 40px 0px 30px;
+    margin: 56px 0px 15px;
 }
 
 .groomers-names{
@@ -652,12 +781,16 @@ span{
     font-size: 38px;
     font-weight: 800;
     line-height: 58px;
-    margin: 30px 0px 30px;
+    margin: 0px 0px 30px;
 }
 
 .our-groomers-sec{
     padding: 100px 0px;
     background-color: #f1f1f1;
+}
+
+.our-groomers-sec .container .row>*{
+    padding: 0px;
 }
 
 .our-groomers-card-main-img{
@@ -672,10 +805,9 @@ span{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%) rotate(0deg);
-    width: 120%;
-    height: 120%;
     border-radius: 50%;
     z-index: 1;
+    object-fit: cover;
     transition: transform 1s ease;
 }
 
@@ -687,19 +819,27 @@ span{
 }
 
 .clients-feedback-sec{
-    padding: 4rem 0rem;
+    padding: 100px 0rem;
     background: url("../src/assets/home/clients-feedback/clients-feedback-bet-foot.svg");
+    background-position: 0px -60px;
     background-repeat: no-repeat;
     left: 0px;
     top: 0px;
 }
+ .blog-section-home .swiper-slide{
+     width: 447px;
+ }
 
  .blog-section-home .swiper-slide{
     height: 695px;
+    padding: 0px 15px !important;
 }
 
 .clients-feedback-sec .swiper-slide{
     max-width: 100%;
+}
+.clients-feedback-sec  .swiper{
+  padding-bottom: 74px;
 }
 
  .clients-feedback-sec .swiper-Slide-card{
@@ -708,14 +848,19 @@ span{
     background:url("../src/assets/home/clients-feedback/Clients-Feedback-bg-people.svg") ;
     background-repeat: no-repeat;
     background-position: center;
-    display: grid;
-    place-content: center;
+    margin-top: 10px;
+}
+
+.clients-feedback-sec .row>* {
+    padding: 0px;
 }
 
 .clients-feedback-sec .swiper-custom-container{
     max-height: 695px;
     overflow: visible;
     background:url("../src/assets/home/clients-feedback/Clients-Feedback-bg.svg") ;
+    margin-bottom: 74px;
+
 }
 
 .clients-feedback-sec .swiper-Slide-inner-card{
@@ -725,12 +870,19 @@ span{
     box-shadow: 0px 6px 30px 0px rgba(45, 44, 85, 0.1);
     border-radius: 20px;
     text-align: center;
-    position: relative;
+    position: absolute;
     padding: 3rem 3rem 0rem ;
     background: url("../src/assets/home/clients-feedback/Subtract.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 130% 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 272px;
+}
+
+ .clients-feedback-sec .swiper-pagination-clickable .swiper-pagination-bullet{
+   margin: 0rem 10px;
 }
 
 .clients-feedback-sec .swiper-Slide-inner-card::before{
@@ -767,12 +919,6 @@ span{
     line-height: 48px;
 }
 
-.swiper-backface-hidden .swiper-slide{
-    /* max-width: 100% !important; */
-    /* margin: 0rem 10px !important;
-    width: 70% !important;
-    max-width: 70%; */
-}
 
 .clients-feedback-sec .swiper-pagination{
     position: absolute;
@@ -790,6 +936,23 @@ span{
     font-size: 50px;
     font-weight: 800;
     line-height: 65px;
+    padding-top: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.subscribe-newsletter-tit::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../src/assets/home/about-us/about-us-mini-tit-img-white.svg");
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .subscribe-newsletter-tit-wraper{
@@ -805,12 +968,13 @@ span{
     display: grid;
     place-content: center;
     color: white;
+    padding: 80px;
 }
 
 .subscribe-newsletter-input{
     max-width: 640px;
     width: 100%;
-    margin: 30px auto;
+    margin: 0px auto;
     position: relative;
 }
 
@@ -821,7 +985,7 @@ span{
     outline: none;
     border: none;
     display: block;
-    padding: 0rem 10rem 0rem 4rem;
+    padding: 0px 200px 0px  61px ;
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -829,8 +993,8 @@ span{
 
 .subscribe-newsletter-mail{
     position: absolute;
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
@@ -839,14 +1003,15 @@ span{
 
 .subscribe-newsletter-btn{
     width: 165px;
+    height: 54px;
     position: absolute;
-    right: 5px;
-    height: 90%;
+    right: 9px;
+    text-align: start;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 10px;
     border: none;
-    padding: 1rem 3rem 1rem 1rem;
+    padding: 14px 25px;
     font-family: "Nunito", serif;
     font-size: 16px;
     font-weight: 800;
@@ -869,20 +1034,23 @@ span{
     background: url("../src/assets/home/subscribe-newsletter/Subscribe-Newsletter-btn.svg");
     background-position: center;
     background-size: contain;
-    right: 20px;
+    right: 24px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .blog-section-home {
-    padding: 4rem 0rem;
+    padding: 100px 0px;
     overflow: hidden;
 }
 
-.blog-section-home .container{
-    width: 1300px;
+.blog-section-home > .container{
+    max-width: 1441px;
     overflow: hidden;
-    padding: 7rem 0rem;
+}
+ 
+.swiper-wrap-home{
+    width: 1450px;
 }
 
 .blog-section-home .swiper-wrapper{
@@ -891,19 +1059,24 @@ span{
 
 .blog-swiper-card{
     background-color: #f1f1f1;
-    padding: 20px;
     border-radius: 20px;
-    /* margin: 0rem 1rem; */
+    margin: 0rem auto;
+    width: 447px;
+    padding: 15px 15px 30px 15px;
 }
 
 .blog-swiper-card-img{
     overflow: hidden;
     border-radius: 20px;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    height: 270px;
 }
 
 .blog-swiper-card-img img{
     transition: 0.4s ease;
     width: 100%;
+    height: 270px;
 }
 
 
@@ -916,12 +1089,12 @@ span{
     font-family: "Nunito", serif;
     font-size: 28px;
     font-weight: 800;
-    line-height: 40px;
-    margin: 20px 0px;
+    line-height: 48px;
+    margin-bottom: 20px;
 }
 
 .admin-nd-pet-care{
-    margin: 20px 0px;
+    margin-bottom: 20px;
     display: flex;
     color: #000000;
 }
@@ -929,7 +1102,6 @@ span{
 .blog-swiper-card-read-more-btn{
     font-family: "Nunito", serif;
     font-size: 16px;
-    margin: 20px 0px;
     font-weight: 800;
     line-height: 26px;
     color: var(--primary);
@@ -1076,8 +1248,6 @@ li{
     flex-shrink: 0;
 }
 
-
-
 .footer-contact-detail > li{
     display: flex;
     align-items: center;
@@ -1116,7 +1286,7 @@ li{
 
 footer{
     background: url("../src/assets/home/footer/foter-bg.svg");
-    padding: 6rem 0rem;
+    padding: 80px 0rem;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -1124,6 +1294,9 @@ footer{
     position: relative;
 }
 
+.blog-section-home .row>*{
+    padding: 0px;
+}
 
 .blog-section-home .swiper{
     overflow: visible;
@@ -1137,7 +1310,7 @@ footer{
     height: 48px;
     border-radius: 10px;
     top: 0px;
-    transform: translate(2400%  , -70px);
+    transform: translate(2650%  , -61px);
 }
 
 .blog-section-home .swiper-button-next{
@@ -1147,10 +1320,11 @@ footer{
     height: 48px;
     border-radius: 10px;
     top: 0px;
-    transform: translate(0%  , -70px);
+    transform: translate(-40%  , -61px);
 }
 
-.blog-section-home .swiper-button-prev:after, .blog-section-home .swiper-button-next:after{
+.blog-section-home .swiper-button-prev:after, 
+.blog-section-home .swiper-button-next:after{
     width: 24px;
     height: 24px;
     position: absolute;
@@ -1376,7 +1550,6 @@ footer{
     font-weight: 800;
     line-height: 48px;
     margin-bottom: 20px;
-
 } 
 
 .Know-more-about-Berry-cont-ul-checks > li > h4::before{
@@ -1414,7 +1587,6 @@ footer{
     font-family: "Nunito Sans", serif;
 }
 
-
 .copy-rights{
     color: white;
     text-align: center;
@@ -1424,13 +1596,12 @@ footer{
     transform: translateX(-50%);
 }
 
-
 .copy-rights b{
     color: #da0c81;
-
 }
 
-.footer-logo-ng-copy-rights-wrap::before , .footer-logo-ng-copy-rights-wrap::after{
+.footer-logo-ng-copy-rights-wrap::before , 
+.footer-logo-ng-copy-rights-wrap::after{
     content: "";
     position: absolute;
 }
@@ -1444,8 +1615,8 @@ footer{
     width: 100%;
 }
 
-
-.footer-logo-ng-copy-rights-wrap::before , .footer-logo-ng-copy-rights-wrap::after{
+.footer-logo-ng-copy-rights-wrap::before ,
+.footer-logo-ng-copy-rights-wrap::after{
     content: "" ;
     position: absolute;
     width: 6px;
@@ -1497,6 +1668,7 @@ footer{
     z-index: 100;
     visibility: hidden;
     top: 100%;
+    text-align: center;
     box-shadow: none;
     border-radius: 10px;
     transition: 0.4s ease;
@@ -1528,12 +1700,6 @@ footer{
 .Home3-nav-pages:hover .Home3-nav-pages >  a{
     color: blue;
 }
-
-
-
-
-
-
 
 section .Home3NavPages-list  a:hover{
     color: black;
@@ -1569,10 +1735,6 @@ section .Home3NavPages-list  a:hover{
 
 .home1-mobile-nav{
     display: none;
-}
-
-.main-logo1{
-    /* max-width: 122px; */
 }
 
 .main-logo1 img{

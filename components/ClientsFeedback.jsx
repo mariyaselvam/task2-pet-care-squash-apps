@@ -26,7 +26,7 @@ const ClientsFeedback = () => {
     <>
     <section className="clients-feedback-sec">
     <div className="clients-feedback-tit-wraper">
-            <h3 className='clients-feedback-main-tit'>What We <b>Do</b>.</h3>
+            <h3 className='clients-feedback-main-tit'>Clients <b>Feedback</b>.</h3>
         </div>
         <div className="container">
             <div className="row">

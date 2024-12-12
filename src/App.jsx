@@ -13,7 +13,7 @@ import PetsDetailPage from "../pages/PetsDetailPage"
 import Home3ShopDetailsPage from "../pages/Home3ShopDetailsPage"
 import AboutUsPage from "../pages/AboutUsPage"
 import "../styles/boostrap.css"
-import 'animate.css';
+// import 'animate.css';
 import ScrollToTop from "../components/ScrollToTop"
 
 

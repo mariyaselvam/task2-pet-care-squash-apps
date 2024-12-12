@@ -7,8 +7,8 @@ const ProvidingtheBestService = () => {
     <section className="Providing-the-Best-Service-sec">
         <div className="container">
             <div className="row">
-                <div className="col-lg-6"></div>
-                <div className="col-lg-6">
+                <div className="col-lg-4"></div>
+                <div className="col-lg-8">
                     <div className="Providing-the-Best-Service-sec-cont">
                         <h3 className="Providing-the-Best-Service-sec-cont-tit">
                         Providing the <b>Best Service</b> for Your Pets
