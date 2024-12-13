@@ -52,13 +52,13 @@ const Home3BlogComment = () => {
 
     <div className="blog-detail-comment-form">
 
-        <h4 className="blog-detail-comment-form-tit">Add Comment</h4>
+        <h4  className="blog-detail-comment-form-tit">Add Comment</h4>
 
-        <input placeholder="First Name" className="first-name-blog" type="text" name="" id="" />
+        <input  placeholder="First Name" className="first-name-blog" type="text" name="" id="" />
 
         <input placeholder="Email" className="email-for-blog" type="email" name="" id="" />
 
-        <textarea className="blog-detail-comment-text-area" placeholder="Message" name="" id=""  rows="10"></textarea>
+        <textarea className="blog-detail-comment-text-area" placeholder="Message" name="" id=""  rows=""></textarea>
 
         <a className="blog-detail-comment-form-btn" href="">Leave a comment</a>
     </div>

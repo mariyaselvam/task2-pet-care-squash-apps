@@ -100,7 +100,7 @@ const Home3Header = () => {
                             <img src={Arrow}  alt="" />
                             </Link>
                             <ul className="Home3NavPages-list">
-                           <Link className={"underline" + (url === "/blog-detail" ?" active1" : "")}  to="/blog-detail"> Blog Listing Page</Link>
+                           <Link className={"underline" + (url === "/blog-detail" ?" active1" : "")}  to="/blog-detail"> Blog Listing</Link>
                            <Link className={"underline" + (url === "/adopt-pets-page" ?" active1" : "")}  to="/adopt-pets-page">Adopt Pets Page</Link>
                            <Link className={"underline" + (url === "/sitters" ?" active1" : "")}  to="/sitters">sitters</Link>
                            <Link className={"underline" + (url === "/BlogListingpage" ?" active1" : "")}  to="/BlogListingpage">blog details</Link>
@@ -157,7 +157,7 @@ const Home3Header = () => {
                           <button className="inner-home-hide-menu" onClick={ActivePages}>
                           <img src={Icon} alt="" />
                           </button>
-                           <Link className={"underline" + (url === "/blog-detail" ?" active1" : "")}  to="/blog-detail"> Blog Listing Page</Link>
+                           <Link className={"underline" + (url === "/blog-detail" ?" active1" : "")}  to="/blog-detail"> Blog Listing</Link>
                            <Link className={"underline" + (url === "/adopt-pets-page" ?" active1" : "")}  to="/adopt-pets-page">Adopt Pets Page</Link>
                            <Link className={"underline" + (url === "/sitters" ?" active1" : "")}  to="/sitters">sitters</Link>
                            <Link className={"underline" + (url === "/BlogListingpage" ?" active1" : "")}  to="/BlogListingpage">blog details</Link>

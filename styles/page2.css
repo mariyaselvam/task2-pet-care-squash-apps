@@ -63,6 +63,10 @@ body{
     color: white;
 }
 
+.page2-wrap  .nav-options a:hover{
+    color: #65b741;
+}
+
 .home2-banner-sec{
     /* background: url("../src/assets/home-2/banner/banner-img.png"); */
     width: 100%;

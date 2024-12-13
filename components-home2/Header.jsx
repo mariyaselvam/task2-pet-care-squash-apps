@@ -88,7 +88,7 @@ const Header = () => {
                           <img src={Arrow}  alt="" />
                             </Link>
                         <ul className="Home3NavPages-list">
-                           <Link to="/blog-detail"> Blog Listing Page</Link>
+                           <Link to="/blog-detail"> Blog Listing</Link>
                            <Link to="/adopt-pets-page">Adopt Pets Page</Link>
                            <Link to="/sitters">sitters</Link>
                            <Link to="/BlogListingpage">blog details</Link>
@@ -144,7 +144,7 @@ const Header = () => {
                           <button className="inner-home-hide-menu" onClick={ActivePages}>
                           <img src={Icon} alt="" />
                           </button>
-                           <Link to="/blog-detail"> Blog Listing Page</Link>
+                           <Link to="/blog-detail"> Blog Listing</Link>
                            <Link to="/adopt-pets-page">Adopt Pets Page</Link>
                            <Link to="/sitters">sitters</Link>
                            <Link to="/BlogListingpage">blog details</Link>
