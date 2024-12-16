@@ -10,7 +10,6 @@ const WhatWeOffer = () => {
     <section className="home3-What-We-Offer-sec">
         <div className="container">
             <div className="home3-What-We-Offer-tit-wraper">
-                {/* <span className="home3-What-We-Offer-mini-tit">Our <b>Service</b></span> */}
 
                 <h3 className="home3-What-We-Offer-mini-tit home3-What-We-Offer-main-tit">What <b>We Offer</b></h3>
 

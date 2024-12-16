@@ -13,7 +13,6 @@ const Home3BlogsSec = () => {
     <>
      <section className="home3-Our-Blogs-sec">
      <div className="home3-Testimonial-tit-wraper">
-            {/* <span className="home3-Testimonial-mini-tit">Our <b>Service</b></span> */}
             <h3 className="home3-Testimonial-mini-tit home3-Testimonial-main-tit-blog">Our  <b> Blogs</b></h3>
     </div>
         <div className="container">

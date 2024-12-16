@@ -440,10 +440,6 @@ body{
     padding: 163px 0px 0px 30px;
 }
 
-.home2-SafeaAndGoodHands-cont > p{
-    margin-bottom: 30px;
-}
-
 .home2-SafeaAndGoodHands-cont-small-card > li > h3{
     position: relative;
     padding-left: 70px;
@@ -492,7 +488,6 @@ body{
 .The-Best-Training-Your-Pets-sec > .container {
     max-width: 1400px;
 }
-
 
 .The-Best-Training-Your-Pets-sec .row>*{
     padding: 0px;

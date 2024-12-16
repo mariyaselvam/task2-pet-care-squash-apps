@@ -7,7 +7,6 @@ import Img5 from "../src/assets/home-3/Home3BlogSec/Blog-img-5.png"
 import Img6 from "../src/assets/home-3/Home3BlogSec/Blog-img-6.png"
 
 
-// import Author1 from "../src/assets/home-3/Home3BlogSec/author1.png"
 import Author1 from "../src/assets/home-3/Home3BlogSec/pro-1.png"
 import Author2 from "../src/assets/home-3/Home3BlogSec/pro-2.png"
 import Author3 from "../src/assets/home-3/Home3BlogSec/pro-3.png"

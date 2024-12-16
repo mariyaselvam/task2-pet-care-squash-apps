@@ -17,7 +17,6 @@ const ImageTour = () => {
     <>
     <section className="Image-Tour-sec">
     <div className="home3-What-We-Offer-tit-wraper">
-                {/* <span className="home3-What-We-Offer-mini-tit">Our <b>Service</b></span> */}
 
                 <h3 className="home3-What-We-Offer-mini-tit home3-What-We-Offer-main-tit-1">Image<b>Tour</b></h3>
 

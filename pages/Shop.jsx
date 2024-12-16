@@ -11,10 +11,6 @@ import ShopCardImg6 from "../src/assets/home-3/pet-shoop/shop-img6.png"
 import ShopCardImg7 from "../src/assets/home-3/pet-shoop/shop-img7.png"
 import ShopCardImg8 from "../src/assets/home-3/pet-shoop/shop-img8.png"
 import ShopCardImg9 from "../src/assets/home-3/pet-shoop/shop-img9.png"
-// import ShopCardImg10 from "../src/assets/home-3/pet-shoop/shop-img10.png"
-// import ShopCardImg11 from "../src/assets/home-3/pet-shoop/shop-img11.png"
-// import ShopCardImg12 from "../src/assets/home-3/pet-shoop/shop-img12.png"
-// import ShopCardImg13 from "../src/assets/home-3/pet-shoop/shop-img13.png"
 
 const Shop = () => {
   return (
@@ -43,15 +39,21 @@ const Shop = () => {
     <section className="home3-pet-foot-shop-sec">
         <div className="container">
             <div className="row">
+                
                 <div className="col-xl-3">
                  <div className="home3-pet-foot-shop-side-bar-wrap">
-                    {/* <div className="home3-pet-foot-shop-side-bar-range-card">
+
+                    <div className="Price-Range-wrap">
                         <h4>Price Range</h4>
 
-                        <input type="range" name="" id="" />
+                        <input className="Price-Range-input" type="range" name="" id="" />
 
-                        <span>0</span> <span>100</span>
-                    </div> */}
+                     <div className="Price-Range-input-num-wrap">
+                      <input type="number" /> <input type="number" />
+                     </div>
+                    
+
+                    </div>
 
                     <div className="home3-pet-foot-shop-side-bar-Category">
                         <h4>Category</h4>
@@ -143,6 +145,39 @@ const Shop = () => {
                 </div>
 
                 <div className="col-xl-9">
+                    <div className="row">
+                    <div className="col-xl-12"> 
+                        <div className="Shop-search-selact-wrap">
+
+                        
+
+                       <input type="text" className="shop-search-input" placeholder="Search......"  />
+
+                       <div className="items-per-page-wrap">
+                        <span>Items Per Page</span>
+                        <select name="" id="">
+                            <option value="1"> 1</option>
+                            <option value="2"> 2</option>
+                            <option value="3"> 3</option>
+                            <option value="4"> 4</option>
+                            <option value="5"> 5</option>
+                            <option value="6"> 6</option>
+                            <option value="7"> 7</option>
+                            <option value="8"> 8</option>
+                            <option value="9"> 9</option>
+                        </select>
+                       </div>
+
+                       <div className="Sort-By-wrap">
+                        <span>Sort By</span>
+                        <select name="" id="">
+                            <option value="Featured">Featured</option>
+                        </select>
+                       </div>
+
+                       </div>
+                    </div>
+                    </div>
 
                     <div className="row">
                     <div className="col-xl-4 col-lg-6">

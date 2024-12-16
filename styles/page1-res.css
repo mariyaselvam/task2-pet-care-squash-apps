@@ -157,6 +157,7 @@
         transition: 0.4s ease;
         visibility: hidden;
         opacity: 0;
+        text-align: left ;
     }
 
     body .inner-home{

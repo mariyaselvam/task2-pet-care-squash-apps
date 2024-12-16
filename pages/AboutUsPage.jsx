@@ -32,7 +32,7 @@ const AboutUsPage = () => {
 
    <WhatWeOffer />
 
-   <section className="home2-AboutUsPage-sec">
+   <section className="home2-AboutUsPage-sec ">
       <div className="container">
         <div className="row">
 

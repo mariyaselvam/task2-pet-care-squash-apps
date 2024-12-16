@@ -8,9 +8,6 @@ const Home3Thepetslivesday = () => {
             <div className="row">
                 <div className="col-lg-6">
                    <div className="Home3-The-pets-lives-day-cont-wrap">
-                    {/* <span className="Home3-The-pets-lives-day-mini-tit">
-                    Why <b>DC Care</b>
-                    </span> */}
 
                     <h3 className="Home3-The-pets-lives-day-mini-tit Home3-The-pets-lives-day-main-tit">
                     The pets <b>lives for the day</b> , the hour, even the movement.
