@@ -27,7 +27,7 @@ function App() {
     <>
     <BackToTop />
     <BrowserRouter>
-    
+     
     <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
@@ -43,6 +43,7 @@ function App() {
       <Route path="/petsdetailpage" element={<PetsDetailPage />} />
       <Route path="/home3shopdetailspage" element={<Home3ShopDetailsPage />} />
       <Route path="/aboutuspage" element={<AboutUsPage />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
     </BrowserRouter>
     </>
