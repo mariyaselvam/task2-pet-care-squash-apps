@@ -51,7 +51,7 @@
     }
 
     .home2-Meet-Our-Team-sec-card{
-        width: 70%;
+        /* width: 70%; */
         margin: 50px auto 0px;
         gap: 10px;
     }
@@ -148,6 +148,14 @@
 
     .home1-mobile-nav > li a:hover{
            color: black;
+     }
+
+     .home2-banner-sec{
+        padding: 0px 10px;
+     }
+
+     .home2-SafeaAndGoodHands-cont{
+        padding-top: 500px;
      }
     
 

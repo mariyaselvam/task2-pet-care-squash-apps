@@ -22,7 +22,7 @@ const BlogListingpage = () => {
 
                         <div className="home3-date-author-comment">
                             <span className="blog-date">Post on Aug 24, 2023 at 10:00 PM</span>
-                            <span className="blog-author">by Esther Howard</span>
+                            <a href="#" className="blog-author">by Esther Howard</a>
                             <span className="blog-comment">3 Comments</span>
                         </div>
                     </div>
@@ -32,10 +32,10 @@ const BlogListingpage = () => {
                    </div>
 
                    <div className="breed-food-enjoy">
-                    <span className="bread-span">Breeding</span>
-                    <span className="Food-span">Food</span>
-                    <span className="Enjoy-span">Enjoy</span>
-                    <span className="Playing-span">Playing</span>
+                    <a href="#" className="bread-span">Breeding</a>
+                    <a href="#" className="Food-span">Food</a>
+                    <a href="#" className="Enjoy-span">Enjoy</a>
+                    <a href="#" className="Playing-span">Playing</a>
                    </div>
 
                    <p className="home3-blog-detail-para">Neque convalliscras semper auctor neque vitae. Suspendisse faucibus interdum posuere lorem ipsum dolor. Leo inter Ut placerat orci nulla Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pellentesque dignissim.Ac ut consequat semper viverra nam libero justo. Id leo in vitae turpis massa sed elementum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Urna neque viverra justo nec ultrices dui sapien. Non quam lacus suspendisse faucibus interdum posuere. Magna fringilla urna porttitor rhoncus dolor purus non. Elit ut aliquam purus sit amet luctus venenatis lectus magna. Metus aliquam eleifend mi in nulla posuere. Eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Laoreet non curabitur gravida arcu ac tortor dignissim.</p>

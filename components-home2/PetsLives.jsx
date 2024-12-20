@@ -16,7 +16,11 @@ const PetsLives = () => {
 
                         <div className="home2-pets-lives-btn-wrap">
                             <a href="#" className="home2-pets-lives-btn">Our Service</a>
-                        <a href="#" className="home2-pets-lives-btn1">Schedule Service <img src="../src/assets/The-pets-lives-day/chevron-right.svg" alt="" /> </a></div>
+                        <a href="#" className="home2-pets-lives-btn1">Schedule Service 
+                            
+                            {/* <img src="../src/assets/The-pets-lives-day/chevron-right.svg" alt="" /> */}
+                            
+                             </a></div>
                     </div>
                     </div>
                     <div className="col-lg-6">

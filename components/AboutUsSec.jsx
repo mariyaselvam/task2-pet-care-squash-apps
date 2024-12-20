@@ -1,6 +1,5 @@
 import Img1 from "../src/assets/home/about-us/about-us-sec-mainimg.png"
 
-
 const AboutUsSec = () => {
   return (
     <>

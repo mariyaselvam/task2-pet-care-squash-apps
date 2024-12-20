@@ -13,7 +13,6 @@ const AboutDCCare = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="About-DC-Care-cont-wrap">
-
                         <h3 className="About-DC-Care-cont-mini-tit About-DC-Care-cont-main-tit">
                         For your pet’s natural
                         <b> life </b> & <b> care </b>
@@ -25,7 +24,6 @@ const AboutDCCare = () => {
                         <a href="#" className="primary-btn">Our Service</a>
                         <a href="#" className="secondary-btn" >About Us</a>
                       </div>
-
                     </div>
                 </div>
             </div>

@@ -20,10 +20,12 @@ import ScrollToTop from "../components/ScrollToTop"
 import React, { useEffect, useState } from 'react';
 
 import { BrowserRouter , Route , Routes , useLocation  } from "react-router-dom"
+import BackToTop from "../components/BackToTop"
 
 function App() {
   return (
     <>
+    <BackToTop />
     <BrowserRouter>
     
     <ScrollToTop />

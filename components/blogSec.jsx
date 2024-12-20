@@ -2,6 +2,8 @@ import Img1 from "../src/assets/blog/blog-swiper-img-1.png"
 import Img2 from "../src/assets/blog/blog-swiper-img-2.png"
 import Img3 from "../src/assets/blog/blog-swiper-img-3.png"
 
+import { Link } from "react-router-dom";
+
 import React, { useRef, useState } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -44,239 +46,139 @@ const BlogSec = () => {
         <SwiperSlide>
           <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
+              <Link to="/BlogListingpage">
               <img src={Img1} alt="" />
+              </Link>
             </div>
             <div className="admin-nd-pet-care">
-              <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
+              <span className="admin">By <Link to="/BlogListingpage">Admin</Link></span>
+              <div className="span-pet-care">
+                <Link to="/BlogListingpage">Pet,</Link>
+                <Link to="/BlogListingpage">Care,</Link>
+                <Link to="/BlogListingpage">Medical</Link>
+                </div>
             </div>
-           <h4 className="blog-swiper-card-tit">
+           <Link to="/BlogListingpage" className="blog-swiper-card-tit">
            The best care takers of any kind of pets
-           </h4>
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
+           </Link>
+           <Link to="/BlogListingpage" className="blog-swiper-card-read-more-btn">Read more</Link>
 
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
+             <Link to="/BlogListingpage">
               <img src={Img2} alt="" />
+              </Link>
             </div>
             <div className="admin-nd-pet-care">
               <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
+              <div className="span-pet-care">
+                <a href="#">Pet,</a>
+                <a href="#">Care,</a>
+                <a href="#">Medical</a>
+                </div>
             </div>
-           <h4 className="blog-swiper-card-tit">
+            <Link to="/BlogListingpage" className="blog-swiper-card-tit">
            The best care takers of any kind of pets
-           </h4>
+           </Link>
 
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
+           <Link to="/BlogListingpage" className="blog-swiper-card-read-more-btn">Read more</Link>
 
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
+              <Link to="/BlogListingpage">
               <img src={Img3} alt="" />
+              </Link>
             </div>
             <div className="admin-nd-pet-care">
               <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
+              <div className="span-pet-care">
+                <a href="#">Pet,</a>
+                <a href="#">Care,</a>
+                <a href="#">Medical</a>
+                </div>
             </div>
-           <h4 className="blog-swiper-card-tit">
+            <Link to="/BlogListingpage" className="blog-swiper-card-tit">
            The best care takers of any kind of pets
-           </h4>
-
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
+           </Link>
+           <Link to="/BlogListingpage" className="blog-swiper-card-read-more-btn">Read more</Link>
 
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
+              <Link to="/BlogListingpage">
               <img src={Img1} alt="" />
+              </Link>
             </div>
             <div className="admin-nd-pet-care">
               <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
+              <div className="span-pet-care">
+                <a href="#">Pet,</a>
+                <a href="#">Care,</a>
+                <a href="#">Medical</a>
+                </div>
             </div>
-           <h4 className="blog-swiper-card-tit">
+            <Link to="/BlogListingpage" className="blog-swiper-card-tit">
            The best care takers of any kind of pets
-           </h4>
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
+           </Link>
+           <Link to="/BlogListingpage" className="blog-swiper-card-read-more-btn">Read more</Link>
 
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
+            <Link to="/BlogListingpage">
               <img src={Img2} alt="" />
+              </Link>
             </div>
             <div className="admin-nd-pet-care">
               <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
+              <div className="span-pet-care">
+                <a href="#">Pet,</a>
+                <a href="#">Care,</a>
+                <a href="#">Medical</a>
+                </div>
             </div>
-           <h4 className="blog-swiper-card-tit">
+            <Link to="/BlogListingpage" className="blog-swiper-card-tit">
            The best care takers of any kind of pets
-           </h4>
+           </Link>
 
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
-
+           <Link to="/BlogListingpage" className="blog-swiper-card-read-more-btn">Read more</Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="blog-swiper-card">
             <div className="blog-swiper-card-img">
+              <Link to="/BlogListingpage">
               <img src={Img3} alt="" />
+              </Link>
             </div>
             <div className="admin-nd-pet-care">
               <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
+              <div className="span-pet-care">
+                <a href="#">Pet,</a>
+                <a href="#">Care,</a>
+                <a href="#">Medical</a>
+                </div>
             </div>
-           <h4 className="blog-swiper-card-tit">
+            <Link to="/BlogListingpage" className="blog-swiper-card-tit">
            The best care takers of any kind of pets
-           </h4>
+           </Link>
 
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
+           <Link to="/BlogListingpage" className="blog-swiper-card-read-more-btn">Read more</Link>
 
           </div>
         </SwiperSlide>
       </Swiper>
 
-
-
-
-
-
-            {/* <Swiper
-            //  slidesPerView={3}
-             spaceBetween={1}
-             pagination={{
-             type: 'fraction',
-              }}
-              breakpoints={{
-                640: {
-                  slidesPerView: 2,
-                  spaceBetween: 20,
-                },
-                768: {
-                  slidesPerView: 3,
-                  spaceBetween: 40,
-                },
-                1024: {
-                  slidesPerView: 3,
-                  spaceBetween: 50,
-                },
-              }}
-              navigation={true}
-             modules={[ Navigation]}
-             className="mySwiper"
-      >
-        
-        <SwiperSlide>
-          <div className="blog-swiper-card">
-            <div className="blog-swiper-card-img">
-              <img src={Img1} alt="" />
-            </div>
-            <div className="admin-nd-pet-care">
-              <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
-            </div>
-           <h4 className="blog-swiper-card-tit">
-           The best care takers of any kind of pets
-           </h4>
-
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="blog-swiper-card">
-            <div className="blog-swiper-card-img">
-              <img src={Img2} alt="" />
-            </div>
-            <div className="admin-nd-pet-care">
-              <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
-            </div>
-           <h4 className="blog-swiper-card-tit">
-           The best care takers of any kind of pets
-           </h4>
-
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="blog-swiper-card">
-            <div className="blog-swiper-card-img">
-              <img src={Img3} alt="" />
-            </div>
-            <div className="admin-nd-pet-care">
-              <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
-            </div>
-           <h4 className="blog-swiper-card-tit">
-           The best care takers of any kind of pets
-           </h4>
-
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="blog-swiper-card">
-            <div className="blog-swiper-card-img">
-              <img src={Img1} alt="" />
-            </div>
-            <div className="admin-nd-pet-care">
-              <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
-            </div>
-           <h4 className="blog-swiper-card-tit">
-           The best care takers of any kind of pets
-           </h4>
-
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="blog-swiper-card">
-            <div className="blog-swiper-card-img">
-              <img src={Img2} alt="" />
-            </div>
-            <div className="admin-nd-pet-care">
-              <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
-            </div>
-           <h4 className="blog-swiper-card-tit">
-           The best care takers of any kind of pets
-           </h4>
-
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="blog-swiper-card">
-            <div className="blog-swiper-card-img">
-              <img src={Img3} alt="" />
-            </div>
-            <div className="admin-nd-pet-care">
-              <span className="admin">By <a href="#">Admin</a></span>
-              <div className="span-pet-care">Pet, Care, Medical</div>
-            </div>
-           <h4 className="blog-swiper-card-tit">
-           The best care takers of any kind of pets
-           </h4>
-
-           <a href="#" className="blog-swiper-card-read-more-btn">Read more</a>
-
-          </div>
-        </SwiperSlide>
-        
-           </Swiper> */}
            </div>
 
        <div className="mySwiper"></div>

@@ -77,7 +77,9 @@ const Header = () => {
             <div className="row">
                 <div className="logo-nav-appointment">
                     <div className="main-logo1">
+                      <Link to="/">
                         <img src={Logo} alt="" />
+                        </Link>
                     </div>
 
                     <ul className="nav-options">
@@ -87,8 +89,8 @@ const Header = () => {
                           </Link>
                           <ul>
                                 <li className="inner-home">
-                                    <Link to="/home2">Home2</Link>
-                                    <Link to="/home3">Home3</Link>
+                                    <Link to="/home2">Home 2</Link>
+                                    <Link to="/home3">Home 3</Link>
                                 </li>
                           </ul>
                         </li>
@@ -144,8 +146,8 @@ const Header = () => {
                                 <button onClick={ActiveInnerHome} className="inner-home-hide-menu">
                                  <img src={Icon} alt="" />
                                  </button>
-                                    <Link to="/home2">Home2</Link>
-                                    <Link to="/home3">Home3</Link>
+                                    <Link to="/home2">Home 2</Link>
+                                    <Link to="/home3">Home 3</Link>
                                 </li>
                           </ul>
                         </li>

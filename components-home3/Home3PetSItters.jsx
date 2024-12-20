@@ -10,6 +10,8 @@ import Sitters4 from "../src/assets/home-3/Home3-Pet-SItters-sec/Sitters-4.png"
 import Sitters5 from "../src/assets/home-3/Home3-Pet-SItters-sec/Sitters-5.png"
 import Sitters6 from "../src/assets/home-3/Home3-Pet-SItters-sec/Sitters-6.png"
 
+import { Link } from "react-router-dom"
+
 
 const Home3PetSItters = () => {
   return (
@@ -20,12 +22,14 @@ const Home3PetSItters = () => {
                 <div className="col-lg-4">
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
+                            <Link to="/cameronwilliamsonpage" >
                             <img src={Sitters1} alt="" />
+                            </Link>
                         </div>
 
-                        <h4 className="Home3-Pet-SItters-listing-tit">
+                        <Link to="/cameronwilliamsonpage" className="Home3-Pet-SItters-listing-tit">
                         Wade Warren
-                        </h4>
+                        </Link>
   
                        <span className="Home3-Pet-SItters-listing-span">
                        Groomer
@@ -44,12 +48,14 @@ const Home3PetSItters = () => {
                 <div className="col-lg-4">
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
+                           <Link to="/cameronwilliamsonpage" >
                             <img src={Sitters2} alt="" />
+                            </Link>
                         </div>
 
-                        <h4 className="Home3-Pet-SItters-listing-tit">
+                        <Link to="/cameronwilliamsonpage" className="Home3-Pet-SItters-listing-tit">
                         Jerome Bell
-                        </h4>
+                        </Link>
   
                        <span className="Home3-Pet-SItters-listing-span">
                        Pet Sitter
@@ -69,12 +75,14 @@ const Home3PetSItters = () => {
                 <div className="col-lg-4">
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
+                           <Link to="/cameronwilliamsonpage" >
                             <img src={Sitters3} alt="" />
+                            </Link>
                         </div>
 
-                        <h4 className="Home3-Pet-SItters-listing-tit">
+                        <Link to="/cameronwilliamsonpage" className="Home3-Pet-SItters-listing-tit">
                         Dianne Russell
-                        </h4>
+                        </Link>
   
                        <span className="Home3-Pet-SItters-listing-span">
                        Medical care incharge
@@ -93,12 +101,14 @@ const Home3PetSItters = () => {
                 <div className="col-lg-4">
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
+                           <Link to="/cameronwilliamsonpage" >
                             <img src={Sitters4} alt="" />
+                            </Link>
                         </div>
 
-                        <h4 className="Home3-Pet-SItters-listing-tit">
+                        <Link to="/cameronwilliamsonpage" className="Home3-Pet-SItters-listing-tit">
                         Wade Warren
-                        </h4>
+                        </Link>
   
                        <span className="Home3-Pet-SItters-listing-span">
                        Personal Sitter
@@ -118,12 +128,14 @@ const Home3PetSItters = () => {
                 <div className="col-lg-4">
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
+                        <Link to="/cameronwilliamsonpage" >
                             <img src={Sitters5} alt="" />
+                            </Link>
                         </div>
 
-                        <h4 className="Home3-Pet-SItters-listing-tit">
+                        <Link to="/cameronwilliamsonpage" className="Home3-Pet-SItters-listing-tit">
                         Jerome Bell
-                        </h4>
+                        </Link>
   
                        <span className="Home3-Pet-SItters-listing-span">
                        Senior Pet Sitter
@@ -142,12 +154,14 @@ const Home3PetSItters = () => {
                 <div className="col-lg-4">
                     <div className="Home3-Pet-SItters-listing-cards">
                         <div className="Home3-Pet-SItters-listing-main-img">
+                           <Link to="/cameronwilliamsonpage" >
                             <img src={Sitters6} alt="" />
+                            </Link>
                         </div>
 
-                        <h4 className="Home3-Pet-SItters-listing-tit">
+                        <Link to="/cameronwilliamsonpage" className="Home3-Pet-SItters-listing-tit">
                         Dianne Russell
-                        </h4>
+                        </Link >
   
                        <span className="Home3-Pet-SItters-listing-span">
                        Trainee sitter

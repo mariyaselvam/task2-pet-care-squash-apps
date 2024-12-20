@@ -75,7 +75,7 @@ const Header = () => {
                         <ul>
                                 <li className="inner-home">
                                     <Link to="/">Home</Link>
-                                    <Link to="/home3">Home3</Link>
+                                    <Link to="/home3">Home 3</Link>
                                 </li>
                             </ul>
                         </li>
@@ -129,7 +129,7 @@ const Header = () => {
                                  </button>
                                <li >
                                     <Link to="/">Home</Link>
-                                    <Link to="/home3">Home3</Link>
+                                    <Link to="/home3">Home 3</Link>
                                 </li>
                           </ul>
                         </li>

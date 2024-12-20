@@ -7,6 +7,7 @@ import Author1 from "../src/assets/home-3/Home3BlogSec/pro-1.png"
 import Author2 from "../src/assets/home-3/Home3BlogSec/pro-2.png"
 import Author3 from "../src/assets/home-3/Home3BlogSec/pro-3.png"
 
+import { Link } from "react-router-dom"
 
 const Home3BlogsSec = () => {
   return (
@@ -18,73 +19,85 @@ const Home3BlogsSec = () => {
         <div className="container">
             <div className="row  justify-content-center">
                 <div className="col-xl-4 col-lg-6">
-                    <a href="#" className="home-3-blog-card">
+                    <div  className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
+                            <Link to="/BlogListingpage">
                             <img src={Img1} alt="" />
+                            </Link>
                         </div>
-                        <span className="home-3-blog-mini-tit">Breeding</span>
+                        <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
 
-                        <h4 className="home-3-blog-main-tit">
+                        <Link to="/BlogListingpage" className="home-3-blog-main-tit">
                         Top 10 dog breeds that live the longest
-                        </h4>
+                        </Link>
 
                         <p>Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Fermentum leo vel orci porta non pulvinar neque. Dictumst quisque sagittis purus sit amet volutpat consequat mauris.</p>
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
+                                <Link to="/BlogListingpage">
                                 <img src={Author1} alt="" />
                                 <h4>Tracey Wilson</h4>
+                                </Link>
                             </div>
 
                             <p>August 20, 2022</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div className="col-xl-4 col-lg-6">
-                    <a href="#" className="home-3-blog-card">
+                    <div  className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
+                            <Link to="/BlogListingpage">
                             <img src={Img2} alt="" />
+                            </Link>
                         </div>
-                        <span className="home-3-blog-mini-tit">Breeding</span>
+                        <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
 
-                        <h4 className="home-3-blog-main-tit">
+                        <Link to="/BlogListingpage" className="home-3-blog-main-tit">
                         Personalized sitting for all pets.
-                        </h4>
+                        </Link>
 
                         <p>Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Fermentum leo vel orci porta non pulvinar neque. Dictumst quisque sagittis purus sit amet volutpat consequat mauris.</p>
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
+                               <Link to="/BlogListingpage">
                                 <img src={Author2} alt="" />
                                 <h4>Courtney Davis</h4>
+                                </Link>
                             </div>
 
                             <p>August 20, 2022</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div className="col-xl-4 col-lg-6">
-                    <a href="#" className="home-3-blog-card">
+                    <div className="home-3-blog-card">
                         <div className="home-3-blog-card-img">
+                            <Link to="/BlogListingpage">
                             <img src={Img3} alt="" />
+                            </Link>
                         </div>
-                        <span className="home-3-blog-mini-tit">Breeding</span>
+                        <Link to="/BlogListingpage" className="home-3-blog-mini-tit">Breeding</Link>
 
-                        <h4 className="home-3-blog-main-tit">
+                        <Link to="/BlogListingpage" className="home-3-blog-main-tit">
                         Daycare and boarding with playtime.
-                        </h4>
+                        </Link>
 
                         <p>Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Fermentum leo vel orci porta non pulvinar neque. Dictumst quisque sagittis purus sit amet volutpat consequat mauris.</p>
 
                         <div className="home-3-blog-author-name-nd-date">
                             <div>
+                                <Link to="/BlogListingpage">
                                 <img src={Author3} alt="" />
                                 <h4>Ashley Carter</h4>
+                                </Link>
                             </div>
 
                             <p>August 20, 2022</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
 

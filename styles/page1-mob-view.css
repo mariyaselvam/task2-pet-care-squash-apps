@@ -1,6 +1,21 @@
 @media (max-width:600px){
+    .about-us-sec-main-img img{
+        margin: 0px;
+    }
+    .about-us-sec-main-img{
+        margin: 0px auto;
+        width: 90%;
+        height: auto;
+
+    }
+    .page1-wrap header{
+        padding: 5px 0px;
+        height: fit-content;
+        width: 90%;
+    }
     .home-banner-cont-card{
         width: 90%;
+        top: 270px;
     }
     .get-every-pet-foods-main-tit{
         font-size: 30px;
@@ -23,9 +38,6 @@
     .blog-swiper-card{
         margin: 0rem auto;
         width: 80%;
-    }
-    .blog-section-home .swiper-slide{
-        /* margin: 0rem 1rem; */
     }
 
     .blog-section-home .container{
@@ -57,7 +69,7 @@
     }
 
     .subscribe-newsletter-input input{
-        height: 52px;
+        height: 62px;
         padding: 0rem 6rem 0rem 2.5rem;
     }
     .subscribe-newsletter-mail{
@@ -77,8 +89,14 @@
         line-height: 45px;
     }
     .page1-wrap .home-banner-sec{
-        height: 9000px;
+        height: 900px;
     }
+
+    .clients-feedback-sec .swiper-Slide-card{
+        background: none;
+    }
+
+
     .our-groomers-card {
         width: 80%;
         margin: 2rem auto;
@@ -86,9 +104,15 @@
     .clients-feedback-sec .swiper-Slide-inner-card{
         height: 300px;
         background-size: 210% 210%;
+        top: 100px;
     }
-    .blog-section-home .container{
-        padding: 5rem 0rem;
+
+    .subscribe-newsletter-sec{
+     padding: 20px;
+    }
+
+    .blog-section-home > .container{
+        padding: 0rem 0rem 5rem ;
     }
     .blog-section-home .swiper-wrapper{
         height: 353px;
@@ -123,7 +147,7 @@
         max-height: 600px;
     }
     .clients-feedback-sec .swiper-Slide-card{
-        height: 600px;
+        height: 400px;
     }
    
     .Appointment-nd-contact-btn{
@@ -152,15 +176,23 @@
 
     }
 
+    .abt-us-sec-check-box{
+        width: 100%;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    }
+
     .abt-us-sec-check-box li{
         position: relative;
         padding: 0rem 1rem 0rem 2rem;
-        margin-bottom: 20px;
         font-size: 12px;
+        width: 50%;
+        margin-right: 0px;
     }
 
-    .opening-hours-sec-cards{
+    /* .opening-hours-sec-cards{
         margin-bottom: 2rem;
-    }
+    } */
+
 
 }

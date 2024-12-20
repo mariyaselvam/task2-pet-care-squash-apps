@@ -146,10 +146,10 @@
         position: absolute;
         flex-direction: column;
         background-color: white;
-        padding: 2rem 1rem;
+        padding: 2rem 25%;
+        text-align: center;
         gap: 15px;
         z-index: 10;
-        /* width: 250px; */
         border-radius: 20px 0px;
         right: 0px;
         color: #000000;
@@ -157,7 +157,14 @@
         transition: 0.4s ease;
         visibility: hidden;
         opacity: 0;
-        text-align: left ;
+    }
+
+    .Home3-nav-pages a{
+        text-align: center;
+    }
+
+    body .inner-home a{
+        text-align: center;
     }
 
     body .inner-home{
@@ -165,7 +172,7 @@
         position: fixed;
         flex-direction: column;
         background-color: white;
-        padding: 1rem;
+        padding: 2rem 20%;
         gap: 20px;
         width: 250px;
         box-shadow: none;
@@ -183,10 +190,10 @@
 
     .Home3NavPages-list{
         display: flex;
+        position: fixed;
         flex-direction: column;
         gap: 15px;
         background-color: white;
-        position: fixed;
         z-index: 10;
         width: 0px;
         border-radius: 20px 20px;
@@ -219,7 +226,6 @@
         opacity: 1 ;
         position: fixed;
         text-decoration: none ;
-        padding: 1rem 0rem;
         width: 100% ;
         left: 0px;
         transform: translateX(0%) ;
@@ -323,5 +329,8 @@
 }
 
 @media (max-width:1600px) {
-
+    .page1-wrap header{
+        width: 90%;
+        padding: 20px 30px;
+    }
 }

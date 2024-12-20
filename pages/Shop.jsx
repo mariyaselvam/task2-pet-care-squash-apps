@@ -34,7 +34,7 @@ const Shop = () => {
                 </div>
             </div>
         </div>
-    </section>
+   </section>
 
     <section className="home3-pet-foot-shop-sec">
         <div className="container">
@@ -49,35 +49,27 @@ const Shop = () => {
                         <input className="Price-Range-input" type="range" name="" id="" />
 
                      <div className="Price-Range-input-num-wrap">
-                      <input type="number" /> <input type="number" />
+                      <input type="number" placeholder="00000" /> <input type="number" placeholder="00000" />
                      </div>
-                    
-
                     </div>
-
                     <div className="home3-pet-foot-shop-side-bar-Category">
                         <h4>Category</h4>
-                         
                          <div>
                         <input className="" type="checkbox" name="Food-toppers" id="" />
                         <label htmlFor="Food-toppers">Food toppers</label> <br />
                         </div>
-                        
                         <div>
                         <input type="checkbox" name="" id="" />
                         <label htmlFor="">Clothing and Accessories</label>
                         </div>
-
                         <div>
                         <input type="checkbox" name="" id="" />
                         <label htmlFor="">Dog Treats & Dog Bones</label>
                         </div>
-
                         <div>
                         <input type="checkbox" name="" id="" />
                         <label htmlFor="">Dog Kennels, Dog Flaps & Gates</label>
                         </div>
-
                         <div>
                         <input type="checkbox" name="" id="" />
                         <label htmlFor="">Pet Supplements & Vitamins</label>
@@ -150,28 +142,29 @@ const Shop = () => {
                         <div className="Shop-search-selact-wrap">
 
                         
-
+                       <div className="shop-search-input-wrap">
                        <input type="text" className="shop-search-input" placeholder="Search......"  />
+                       </div>
 
                        <div className="items-per-page-wrap">
                         <span>Items Per Page</span>
-                        <select name="" id="">
-                            <option value="1"> 1</option>
-                            <option value="2"> 2</option>
-                            <option value="3"> 3</option>
-                            <option value="4"> 4</option>
-                            <option value="5"> 5</option>
-                            <option value="6"> 6</option>
-                            <option value="7"> 7</option>
-                            <option value="8"> 8</option>
-                            <option value="9"> 9</option>
+
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
                         </select>
                        </div>
 
                        <div className="Sort-By-wrap">
                         <span>Sort By</span>
-                        <select name="" id="">
-                            <option value="Featured">Featured</option>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Featured</option>
+                          <option selected>Featured-1</option>
+                          <option selected>Featured-2</option>
+                          <option selected>Featured-3</option>
+                          <option selected>Featured-4</option>
                         </select>
                        </div>
 
@@ -183,15 +176,17 @@ const Shop = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
+                                <Link to="/home3shopdetailspage">
                                 <img src={ShopCardImg1} alt="" />
+                                </Link>
                             </div>
 
-                            <h4 className="home3-pet-foot-shop-product-name">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
                             Pedigree Adult Dog Nutrition Food
-                            </h4>
+                            </Link>
 
                             <ul className="Category-nd-weight">
-                              <li><span>Category</span><p>Dog Food</p></li>
+                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
                               <li><span>Size : </span><p>385gm</p></li>
                             </ul>
 
@@ -204,15 +199,17 @@ const Shop = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
+                             <Link to="/home3shopdetailspage">
                                 <img src={ShopCardImg2} alt="" />
+                                </Link>
                             </div>
 
-                            <h4 className="home3-pet-foot-shop-product-name">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
                             Pedigree Adult Dog Nutrition Food
-                            </h4>
+                            </Link>
 
                             <ul className="Category-nd-weight">
-                              <li><span>Category</span><p>Dog Food</p></li>
+                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
                               <li><span>Size : </span><p>385gm</p></li>
                             </ul>
 
@@ -225,15 +222,17 @@ const Shop = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
+                               <Link to="/home3shopdetailspage">
                                 <img src={ShopCardImg3} alt="" />
+                                </Link>
                             </div>
 
-                            <h4 className="home3-pet-foot-shop-product-name">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
                             Pedigree Adult Dog Nutrition Food
-                            </h4>
+                            </Link>
 
                             <ul className="Category-nd-weight">
-                              <li><span>Category</span><p>Dog Food</p></li>
+                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
                               <li><span>Size : </span><p>385gm</p></li>
                             </ul>
 
@@ -246,15 +245,17 @@ const Shop = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
+                              <Link to="/home3shopdetailspage">
                                 <img src={ShopCardImg4} alt="" />
+                                </Link>
                             </div>
 
-                            <h4 className="home3-pet-foot-shop-product-name">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
                             Pedigree Adult Dog Nutrition Food
-                            </h4>
+                            </Link>
 
                             <ul className="Category-nd-weight">
-                              <li><span>Category</span><p>Dog Food</p></li>
+                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
                               <li><span>Size : </span><p>385gm</p></li>
                             </ul>
 
@@ -267,15 +268,17 @@ const Shop = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
+                               <Link to="/home3shopdetailspage">
                                 <img src={ShopCardImg5} alt="" />
+                                </Link>
                             </div>
 
-                            <h4 className="home3-pet-foot-shop-product-name">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
                             Pedigree Adult Dog Nutrition Food
-                            </h4>
+                            </Link>
 
                             <ul className="Category-nd-weight">
-                              <li><span>Category</span><p>Dog Food</p></li>
+                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
                               <li><span>Size : </span><p>385gm</p></li>
                             </ul>
 
@@ -288,15 +291,17 @@ const Shop = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
+                            <Link to="/home3shopdetailspage">
                                 <img src={ShopCardImg6} alt="" />
+                                </Link>
                             </div>
 
-                            <h4 className="home3-pet-foot-shop-product-name">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
                             Pedigree Adult Dog Nutrition Food
-                            </h4>
+                            </Link>
 
                             <ul className="Category-nd-weight">
-                              <li><span>Category</span><p>Dog Food</p></li>
+                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
                               <li><span>Size : </span><p>385gm</p></li>
                             </ul>
 
@@ -309,15 +314,17 @@ const Shop = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
+                            <Link to="/home3shopdetailspage">
                                 <img src={ShopCardImg7} alt="" />
+                                </Link>
                             </div>
 
-                            <h4 className="home3-pet-foot-shop-product-name">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
                             Pedigree Adult Dog Nutrition Food
-                            </h4>
+                            </Link>
 
                             <ul className="Category-nd-weight">
-                              <li><span>Category</span><p>Dog Food</p></li>
+                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
                               <li><span>Size : </span><p>385gm</p></li>
                             </ul>
 
@@ -330,15 +337,17 @@ const Shop = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
+                            <Link to="/home3shopdetailspage">
                                 <img src={ShopCardImg8} alt="" />
+                                </Link>
                             </div>
 
-                            <h4 className="home3-pet-foot-shop-product-name">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
                             Pedigree Adult Dog Nutrition Food
-                            </h4>
+                            </Link>
 
                             <ul className="Category-nd-weight">
-                              <li><span>Category</span><p>Dog Food</p></li>
+                              <li><span>Category</span><p><a href="#">Dog Food</a></p></li>
                               <li><span>Size : </span><p>385gm</p></li>
                             </ul>
 
@@ -351,15 +360,17 @@ const Shop = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="home3-pet-foot-shop-product-card">
                             <div className="home3-pet-foot-shop-product-img">
+                            <Link to="/home3shopdetailspage">
                                 <img src={ShopCardImg9} alt="" />
+                                </Link>
                             </div>
 
-                            <h4 className="home3-pet-foot-shop-product-name">
+                            <Link to="/home3shopdetailspage" className="home3-pet-foot-shop-product-name">
                             Pedigree Adult Dog Nutrition Food
-                            </h4>
+                            </Link>
 
                             <ul className="Category-nd-weight">
-                              <li><span>Category</span><p>Dog Food</p></li>
+                              <li><span>Category</span><a href="#">Dog Food</a></li>
                               <li><span>Size : </span><p>385gm</p></li>
                             </ul>
 

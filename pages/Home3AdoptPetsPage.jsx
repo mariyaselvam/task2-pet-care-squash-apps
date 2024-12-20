@@ -43,11 +43,13 @@ const Home3AdoptPetsPage = () => {
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="Home3-Adopt-Pets-Page-sec-card">
                            <div className="Home3-Adopt-Pets-main-img">
+                            <Link to="/petsdetailpage">
                             <img src={Img1} alt="" />
+                            </Link>
                            </div>
-                           <h4 className="Home3-Adopt-Pets-main-tit">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-tit">
                            Golden Retriever
-                           </h4>
+                           </Link>
 
                            <ul className="gender-nd-age">
                             <li>
@@ -60,19 +62,21 @@ const Home3AdoptPetsPage = () => {
                             </li>
                            </ul>
 
-                           <a className="Home3-Adopt-Pets-main-btn" href="#">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-btn" href="#">
                            Adopt Now
-                           </a>
+                           </Link>
                         </div>
                     </div>
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="Home3-Adopt-Pets-Page-sec-card">
                            <div className="Home3-Adopt-Pets-main-img">
+                           <Link to="/petsdetailpage">
                             <img src={Img2} alt="" />
+                            </Link>
                            </div>
-                           <h4 className="Home3-Adopt-Pets-main-tit">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-tit">
                            Golden Retriever
-                           </h4>
+                           </Link>
 
                            <ul className="gender-nd-age">
                             <li>
@@ -85,19 +89,21 @@ const Home3AdoptPetsPage = () => {
                             </li>
                            </ul>
 
-                           <a className="Home3-Adopt-Pets-main-btn" href="#">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-btn" href="#">
                            Adopt Now
-                           </a>
+                           </Link>
                         </div>
                     </div>
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="Home3-Adopt-Pets-Page-sec-card">
                            <div className="Home3-Adopt-Pets-main-img">
+                           <Link to="/petsdetailpage" >
                             <img src={Img3} alt="" />
+                            </Link>
                            </div>
-                           <h4 className="Home3-Adopt-Pets-main-tit">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-tit">
                            Golden Retriever
-                           </h4>
+                           </Link>
 
                            <ul className="gender-nd-age">
                             <li>
@@ -110,19 +116,21 @@ const Home3AdoptPetsPage = () => {
                             </li>
                            </ul>
 
-                           <a className="Home3-Adopt-Pets-main-btn" href="#">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-btn" href="#">
                            Adopt Now
-                           </a>
+                           </Link>
                         </div>
                     </div>
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="Home3-Adopt-Pets-Page-sec-card">
                            <div className="Home3-Adopt-Pets-main-img">
+                           <Link to="/petsdetailpage" >
                             <img src={Img4} alt="" />
+                            </Link>
                            </div>
-                           <h4 className="Home3-Adopt-Pets-main-tit">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-tit">
                            Golden Retriever
-                           </h4>
+                           </Link>
 
                            <ul className="gender-nd-age">
                             <li>
@@ -135,19 +143,21 @@ const Home3AdoptPetsPage = () => {
                             </li>
                            </ul>
 
-                           <a className="Home3-Adopt-Pets-main-btn" href="#">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-btn" href="#">
                            Adopt Now
-                           </a>
+                           </Link>
                         </div>
                     </div>
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="Home3-Adopt-Pets-Page-sec-card">
                            <div className="Home3-Adopt-Pets-main-img">
+                           <Link to="/petsdetailpage" >
                             <img src={Img5} alt="" />
+                            </Link>
                            </div>
-                           <h4 className="Home3-Adopt-Pets-main-tit">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-tit">
                            Golden Retriever
-                           </h4>
+                           </Link>
 
                            <ul className="gender-nd-age">
                             <li>
@@ -160,19 +170,21 @@ const Home3AdoptPetsPage = () => {
                             </li>
                            </ul>
 
-                           <a className="Home3-Adopt-Pets-main-btn" href="#">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-btn" href="#">
                            Adopt Now
-                           </a>
+                           </Link>
                         </div>
                     </div>
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="Home3-Adopt-Pets-Page-sec-card">
                            <div className="Home3-Adopt-Pets-main-img">
+                           <Link to="/petsdetailpage" >
                             <img src={Img6} alt="" />
+                            </Link>
                            </div>
-                           <h4 className="Home3-Adopt-Pets-main-tit">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-tit">
                            Golden Retriever
-                           </h4>
+                           </Link>
 
                            <ul className="gender-nd-age">
                             <li>
@@ -185,19 +197,21 @@ const Home3AdoptPetsPage = () => {
                             </li>
                            </ul>
 
-                           <a className="Home3-Adopt-Pets-main-btn" href="#">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-btn" href="#">
                            Adopt Now
-                           </a>
+                           </Link>
                         </div>
                     </div>
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="Home3-Adopt-Pets-Page-sec-card">
                            <div className="Home3-Adopt-Pets-main-img">
+                           <Link to="/petsdetailpage" >
                             <img src={Img7} alt="" />
+                            </Link>
                            </div>
-                           <h4 className="Home3-Adopt-Pets-main-tit">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-tit">
                            Golden Retriever
-                           </h4>
+                           </Link>
 
                            <ul className="gender-nd-age">
                             <li>
@@ -210,19 +224,21 @@ const Home3AdoptPetsPage = () => {
                             </li>
                            </ul>
 
-                           <a className="Home3-Adopt-Pets-main-btn" href="#">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-btn" href="#">
                            Adopt Now
-                           </a>
+                           </Link>
                         </div>
                     </div>
                     <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="Home3-Adopt-Pets-Page-sec-card">
                            <div className="Home3-Adopt-Pets-main-img">
+                           <Link to="/petsdetailpage" >
                             <img src={Img8} alt="" />
+                            </Link>
                            </div>
-                           <h4 className="Home3-Adopt-Pets-main-tit">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-tit">
                            Golden Retriever
-                           </h4>
+                           </Link>
 
                            <ul className="gender-nd-age">
                             <li>
@@ -235,9 +251,9 @@ const Home3AdoptPetsPage = () => {
                             </li>
                            </ul>
 
-                           <a className="Home3-Adopt-Pets-main-btn" href="#">
+                           <Link to="/petsdetailpage" className="Home3-Adopt-Pets-main-btn" href="#">
                            Adopt Now
-                           </a>
+                           </Link>
                         </div>
                     </div>
                 </div>

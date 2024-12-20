@@ -59,6 +59,7 @@ const Home3Footer = () => {
 
                   <div className="home3-footer-Weekly-Newsletter-input-wrap">
                   <input className="home3-footer-Weekly-Newsletter-input" placeholder="Your Email" type="text"  />
+                  <a href=""></a>
                   </div>
 
                   <a href="#"  className="home3-footer-Weekly-Newsletter-btn" >Subscribe</a>

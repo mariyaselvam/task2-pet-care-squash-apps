@@ -5,6 +5,8 @@ import RecentPost2 from "../src/assets/home-3/blog-detail-page/side-bar-recent-p
 import RecentPost3 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts3.png"
 import RecentPost4 from "../src/assets/home-3/blog-detail-page/side-bar-recent-posts4.png"
 
+import { Link } from "react-router-dom"
+
 
 const BlogDetailPageSideBar = () => {
   return (
@@ -20,26 +22,26 @@ const BlogDetailPageSideBar = () => {
         <div className="home3-blog-side-bar-recent-cards">
             <img src={RecentPost1} alt="" />
 
-            <p>Tips and tricks: Puppy’s First Grooming</p>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy’s First Grooming</Link>
         </div>
 
         <div className="home3-blog-side-bar-recent-cards">
             <img src={RecentPost2} alt="" />
 
-            <p>Tips and tricks: Puppy’s First Grooming</p>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy’s First Grooming</Link>
         </div>
 
         <div className="home3-blog-side-bar-recent-cards">
             <img src={RecentPost3} alt="" />
 
-            <p>Tips and tricks: Puppy’s First Grooming</p>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy’s First Grooming</Link>
         </div>
 
 
         <div className="home3-blog-side-bar-recent-cards home3-blog-side-bar-recent-cards-last">
             <img src={RecentPost4} alt="" />
 
-            <p>Tips and tricks: Puppy’s First Grooming</p>
+            <Link to="/BlogListingpage">Tips and tricks: Puppy’s First Grooming</Link>
         </div>
 
         

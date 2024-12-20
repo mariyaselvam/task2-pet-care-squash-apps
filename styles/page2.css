@@ -7,6 +7,10 @@
    max-width: 1399px;
 }
 
+.page2-wrap .Home3NavPages-list a{
+    color: black;
+}
+
 .page2-wrap header{
     position: fixed;
     left: 50%;
@@ -215,7 +219,7 @@ body{
     border-radius: 10px;
     background-color: #65b741;
     color: white;
-    padding: 1rem 2rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     font-family: "Nunito", serif;
     font-size: 16px;
     font-weight: 800;
@@ -231,7 +235,7 @@ body{
     color: white;
 }
 
-.home2-pet-food-btn::before{
+/* .home2-pet-food-btn::before{
     content: "";
     position: absolute;
     width: 24px;
@@ -240,7 +244,7 @@ body{
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
-}
+} */
 
 .home2-pet-food-tit{
     font-family: "Nunito", serif;
@@ -353,10 +357,20 @@ body{
     mask-repeat: no-repeat;
     height: 454px;
     margin-bottom: 20px;
+    overflow: hidden
+}
+
+.home2-Meet-Our-Team-sec-card-img img{
+    transition: 0.4s ease
+}
+
+.home2-Meet-Our-Team-sec-card-img img:hover{
+    transform: scale(1.1);
 }
 
 .home2-Meet-Our-Team-sec-card-img1 > img{
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
+    width:190%;
 }
 
 .home2-pets-lives-btn-wrap{
@@ -663,12 +677,18 @@ body{
     margin: 0rem auto;
 }
 
+.home2-Meet-Our-Team-card-social-links a{
+   transition: 0.2s ease;
+}
+
+.home2-Meet-Our-Team-card-social-links a:hover{
+    transform: scale(1.2);
+}
+
 .home2-Meet-Our-Team-sec-card{
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* gap: 20px; */
-    /* margin-top: 50px; */
 }
 
 .home2-Meet-Our-Team-sec-card > span{
@@ -741,6 +761,23 @@ body{
     background-color: #00376b;
     color: white;
     position: relative;
+}
+
+.home-2-footer-sec a{
+    transition: 0.4s ease;
+}
+
+.copy-rights-nd-terms-nd-conditions a:hover{
+    color: white;
+}
+
+.copy-rights-nd-terms-nd-conditions h4 a{
+    color: #65b741;
+    font-weight: 500;
+}
+
+.copy-rights-nd-terms-nd-conditions h4 a:hover{
+    color: #0ca9ff;
 }
 
 .home-2-footer-sec .row>*{}
@@ -840,6 +877,16 @@ body{
     display: flex;
     gap: 27px;
 }
+
+
+.home2-social-media-f-wrap a{
+    transition: 0.2s ease;
+}
+
+.home2-social-media-f-wrap a:hover{
+    transform: scale(1.3);
+}
+
 
 .home-2-footer-logo-Utility-lu-checks a{
   text-decoration: none;

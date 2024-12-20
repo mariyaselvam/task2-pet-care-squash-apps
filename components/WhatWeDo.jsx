@@ -15,11 +15,13 @@ const WhatWeDo = () => {
                 <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                     <div className="what-we-do-cards"  >
                         <div className="what-we-do-card-img">
+                            <a href="#">
                             <img src={Img1} alt="" />
+                            </a>
                         </div>
-                        <h4 className="what-we-do-card-tit">
+                        <a href="#" className="what-we-do-card-tit">
                         Pet Grooming
-                        </h4>
+                        </a>
 
                         <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id.</p>
 
@@ -32,12 +34,14 @@ const WhatWeDo = () => {
                 <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <div className="what-we-do-cards"  >
                         <div className="what-we-do-card-img animate__animated animate__bounce" >
+                            <a href="#">
                             <img src={Img2} alt="" />
+                            </a>
                         </div>
 
-                        <h4 className="what-we-do-card-tit">
+                        <a href="#" className="what-we-do-card-tit">
                         Healthy Meals
-                        </h4>
+                        </a>
 
                         <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id.</p>
 
@@ -50,12 +54,14 @@ const WhatWeDo = () => {
                 <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                     <div className="what-we-do-cards"  >
                         <div className="what-we-do-card-img">
+                            <a href="#">
                             <img src={Img3} alt="" />
+                            </a>
                         </div>
 
-                        <h4 className="what-we-do-card-tit">
+                        <a href="#" className="what-we-do-card-tit">
                         Veterinary Service
-                        </h4>
+                        </a>
 
                         <p>Risus sed vulputate odio ut enim. Cursus in hac habitasse platea dictumst. Tortor dignissim convallis aenean et tortor. Etiam sit amet nisl purus in mollis nunc sed id.</p>
 

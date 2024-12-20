@@ -16,6 +16,7 @@ import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import Home3Header from "../components-home3/Home3Header"
 import Home3Footer from "../components-home3/Home3Footer"
 import BlogCommentProfile from "../src/assets/home-3/blog-detail-page/blog-comment-profile.png"
+import BlogCommentProfile1 from "../src/assets/home-3/blog-detail-page/blog-comment-profile-1.png"
 import PrduoctCartRating from "../src/assets/home-3/home3-Related-products-sec/prduoct-cart-rating.svg"
 import RelatedProductsImg1 from "../src/assets/home-3/home3-Related-products-sec/Related-productsImg1.png"
 import RelatedProductsImg2 from "../src/assets/home-3/home3-Related-products-sec/Related-productsImg2.png"
@@ -30,7 +31,7 @@ import ProdouctImg2 from "../src/assets/home-3/Pedigree-adult-dog/img2.png"
 import ProdouctImg3 from "../src/assets/home-3/Pedigree-adult-dog/img3.png"
 import ProdouctImg4 from "../src/assets/home-3/Pedigree-adult-dog/img4.png"
 import Social1 from "../src/assets/home-3/Pedigree-adult-dog/face-book.svg"
-import Social2 from "../src/assets/home-3/Pedigree-adult-dog/x.svg"
+import Social2 from "../src/assets/home/our-groomers/twitter.svg"
 import Social3 from "../src/assets/home-3/Pedigree-adult-dog/linkedin.svg"
 import HeartIcon from "../src/assets/home-3/Pedigree-adult-dog/heart-icon.svg"
 import { Link } from "react-router-dom"
@@ -70,6 +71,12 @@ const Home3ShopDetailsPage = () => {
                             <img className="Shop-Detailsimg prodouct-img2" src={ProdouctImg2} alt="" />
                             <img className="Shop-Detailsimg prodouct-img3" src={ProdouctImg3} alt="" />
                             <img className="Shop-Detailsimg prodouct-img4" src={ProdouctImg4} alt="" />
+
+                            <div className="Shop-Details-prodouct-btn-wrap">
+                                <div className="Shop-Details-prodouct-btn"></div>
+                                <div className="Shop-Details-prodouct-btn"></div>
+                                <div className="Shop-Details-prodouct-btn"></div>
+                            </div>
                           </div>
                 </div>
                 <div className="col-lg-6">
@@ -120,15 +127,63 @@ const Home3ShopDetailsPage = () => {
                         </div>
 
                         <div className="Shop-Details-prodouct-cart-social-meida">
-                            <img src={Social1} alt="" />
-                            <img src={Social2} alt="" />
-                            <img src={Social3} alt="" />
+                            <a href="#"><img src={Social1} alt="" /></a>
+                            <a href="#"><img src={Social2} alt="" /></a>
+                            <a href="#"><img src={Social3} alt="" /></a>
                         </div>
 
-                        <p>Product Details</p>
-                        <p>Additional Information</p>
-                        <p>Shipping & Return</p>
+                        <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+      Product Details
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae tempore itaque esse, dolorum iusto nemo suscipit dolore voluptas accusamus, debitis labore officiis eaque incidunt id, asperiores corporis cupiditate nam perferendis officia adipisci magni nihil. Architecto eveniet dignissimos, ad fuga recusandae praesentium perferendis similique, corporis, pariatur dolores sequi sed! Autem!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Additional Information
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint quia ullam voluptatibus voluptas sequi, quo molestias possimus ea deserunt earum necessitatibus blanditiis est quidem harum nam voluptatum pariatur vel dicta at. Officiis inventore nostrum voluptatum eum deleniti et, ex laboriosam consequatur. Rerum mollitia ducimus fuga itaque consequuntur dolore illo?
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      Shipping & Return
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus optio distinctio consequatur facilis error fuga delectus possimus. Tempore odit, et soluta veritatis tenetur eveniet placeat vitae assumenda aspernatur repellat ratione exercitationem temporibus dicta illo cumque eius, asperiores eligendi quas est eos. Repellendus veniam iure commodi perferendis voluptas laborum rerum eveniet.
+      </div>
+    </div>
+  </div>
+</div>
                     </div>
+                </div>
+                <div className="col-lg-12">
+                    <a href="#" className='small-btn Description-btn'>
+                    Description
+                    </a>
+
+                    <a href="#" className="big-btn Additional-Information-btn">
+                        Additional Information
+                    </a>
+
+                    <a href="#" className="small-btn Reviews-btn">
+                    Reviews
+                    </a>
                 </div>
             </div>
         </div>
@@ -165,10 +220,10 @@ const Home3ShopDetailsPage = () => {
 
     <div className="Home3-blog-comments-card">
         <div className="Home3-blog-comments-profile-img">
-        <img src={BlogCommentProfile} alt="" />
+        <img src={BlogCommentProfile1} alt="" />
         </div>
         <h4 className="comment-person-name">
-        Darlene Robertson
+        Ralph Edwards
         </h4>
        <span className="blog-comment-date-ago">
        1 Month ago
@@ -182,24 +237,23 @@ const Home3ShopDetailsPage = () => {
         Reply
         </span>
        </div>
-    </div>
+     </div>
 
-
-                    </div>
-                </div>
+        </div>
+             </div>
                 <div className="col-lg-6">
-                <div className="blog-detail-comment-form">
-
-<h4 className="blog-detail-comment-form-tit">Add Comment</h4>
-
-<input placeholder="First Name" className="first-name-blog" type="text" name="" id="" />
-
-<input placeholder="Email" className="email-for-blog" type="email" name="" id="" />
-
-<textarea className="blog-detail-comment-text-area" placeholder="Message" name="" id=""  rows="3"></textarea>
-
-<a className="blog-detail-comment-form-btn" href="">Leave a comment</a>
-</div>
+                    <div className="blog-detail-comment-form">
+    
+                        <h4 className="blog-detail-comment-form-tit">Add Comment</h4>
+                        
+                        <input placeholder="First Name" className="first-name-blog" type="text" name="" id="" />
+                        
+                        <input placeholder="Email" className="email-for-blog" type="email" name="" id="" />
+                        
+                        <textarea className="blog-detail-comment-text-area" placeholder="Message" name="" id=""  rows="3"></textarea>
+                        
+                        <a className="blog-detail-comment-form-btn" href="">Leave a comment</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -215,9 +269,9 @@ const Home3ShopDetailsPage = () => {
                         <div class="home3-pet-foot-shop-product-img">
                             <img src={RelatedProductsImg1} alt="" />
                             </div>
-                            <h4 class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</h4>
+                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
-                                <li><span>Category</span><p>Dog Food</p></li>
+                                <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
                         <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
@@ -228,9 +282,9 @@ const Home3ShopDetailsPage = () => {
                         <div class="home3-pet-foot-shop-product-img">
                             <img src={RelatedProductsImg2} alt="" />
                             </div>
-                            <h4 class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</h4>
+                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
-                                <li><span>Category</span><p>Dog Food</p></li>
+                            <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
                         <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
@@ -241,9 +295,9 @@ const Home3ShopDetailsPage = () => {
                         <div class="home3-pet-foot-shop-product-img">
                             <img src={RelatedProductsImg3} alt="" />
                             </div>
-                            <h4 class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</h4>
+                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
-                                <li><span>Category</span><p>Dog Food</p></li>
+                            <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
                         <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
@@ -254,9 +308,9 @@ const Home3ShopDetailsPage = () => {
                         <div class="home3-pet-foot-shop-product-img">
                             <img src={RelatedProductsImg4} alt="" />
                             </div>
-                            <h4 class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</h4>
+                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
-                                <li><span>Category</span><p>Dog Food</p></li>
+                            <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
                         <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
@@ -267,9 +321,9 @@ const Home3ShopDetailsPage = () => {
                         <div class="home3-pet-foot-shop-product-img">
                             <img src={RelatedProductsImg5} alt="" />
                             </div>
-                            <h4 class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</h4>
+                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
-                                <li><span>Category</span><p>Dog Food</p></li>
+                            <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
                         <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
@@ -280,9 +334,9 @@ const Home3ShopDetailsPage = () => {
                         <div class="home3-pet-foot-shop-product-img">
                             <img src={RelatedProductsImg6} alt="" />
                             </div>
-                            <h4 class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</h4>
+                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
-                                <li><span>Category</span><p>Dog Food</p></li>
+                            <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
                         <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
@@ -293,9 +347,9 @@ const Home3ShopDetailsPage = () => {
                         <div class="home3-pet-foot-shop-product-img">
                             <img src={RelatedProductsImg7} alt="" />
                             </div>
-                            <h4 class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</h4>
+                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
-                                <li><span>Category</span><p>Dog Food</p></li>
+                            <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
                         <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>
@@ -306,9 +360,9 @@ const Home3ShopDetailsPage = () => {
                         <div class="home3-pet-foot-shop-product-img">
                             <img src={RelatedProductsImg8} alt="" />
                             </div>
-                            <h4 class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</h4>
+                            <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
-                                <li><span>Category</span><p>Dog Food</p></li>
+                            <li><span>Category</span><Link to="/home3shopdetailspage">Dog Food</Link></li>
                                 <li><span>Size : </span><p>385gm</p></li>
                             </ul>
                         <h4 class="home3-pet-foot-shop-product-price">$12.00</h4>

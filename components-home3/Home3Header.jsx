@@ -82,7 +82,7 @@ const Home3Header = () => {
                                 <li className="inner-home">
                                   
                                     <Link to="/">Home</Link>
-                                    <Link to="/home2">Home2</Link>
+                                    <Link to="/home2">Home 2</Link>
                                 </li>
                             </ul>
                         </li>
@@ -142,7 +142,7 @@ const Home3Header = () => {
                                  <img src={Icon} alt="" />
                                  </button>
                                     <Link to="/">Home</Link>
-                                    <Link to="/home2">Home2</Link>
+                                    <Link to="/home2">Home 2</Link>
                                 </li>
                           </ul>
                         </li>

@@ -44,6 +44,8 @@
         top: -50px;
     }
 
+    /* .image-box */
+
 
     
 }
@@ -107,4 +109,14 @@
         width: 230px;
         height: 230px;
     }
+
+    .home-3-blog-card-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .home-3-blog-card-img img{
+        width: 100%;
+    }
+    
 }

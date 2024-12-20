@@ -3,6 +3,7 @@ import Social1 from "../src/assets/home-2/home2-footer/1.svg"
 import Social2 from "../src/assets/home-2/home2-footer/2.svg" 
 import Social3 from "../src/assets/home-2/home2-footer/3.svg" 
 
+import { Link } from "react-router-dom"
 
 const Home2Footer = () => {
   return (
@@ -13,7 +14,9 @@ const Home2Footer = () => {
                 <div className="col-lg-4">
                  <div className="home-2-footer-logo-and-cont">
                     <div className="home-2-footer-logo">
+                        <Link to="/">
                         <img src={FooterLogo} alt="" />
+                        </Link>
                     </div>
                     <p>Leverage agile frameworks to provide a robust synopsis for strategy collaborative thinking to further the overall value proposition.</p>
                  </div>
@@ -75,7 +78,7 @@ const Home2Footer = () => {
         </div>
 
         <div className="copy-rights-nd-terms-nd-conditions">
-            <h4>© 2023 Copyrights, All rights reserved. Design by Pixelpro Creation</h4>
+            <h4>© 2023 Copyrights, All rights reserved. Design by <a href="#">Pixelpro Creation</a></h4>
 
             <ul>
                 <li><a href="#">Terms of Use</a></li>

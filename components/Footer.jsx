@@ -5,6 +5,7 @@ import FooterLogo from "../src/assets/home-3/header/Logo-w.svg"
 import footerContact1 from "../src/assets/home/footer/fot1.png"
 import footerContact2 from "../src/assets/home/footer/fot2.png"
 import footerContact3 from "../src/assets/home/footer/fot3.png"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -17,7 +18,9 @@ const Footer = () => {
                     <div className="row justify-content-center">
                     <div className="col-sm-12">
                     <div className="footer-logo">
+                        <Link to="/">
                         <img src={FooterLogo} alt="" />
+                        </Link>
                     </div>
                     </div>
 
@@ -40,7 +43,7 @@ const Footer = () => {
                         <div className="footer-contact-cont">
                             <span>Contant Number</span>
                             <h4 className="footer-contact-name">
-                            123-456-789
+                            <a href="tel:123-456-789">123-456-789</a>
                             </h4>
                         </div>
                     </li>
@@ -51,7 +54,7 @@ const Footer = () => {
                         <div className="footer-contact-cont">
                             <span>Support</span>
                             <h4 className="footer-contact-name">
-                            tim.jennings@example.com
+                            <a href="mailto:tim.jennings@example.com">tim.jennings@example.com</a>
                             </h4>
                         </div>
                     </li>
@@ -62,7 +65,7 @@ const Footer = () => {
                         <div className="footer-contact-cont">
                             <span>Location</span>
                             <h4 className="footer-contact-name">
-                            6391 Elgin St. Celina, Delaware 10299
+                            <a href="#">6391 Elgin St. Celina, Delaware 10299</a>
                             </h4>
                         </div>
                     </li>
@@ -79,7 +82,7 @@ const Footer = () => {
             </div>
         </div>
         <p className="copy-rights">
-                    © 2024 Copyrights, All rights reserved. Design by <b>Pixelpro Creation</b>
+                    © 2024 Copyrights, All rights reserved. Design by <Link><b>Pixelpro Creation</b></Link>
         </p>
     </footer>
     

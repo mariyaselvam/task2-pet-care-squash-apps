@@ -9,6 +9,7 @@
 
     .home3-logo-nd-privacy-policy{
         flex-direction: column;
+        
     }
 
     .home3-What-We-Offer-main-tit , 
@@ -19,6 +20,9 @@
         font-weight: 800;
         line-height: 50px;
         color: black;
+    }
+    .Home3-footer-sec{
+        padding: 100px 0px 150px ;
     }
 
     .home3-What-We-Offer-card{
@@ -39,6 +43,14 @@
         margin: 20px 0px;
     }
     
+    .About-DC-Care-cont-main-tit-1{
+        font-family: "Nunito", serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 55px;
+        margin: 20px auto;
+    }
+    
     .Home-3-banner-sec{
         background-position: -900px 0px;
     }
@@ -51,6 +63,12 @@
     .home3-date-author-comment{
         flex-wrap: wrap;
         gap: 30px;
+    }
+
+    .small-btn, .big-btn{
+        margin: 1rem auto;
+        display: block;
+        width: fit-content;
     }
     
     .home3-blog-quated-tit{
@@ -119,6 +137,7 @@
         flex-direction:column;
         align-items: center;
         text-align: center;
+        margin-bottom: 1rem;
     }
 
     .blog-detail-comment-form{
@@ -223,23 +242,24 @@
      }
 
 
-    .What-Our-Customer-Say-swiper-card > p{
-        /* margin: 10px 0px; */
-    }
     .What-Our-Customer-Say-swiper-top{
         gap: 10px;
         align-items: center;
     }
 
     .About-DC-Care-main-img{
-        width: 90%;
+        width: 100%;
+        height: 100%;
         margin: 0rem auto;
+        mask-size: 100% 100%;
     }
 
     .About-DC-Care-cont-wrap{
         width: 90%;
         margin: 0rem auto;
         text-align: center;
+        text-align: center;
+
     }
     .banner-btn-wraper{
         justify-content: center;
@@ -252,6 +272,7 @@
     .Home3-The-pets-lives-day-main-img{
         width: 90%;
         margin: 0rem auto;
+        mask-size: 100%  100%;
     }
     
     .Home-3-banner-sec .banner-btn-wraper{
@@ -324,7 +345,7 @@
     }
 
     b{
-        font-weight: 600 !important;
+        /* font-weight: 600 !important; */
     }
 
     .home3-blog-detail-page-main-tit{
@@ -363,7 +384,84 @@
         font-size: 30px;
         font-weight: 600;
         line-height: 40px;
+        margin: 0rem auto;
     }
+
+    .home-3-blog-card-img{
+        width: 100%;
+    }
+    
+    .home2-SafeaAndGoodHands-main-img{
+        height: 420px;
+    }
+
+    .home2-AboutUsPage-sec .home2-SafeaAndGoodHands-cont{
+        width: 90%;
+        margin: 0rem auto;
+        padding: 0px;
+    }
+
+    .opening-hours-sec-cards{
+        margin: 1rem auto;
+        width: 90%;
+    }
+
+    .About-DC-Care-cont-mini-tit-1{
+        width: fit-content;
+        margin: 0rem  auto;
+    }
+
+    
+    body .home-3-blog-card{
+        width: 90%;
+        margin: 0rem auto 2rem;
+    }
+
+    .Home3-Adopt-Pets-Page-sec-card{
+        width: 90%;
+        margin: 110px auto 30px;
+    }
+
+    .Shop-search-selact-wrap{
+        align-items: center;
+        justify-content: center;
+    }
+    .Shop-search-selact-wrap > *{
+        width: 100%;
+    }
+
+    .items-per-page-wrap{
+        justify-content: center;
+        margin: 1rem auto;
+    }
+
+    .Sort-By-wrap{
+        justify-content: center;
+    }
+
+    .home3-pet-foot-shop-side-bar-wrap{
+        width: 90%;
+        margin: 0rem auto;
+    }
+
+    .home3-pet-foot-shop-product-card{
+        width: 90%;
+        margin: 30px auto 0px;
+    }
+
+    .home3-blog-detail-page-cont-n-sidebar{
+        width: 90%;
+    }
+
+    .Pets-Detail-Page-Know-more-about-card{
+        width: 90%;
+        margin: 0rem auto 40px;
+    }
+
+
+
+
+    
 
 
 
