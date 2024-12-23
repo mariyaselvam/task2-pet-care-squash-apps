@@ -53,6 +53,11 @@
     
     .Home-3-banner-sec{
         background-position: -900px 0px;
+        height: 800px;
+    }
+
+    .home1-mobile-nav{
+        /* box-shadow: 0px 10px 100px 50px white; */
     }
     
     .Home3-Testimonial-card-profile{

@@ -194,5 +194,25 @@
         margin-bottom: 2rem;
     } */
 
+    .blog-section-home .swiper-slide{
+        width: 100%;
+    }
+
+    .blog-swiper-card{
+        width: 90%;
+        margin: 0rem auto;
+    }
+
+    .back-to-top-btn-wrap{
+        right: 30px;
+        bottom: 30px;
+    }
+
+    .Home-3-banner-content-wraper{
+        width: 90%;
+        margin: 0rem auto;
+    }
+    
+
 
 }

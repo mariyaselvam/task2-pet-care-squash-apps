@@ -140,8 +140,6 @@ const Shop = () => {
                     <div className="row">
                     <div className="col-xl-12"> 
                         <div className="Shop-search-selact-wrap">
-
-                        
                        <div className="shop-search-input-wrap">
                        <input type="text" className="shop-search-input" placeholder="Search......"  />
                        </div>
@@ -161,10 +159,10 @@ const Shop = () => {
                         <span>Sort By</span>
                         <select class="form-select" aria-label="Default select example">
                           <option selected>Featured</option>
-                          <option selected>Featured-1</option>
-                          <option selected>Featured-2</option>
-                          <option selected>Featured-3</option>
-                          <option selected>Featured-4</option>
+                          <option >Featured-1</option>
+                          <option >Featured-2</option>
+                          <option >Featured-3</option>
+                          <option >Featured-4</option>
                         </select>
                        </div>
 
@@ -387,7 +385,6 @@ const Shop = () => {
     </section>
 
    <Home3Footer />
-   
    </>
   )
 }

@@ -2531,7 +2531,7 @@ input[type="checkbox"]{
 
 .shop-search-input-wrap{
  position: relative;
- width: 50%;
+ width: 40%;
  max-width: 100%;
 }
 
@@ -2741,7 +2741,7 @@ input[type="checkbox"]{
 }
 
 .items-per-page-wrap .form-select{
-   width: 60px;
+   width: 70px;
    background-color: #ff6900;
    color: white;
     padding: 8px 15px;
