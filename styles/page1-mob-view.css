@@ -212,6 +212,10 @@
         width: 90%;
         margin: 0rem auto;
     }
+
+    .Home3-nav-pages a{
+        text-align: start;
+    }
     
 
 

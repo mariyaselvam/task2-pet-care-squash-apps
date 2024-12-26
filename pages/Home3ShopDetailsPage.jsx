@@ -265,9 +265,11 @@ const Home3ShopDetailsPage = () => {
             <h3 className="home3-shopdetail-Related-products-tit">Related products</h3>
             <div className="row">
                 <div className="col-xl-3 col-lg-4 col-md-6">
-                    <div class="home3-pet-foot-shop-product-card">
+                    <div class="home3-pet-foot-shop-product-card"> 
                         <div class="home3-pet-foot-shop-product-img">
+                            <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg1} alt="" />
+                            </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
@@ -280,7 +282,9 @@ const Home3ShopDetailsPage = () => {
                 <div className="col-xl-3 col-lg-4 col-md-6">
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
+                        <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg2} alt="" />
+                            </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
@@ -293,7 +297,9 @@ const Home3ShopDetailsPage = () => {
                 <div className="col-xl-3 col-lg-4 col-md-6">
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
+                             <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg3} alt="" />
+                            </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
@@ -306,7 +312,9 @@ const Home3ShopDetailsPage = () => {
                 <div className="col-xl-3 col-lg-4 col-md-6">
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
+                            <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg4} alt="" />
+                            </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
@@ -319,7 +327,9 @@ const Home3ShopDetailsPage = () => {
                 <div className="col-xl-3 col-lg-4 col-md-6">
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
+                             <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg5} alt="" />
+                            </Link> 
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
@@ -332,7 +342,9 @@ const Home3ShopDetailsPage = () => {
                 <div className="col-xl-3 col-lg-4 col-md-6">
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
+                           <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg6} alt="" />
+                            </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
@@ -345,7 +357,9 @@ const Home3ShopDetailsPage = () => {
                 <div className="col-xl-3 col-lg-4 col-md-6">
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
+                        <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg7} alt="" />
+                            </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">
@@ -358,7 +372,9 @@ const Home3ShopDetailsPage = () => {
                 <div className="col-xl-3 col-lg-4 col-md-6">
                     <div class="home3-pet-foot-shop-product-card">
                         <div class="home3-pet-foot-shop-product-img">
+                        <Link to="/home3shopdetailspage">
                             <img src={RelatedProductsImg8} alt="" />
+                            </Link>
                             </div>
                             <Link to="/home3shopdetailspage" class="home3-pet-foot-shop-product-name">Pedigree Adult Dog Nutrition Food</Link>
                             <ul class="Category-nd-weight">

@@ -1788,6 +1788,16 @@
 
 .home3-pet-foot-shop-product-img img{
     width: 100%;
+    transition: 0.5s ease;
+}
+
+.home3-pet-foot-shop-product-img{
+    overflow: hidden;
+
+}
+
+.home3-pet-foot-shop-product-img:hover img{
+    transform: scale(1.2);
 }
 
 .home3-pet-foot-shop-sec{
