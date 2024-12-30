@@ -369,7 +369,6 @@ body{
 }
 
 .home2-Meet-Our-Team-sec-card-img1 > img{
-    /* transform: scale(1.5); */
     width:190%;
 }
 
@@ -379,7 +378,7 @@ body{
 }
 
 .home2-SafeaAndGoodHands-sec{
-    padding: 100px 0px;
+    padding: 100px 0px 200px;
 }
 
 .home2-SafeaAndGoodHands-sec > .container{
@@ -948,6 +947,7 @@ body{
     height: 100%;
     display: grid;
     place-content: end;
+    margin: 0rem auto;
 }
 
 .home2-pets-lives-main-img > img{

@@ -6,13 +6,13 @@ const SafeaAndGoodHands = () => {
     <section className="home2-SafeaAndGoodHands-sec">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-xl-6">
             <div className="home2-SafeaAndGoodHands-main-img">
                <img src={SafeaAndGoodHandsimg1} alt="" />
             </div>
             
           </div>
-          <div className="col-lg-6">
+          <div className="col-xl-6">
             <div className="home2-SafeaAndGoodHands-cont">
               <h3 className="home2-SafeaAndGoodHands-cont-tit">
               Your Pets are in Very <b>Safe & Good</b> Hands

@@ -28,6 +28,26 @@
 
 
 @media (max-width:1500px){
+    .What-Our-Customer-Say-img{
+         width: 70%;
+         margin: 0rem auto;
+     }
+
+    .home2-SafeaAndGoodHands-main-img img{
+         position: relative;
+         width: 100%;
+    }
+
+    .home2-SafeaAndGoodHands-main-img{
+        width: 70%;
+        margin: 0rem auto;
+    }
+
+    .What-Our-Customer-Say-swiper-wraper{
+        width: max-content;
+    }
+
+
     .admin-nd-pet-care{
         flex-direction: column;
     }

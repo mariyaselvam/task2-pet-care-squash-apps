@@ -85,7 +85,7 @@
     }
 
     .small-btn, .big-btn{
-        margin: 1rem auto;
+        margin: 1rem 1rem;
         display: block;
         width: fit-content;
     }
@@ -161,7 +161,8 @@
 
     .blog-detail-comment-form{
         margin: 2rem auto !important;
-        border-radius: 0px 0px 20px 20px;
+        border-radius: 20px !important;
+        padding: 15px;
     }
     
     .home3-blog-blog-sidebar{
@@ -212,11 +213,6 @@
     .Shop-Details-prodouct-cart-cont-wrap{
         width: 90%;
         margin: 0rem auto;
-    }
-
-    .blog-detail-comment-form{
-        width: 85%;
-        padding: 15px;
     }
 
     .blog-detail-comment-form-tit{
@@ -489,6 +485,15 @@
     
     .home2-SafeaAndGoodHands-main-img{
         height: 420px;
+        /* padding: 1rem; */
+        width: 90%;
+        margin: 1rem auto 0rem;
+    }
+
+    .home2-SafeaAndGoodHands-main-img > img{
+        position: static;
+        width: 100%;
+        margin: 0rem auto;
     }
 
     .home2-AboutUsPage-sec .home2-SafeaAndGoodHands-cont{
@@ -663,7 +668,22 @@
     }
 
     .About-DC-Care-sec{
-        padding: 0px 0px 100px ;
+        padding: 100px 0px 100px ;
+    }
+
+    .thumbnail{
+        border-radius: 5px;
+    }
+
+    .thumbnail img{
+        border-radius: 5px;
+    }
+
+    .home3-blog-quated-tit::before, .home3-blog-quated-tit::after{
+        width: 38px;
+        height: 22px;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     

@@ -416,6 +416,10 @@
     background-color: #ff6900;
 }
 
+.home3-What-We-Offer-card > p{
+    margin-bottom: 0px;
+}
+
 .home3-What-We-Offer-card-tit{
     font-family: "Nunito", serif;
     font-size: 28px;
@@ -435,7 +439,7 @@
     transition: border-radius 0.5s ease-in-out , background 0.5s ease-in-out ;
     transform: rotateY(0deg);
     margin-top: 30px;
-    height: 336px;
+    /* height: 336px; */
 }
 
 .home3-What-We-Offer-card:hover{
