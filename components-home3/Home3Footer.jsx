@@ -69,7 +69,7 @@ const Home3Footer = () => {
              <div className="home3-logo-nd-privacy-policy">
                <div className="home3-footer-logo-and-cont-wrap">
                 <div className="home3-footer-logo-nd-copy-rights">
-                 <p>© 2023 Copyrights, All rights reserved. Design by <a href="#" className="copy-right-company"> Pixelpro Creation</a></p>
+                 <p>© 2023 Copyrights, All rights reserved. Design by <a href="#" className="copy-right-company"> catalinajose222 </a></p>
                 </div></div>
 
                        <ul className="home3-privacy-policy">
