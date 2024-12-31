@@ -78,7 +78,7 @@ const Home2Footer = () => {
         </div>
 
         <div className="copy-rights-nd-terms-nd-conditions">
-            <h4>© 2023 Copyrights, All rights reserved. Design by <a href="#">Pixelpro Creation</a></h4>
+            <h4>© 2023 Copyrights, All rights reserved. Design by <a href="#">catalinajose222</a></h4>
 
             <ul>
                 <li><a href="#">Terms of Use</a></li>
