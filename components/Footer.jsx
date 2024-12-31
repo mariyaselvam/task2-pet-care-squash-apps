@@ -82,7 +82,7 @@ const Footer = () => {
             </div>
         </div>
         <p className="copy-rights">
-                    © 2024 Copyrights, All rights reserved. Design by <Link><b>Pixelpro Creation</b></Link>
+                    © 2024 Copyrights, All rights reserved. Design by <Link><b> catalinajose222 </b></Link>
         </p>
     </footer>
     
